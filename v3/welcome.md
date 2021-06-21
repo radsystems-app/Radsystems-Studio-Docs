@@ -1,8 +1,8 @@
 ---
-title: Welcome to RS Version 3 Docs
+title: Welcome Radsystems Studio Docs v3
 description: Official Documentation for 3.x
 published: true
-date: 2021-06-21T19:26:36.263Z
+date: 2021-06-21T19:39:15.682Z
 tags: welcome, intro
 editor: markdown
 dateCreated: 2021-06-21T19:23:55.763Z
