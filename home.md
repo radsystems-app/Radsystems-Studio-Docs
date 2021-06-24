@@ -2,7 +2,7 @@
 title: Welcome to Radsystems Studio
 description: Official Documentation
 published: true
-date: 2021-06-24T19:02:02.047Z
+date: 2021-06-24T19:20:56.157Z
 tags: welcome, intro
 editor: markdown
 dateCreated: 2021-06-15T00:15:59.107Z
@@ -30,8 +30,8 @@ dateCreated: 2021-06-15T00:15:59.107Z
 # Links
 
 Wiki.js is quick and easy to install. You should be up and running in no time.
-
 - [Requirements *Server and database prerequisites.*](/install/requirements)
+{.links-list}
 
 # Links with Icon
 Modules greatly expand the capabilities of your wiki.
