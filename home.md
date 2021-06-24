@@ -2,7 +2,7 @@
 title: Welcome to Radsystems Studio
 description: Official Documentation
 published: true
-date: 2021-06-24T19:20:56.157Z
+date: 2021-06-24T22:21:34.628Z
 tags: welcome, intro
 editor: markdown
 dateCreated: 2021-06-15T00:15:59.107Z
@@ -11,6 +11,9 @@ dateCreated: 2021-06-15T00:15:59.107Z
 # This is a sample page
 
 **Radsystems Studio (RS)** This page contains markdown demos for you to use in the documentation creation process. All documentation must be created with markdown editor.
+
+# Sample image
+![sample-pages-overview.png](/sample-pages-overview.png)
 
 # Amazing Features
 > Sample success!
