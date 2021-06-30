@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2021-06-30T20:12:34.069Z
+date: 2021-06-30T20:16:48.511Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -22,16 +22,19 @@ These might be:
 
 Generate Classic Web aplication Wtih (JQuery, Bootstrap-4)
 
-**PHPRad Classic** - *Generate Classic App with PHP Laravel, Bootstrap-4, JQuery*
+> **PHPRad Classic** - *Generate Classic App with PHP Laravel, Bootstrap-4, JQuery*
 
 
 
 or Generate SPA, PWA, Desktop Apps and Mobile Apps With (VueJS, Quasar Framework)
 
-**PHPRad Vue** - *Generate SPA, PWA, Desktop Apps and Mobile Apps With PHP Laravel, VueJs Quasar Framework*
-**PyRad Vue** - *Generate SPA, PWA, Desktop Apps and Mobile Apps With Python Flask, VueJs Quasar Framework*
-**NodeRad Vue** - *Generate SPA, PWA, Desktop Apps and Mobile Apps With Node ExpressJS, VueJs Quasar Framework*
-**ASPRad Vue** - *Generate SPA, PWA, Desktop Apps and Mobile Apps With Node ExpressJS, VueJs Quasar Framework*
+> **PHPRad Vue** - *Generate SPA, PWA, Desktop Apps and Mobile Apps With PHP Laravel, VueJs Quasar Framework*
+
+> **PyRad Vue** - *Generate SPA, PWA, Desktop Apps and Mobile Apps With Python Flask, VueJs Quasar Framework*
+
+> **NodeRad Vue** - *Generate SPA, PWA, Desktop Apps and Mobile Apps With Node ExpressJS, VueJs Quasar Framework*
+
+> **ASPRad Vue** - *Generate SPA, PWA, Desktop Apps and Mobile Apps With Node ExpressJS, VueJs Quasar Framework*
 
 
 
