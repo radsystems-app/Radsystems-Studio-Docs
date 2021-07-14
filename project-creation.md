@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2021-06-30T20:49:13.349Z
+date: 2021-07-14T16:33:22.914Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -72,7 +72,7 @@ These might be:
 - 6 - Or you can create a new.
 ![project-creation-2-d.jpg](/pages/project-creation/project-creation-2-d.jpg)
 
-- 7 - Finnaly Click on "Create Project"
+- 7 - Finally Click on "Create Project"
 
 If everything went well, you may see a screen like the following:
 
