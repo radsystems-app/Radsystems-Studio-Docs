@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2021-07-14T16:33:22.914Z
+date: 2021-07-14T19:05:32.201Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -65,7 +65,7 @@ These might be:
 ![project-creation-3.jpg](/pages/project-creation/project-creation-3.jpg)
 
 - 1 - Select Database: Select the database engine you want to use for your project.
-- 2 - Server and Port: Set the Server anda Port of your database connection.
+- 2 - Server and Port: Set the Server and Port of your database connection.
 - 3 - User: Set the user for your database engine.
 - 4 - Password: The password for your user
 - 5 - Database: Select the database for your project. 
