@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2021-07-25T13:44:10.513Z
+date: 2021-07-25T21:50:19.102Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -189,7 +189,7 @@ We will build a new web application using NodeRad Vue from scratch.
 
 11. Now go to your favorite browser and the link *http://localhost:8050*
 
-12. **Congratulation!!!** You have now the complete CRUD application using PHP Laravel, Bootstrap 4 and JQuery. Thanks to RadSystems Studio.
+12. **Congratulation!!!** You have now the complete CRUD application in NodeJS + Vue. Thanks to RadSystems Studio.
 ![12.png](/noderad-vue/12.png)
 ![13.png](/noderad-vue/13.png)
 ![14.png](/noderad-vue/14.png)
