@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2021-07-25T13:40:40.937Z
+date: 2021-07-25T13:42:04.885Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -137,6 +137,9 @@ We will build a new web application using PHPRad Classic from scratch.
 
 
 # PHPRad Vue
+
+
+# NodeRad Vue
 We will build a new web application using NodeRad Vue from scratch.
 
 1. In the RadSystems Studio, Click **New Project** next to NodeRad Vue.
@@ -192,8 +195,8 @@ We will build a new web application using NodeRad Vue from scratch.
 ![14.png](/noderad-vue/14.png)
 
 
-# NodeRad Vue
 
 # PyRad Vue
+
 
 # ASPRad Vue
