@@ -1,8 +1,8 @@
 ---
-title: Installing
+title: Installation
 description: 
 published: true
-date: 2021-07-27T20:34:35.672Z
+date: 2021-07-27T20:37:31.126Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-27T03:30:25.188Z
