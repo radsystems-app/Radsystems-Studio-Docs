@@ -2,7 +2,7 @@
 title: Authentication
 description: Setup authentication to your application
 published: true
-date: 2021-07-27T01:24:24.588Z
+date: 2021-07-27T01:35:16.521Z
 tags: security, authentication, username, password
 editor: markdown
 dateCreated: 2021-07-25T22:01:01.212Z
@@ -54,6 +54,6 @@ dateCreated: 2021-07-25T22:01:01.212Z
 9. On the right side of the window, You can specify by checking the specific page that you want to exclude from authentication. By default, all pages will be authenticated.
 10. If you are done, click **Okay** button
 11. In the main window of **RadSystems Studio**, click **Publish**.
-12. **Congratulation!!!**, User authentication has been added to your application.
+12. **Congratulation!!!** User authentication has been added to your application.
 
 
