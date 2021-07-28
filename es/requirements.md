@@ -2,7 +2,7 @@
 title: Requerimientos para Instalar Radsystems Studio
 description: Documentación Oficial
 published: true
-date: 2021-07-28T21:24:29.875Z
+date: 2021-07-28T21:25:09.462Z
 tags: home, inicio
 editor: markdown
 dateCreated: 2021-07-14T17:22:55.401Z

@@ -2,7 +2,7 @@
 title: PHPRad Classic
 description: Create web application using PHPRad Classic
 published: true
-date: 2021-07-24T14:51:16.928Z
+date: 2021-07-24T14:51:19.707Z
 tags: new project, creating a new project, phprad classic, classic
 editor: markdown
 dateCreated: 2021-07-24T14:51:16.928Z

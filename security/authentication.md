@@ -2,7 +2,7 @@
 title: Authentication
 description: Setup authentication to your application
 published: true
-date: 2021-07-28T00:56:26.592Z
+date: 2021-07-28T00:56:32.724Z
 tags: security, authentication, username, password
 editor: markdown
 dateCreated: 2021-07-25T22:01:01.212Z

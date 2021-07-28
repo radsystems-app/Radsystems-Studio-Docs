@@ -2,7 +2,7 @@
 title: Requirements for install RADSYSTEMS Studio
 description: Official Documentation
 published: true
-date: 2021-07-28T21:18:45.466Z
+date: 2021-07-28T21:20:28.654Z
 tags: radsystems, requirements
 editor: markdown
 dateCreated: 2021-07-14T17:33:29.127Z
