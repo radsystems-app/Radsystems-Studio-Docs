@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2021-07-28T02:55:32.021Z
+date: 2021-07-28T02:57:40.723Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-27T03:30:25.188Z
@@ -21,9 +21,15 @@ For a full installation on a clean version of Windows 10, follow the steps below
 {.is-info}
 
 ![nodejs-add-path.png](/installation/nodejs-add-path.png)
+
 3. We are now ready to install RadSystems Studio. Just go to the [RadSystems website](https://radsystems.io/) and download the app.
+
 ![download-setup.png](/installation/download-setup.png)
+
 4. Accept the license agreement and follow the installer steps.
+
 ![accept-agreement.png](/installation/accept-agreement.png)
+
 5. You're ready to launch RadSystems Studio.
+
 ![final-window-installer.png](/installation/final-window-installer.png)
