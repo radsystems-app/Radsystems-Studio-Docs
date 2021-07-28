@@ -2,14 +2,14 @@
 title: Roles and Permission
 description: Setup roles and permission
 published: true
-date: 2021-07-28T03:25:53.406Z
+date: 2021-07-28T03:26:27.383Z
 tags: security, setup, roles, permission
 editor: markdown
 dateCreated: 2021-07-27T01:28:17.429Z
 ---
 
 # Roles and Permissions
-Aside from [User Authentication](/en/security/authentication) security features, RadSystems Studio has a Role Based security too, this will make your app more secure by controlling the access of the certain user to a specif page
+Aside from [User Authentication](/en/security/authentication) security features, **RadSystems Studio** has a Role Based security too, this will make your app more secure by controlling the access of the certain user to a specif page
 
 ## Database Changes
 This feature will automatically create the following:
