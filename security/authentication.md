@@ -2,7 +2,7 @@
 title: Authentication
 description: Setup authentication to your application
 published: true
-date: 2021-07-27T01:35:16.521Z
+date: 2021-07-28T00:56:26.592Z
 tags: security, authentication, username, password
 editor: markdown
 dateCreated: 2021-07-25T22:01:01.212Z
@@ -22,7 +22,11 @@ dateCreated: 2021-07-25T22:01:01.212Z
  
 ## Create User Table
 1. In RadSystems Studio main interface, click **Manage Database Tables** icon.
+![1.png](/security/1.png)
+
 2. In Manage Database Window, Click **Add Table**.
+![2.png](/security/2.png)
+
 3. Set the following data to the newly created table: (*Note: you can put any value you like*).
 	- **Table Name:** users
 	- **Fields:** id (INT AUTO INCREMENT PRIMARY)
@@ -30,10 +34,15 @@ dateCreated: 2021-07-25T22:01:01.212Z
 	- **Fields:** password (VARCHAR, size: 255)
 	- **Fields:** email (VARCHAR, size: 100)
 	- **Fields:** photo (VARCHAR, size: 255, NULL)
+![3.png](/security/3.png) 
+
 4. Click **Save Changes** button
 
 ## Setting Up
 1. In **RadSystems Studio** main interface, click **Authentication Tab**.
+![4.png](/security/4.png)
+![5.png](/security/5.png)
+
 2. A **Login and Registration Setup** appear, plot the User Table & Fields we created above:
 	- **Registration Table:** User (*This is the table we created* )
 	- **User Name Field:** username
@@ -55,5 +64,6 @@ dateCreated: 2021-07-25T22:01:01.212Z
 10. If you are done, click **Okay** button
 11. In the main window of **RadSystems Studio**, click **Publish**.
 12. **Congratulation!!!** User authentication has been added to your application.
+![6.png](/security/6.png)
 
 
