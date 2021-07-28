@@ -2,7 +2,7 @@
 title: Roles and Permission
 description: Setup roles and permission
 published: true
-date: 2021-07-28T03:26:27.383Z
+date: 2021-07-28T03:31:36.385Z
 tags: security, setup, roles, permission
 editor: markdown
 dateCreated: 2021-07-27T01:28:17.429Z
@@ -52,11 +52,18 @@ Now, In your main window, in Database Tables section, you will see the new table
 # ASPRad Vue
 
 # Test it out
-Try to publish and test your apps now:
+Try to **publish** and test your apps now by creating users and assigned a roles:
 - In this example we will register new user (User1)
-- After the registration, login the User1 user.
-- Goto to Users Side Menu, as you can see the User1 "user role" is 1 by default. (1-Administrator, 2-User, 3-Developer)
+![user_register.png](/security/rolespermission/user_register.png)
+
+- After the registration, login the **User1** user.
+- Goto to Users **Side Menu**, as you can see the User1 "user role" is 1 by default. (*1-Administrator, 2-User, 3-Developer*)
+![user_edit.png](/security/rolespermission/user_edit.png)
+
 - Click "Add New Users", and name it User2 with User Role = 2
-- Once created, logout then login to User2 account.
+![user_edit2.png](/security/rolespermission/user_edit2.png)
+
+- Once created, logout from User1 then login to User2 account.
 
 As you can see on the Side Menu, some are not visible since User2 role is user.
+![user_edit3.png](/security/rolespermission/user_edit3.png)
