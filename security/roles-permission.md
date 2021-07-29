@@ -2,7 +2,7 @@
 title: Roles and Permission
 description: Setup roles and permission
 published: true
-date: 2021-07-29T04:05:22.178Z
+date: 2021-07-29T04:23:31.879Z
 tags: security, setup, roles, permission
 editor: markdown
 dateCreated: 2021-07-27T01:28:17.429Z
@@ -22,28 +22,28 @@ This feature will automatically create the following:
 
 ## Setup
 Step by Step
-1. Click **Roles and Permmissios** button.
+1. Click **Roles and Permissions** button.
 ![1.png](/security/rolespermission/1.png)
 
 2. Tick **Dynamic Role Permission**.
 ![2.png](/security/rolespermission/2.png)
 
-2. By Default, there are 2 **User Roles** already setup (*Administor, User*). You can modify or remove those if you want.
-3. In this example, we will create new **User Roles** (I named it: *Developer*)
+3. By Default, there are 2 **User Roles** already setup (*Administor, User*). You can modify or remove those if you want.
+4. In this example, we will create new **User Roles** (I named it: *Developer*)
 ![4.png](/security/rolespermission/4.png)
 ![5.png](/security/rolespermission/5.png)
 
-4. Once created, Click the *Developer* Role (It should be highlighted now).
-5. In **Page Permission** you can see all the modules/pages of your apps has, Checked **Role Pages**, down below select modules that you want to have roles.
-6. In the right side, you can see the **Permission and PageAction** List, select the appropriate page action you want the Developer role has for that page.
+5. Once created, Click the *Developer* Role (It should be highlighted now).
+6. In **Page Permission** you can see all the modules/pages of your apps, Checked **Role Pages**, down below select modules that you want to have roles.
+7. In the right side, you can see the **Permission and PageAction** List, select the appropriate page action you want the Developer role has for that page.
 ![6.png](/security/rolespermission/6.png)
 
-8. **Manage Tables**: here you can specify the table name and fields to be created. (I recommend to just leave it as default).
+8. **Manage Tables**: here you can specify the table name and fields to be created. (I recommend just leaving it as default).
 ![7.png](/security/rolespermission/7.png)
 
-8. Click **Save Changes**.
+9. Click **Save Changes**.
 
-Now, In your main window, in Database Tables section, you will see the new tables and fields created.
+Now, In your main window, in the Database Tables section, you will see the new tables and fields created.
 ![8a.png](/security/rolespermission/8a.png)
 
 
