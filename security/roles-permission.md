@@ -2,14 +2,14 @@
 title: Roles and Permission
 description: Setup roles and permission
 published: true
-date: 2021-07-29T01:11:49.949Z
+date: 2021-07-29T04:05:22.178Z
 tags: security, setup, roles, permission
 editor: markdown
 dateCreated: 2021-07-27T01:28:17.429Z
 ---
 
 # Roles and Permissions
-Aside from [User Authentication](/en/security/authentication) security features, **RadSystems Studio** has a Role Based security too, this will make your app more secure by controlling the access of the certain user to a specif page
+Aside from [User Authentication](/en/security/authentication) security features, **RadSystems Studio** has a Role Based security too, this will make your app more secure by controlling the access of the certain user to a specific page
 
 ## Database Changes
 This feature will automatically create the following:
@@ -17,8 +17,8 @@ This feature will automatically create the following:
 - Create 1 DB Table1 for the Permissions
 - add new field name: user_role to Users Table
 
-## Pre-requisite
-- User Authentication must be setup first. [Click here](/en/security/authentication) 
+## Prerequisite
+- User Authentication must be set up first. [Click here](/en/security/authentication) 
 
 ## Setup
 Step by Step
