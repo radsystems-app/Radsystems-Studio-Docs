@@ -2,7 +2,7 @@
 title: User Record Management
 description: Setup User Record Management
 published: true
-date: 2021-07-29T01:09:41.955Z
+date: 2021-07-29T01:11:24.219Z
 tags: security, record, management
 editor: markdown
 dateCreated: 2021-07-28T03:46:28.160Z
@@ -17,7 +17,7 @@ In this example we will be using the folowing tables:
 - **Order table** - is our target table.
 - **Users table** - where all the users information reside (Note: this table is the one we use in Authentication process)
 
-# Set Up
+# Setup
 1. Create 1 **field: user_id(INT)** in Order Table.
 	- Click **Manage Database Table**.
 	- In **Manage Database** window at the left side, select the **Order** table.
