@@ -2,7 +2,7 @@
 title: User Record Management
 description: Setup User Record Management
 published: true
-date: 2021-07-29T00:21:01.196Z
+date: 2021-07-29T00:22:52.308Z
 tags: security, record, management
 editor: markdown
 dateCreated: 2021-07-28T03:46:28.160Z
@@ -32,7 +32,7 @@ In this example we will be using the folowing tables:
 	- Select **user_id** field, Checked the AddPage, Unchecked the EditPage.
 	- In the **Control Properties**, set the following:
 		- Display: **none**
-		- DefaultValue: **--this.$UserID--**
+		- DefaultValue: **--req.user.id--**
 ![2.png](/security/recordmanagement/2.png)
 
 Now everytime the logged user add new data to the **Order** table, their id will be recorded.
