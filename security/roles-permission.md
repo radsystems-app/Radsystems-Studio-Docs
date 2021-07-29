@@ -2,7 +2,7 @@
 title: Roles and Permission
 description: Setup roles and permission
 published: true
-date: 2021-07-28T03:31:41.952Z
+date: 2021-07-29T01:06:06.974Z
 tags: security, setup, roles, permission
 editor: markdown
 dateCreated: 2021-07-27T01:28:17.429Z
@@ -20,9 +20,7 @@ This feature will automatically create the following:
 ## Pre-requisite
 - User Authentication must be setup first. [Click here](/en/security/authentication) 
 
-# PHPRad Classic
-# PHPRad Vue
-# NodeRad Vue
+## Set Up
 Step by Step
 1. Click **Roles and Permmissios** button.
 ![1.png](/security/rolespermission/1.png)
@@ -48,10 +46,8 @@ Step by Step
 Now, In your main window, in Database Tables section, you will see the new tables and fields created.
 ![8a.png](/security/rolespermission/8a.png)
 
-# PyRad Vue
-# ASPRad Vue
 
-# Test it out
+# Try it Out
 Try to **publish** and test your apps now by creating users and assigned a roles:
 - In this example we will register new user (User1)
 ![user_register.png](/security/rolespermission/user_register.png)
