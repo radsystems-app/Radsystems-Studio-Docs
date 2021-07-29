@@ -2,7 +2,7 @@
 title: Roles and Permission
 description: Setup roles and permission
 published: true
-date: 2021-07-29T01:06:06.974Z
+date: 2021-07-29T01:06:54.993Z
 tags: security, setup, roles, permission
 editor: markdown
 dateCreated: 2021-07-27T01:28:17.429Z
