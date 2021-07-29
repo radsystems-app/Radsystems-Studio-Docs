@@ -2,13 +2,13 @@
 title: Records TimeStamps
 description: Setup timestamp of your data
 published: true
-date: 2021-07-29T00:49:59.114Z
+date: 2021-07-29T00:51:29.641Z
 tags: record, timestamp
 editor: markdown
 dateCreated: 2021-07-29T00:49:59.114Z
 ---
 
-# Records Timestamps
+# Records Timestamp
 Set the dates when record is created or updated.
 These fields will be created if they are not yet exist.
 Fields: 
