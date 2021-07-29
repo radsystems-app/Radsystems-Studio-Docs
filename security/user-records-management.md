@@ -2,31 +2,32 @@
 title: User Record Management
 description: Setup User Record Management
 published: true
-date: 2021-07-29T01:11:24.219Z
+date: 2021-07-29T04:31:05.900Z
 tags: security, record, management
 editor: markdown
 dateCreated: 2021-07-28T03:46:28.160Z
 ---
 
 # Record Management
-This allow user to Manage records that belongs to them.
+This allows the user to Manage records that belong to them.
 
-## Pre-requisite
-- The target table must contain a field that identify the user (*e.g, user_id*).
-In this example we will be using the folowing tables:
-- **Order table** - is our target table.
-- **Users table** - where all the users information reside (Note: this table is the one we use in Authentication process)
+## Prerequisite
+- The target table must contain a field that identifies the user (e.g, user_id).
 
-# Setup
+- In this example we'll be using the following tables:
+	- **Order table** - is our target table.
+	- **Users table** - where all the users information reside (Note: this table is the one we use in Authentication process)
+
+## Setup
 1. Create 1 **field: user_id(INT)** in Order Table.
 	- Click **Manage Database Table**.
 	- In **Manage Database** window at the left side, select the **Order** table.
-	- In right side, you should see the all fields of that Order table, now click **Add Field**.
+	- On the right side, you should see all the fields of that Order table, now click **Add Field**.
 	- Enter **Fieldname**: user_id and FieldType: INT.
 	- Click **Save Changes**.
 ![1.png](/security/recordmanagement/1.png)
   
-2. Modify the Add Page of Order Module, and put a default value in user_id field to and **ID** of a logged-in user.
+2. Modify the Add Page of Order Module, and put a default value in user_id field to an **ID** of a logged-in user.
 	- Select **Order**.
 	- Select **Add Page**.
 	- Select **user_id** field, Checked the AddPage, Unchecked the EditPage.
@@ -35,7 +36,7 @@ In this example we will be using the folowing tables:
 		- DefaultValue: **--req.user.id--**
 ![2.png](/security/recordmanagement/2.png)
 
-Now everytime the logged user add new data to the **Order** table, their id will be recorded.
+Now everytime the logged user adds new data to the Order table, their id will be recorded.
 
 3. Click **User Record Management**.
 
@@ -52,7 +53,7 @@ Now, let's try our application, in this example i have my 2 users:
 - User2 with the id=6
 
 ![5.png](/security/recordmanagement/5.png)
-We'll check if the specific user can only see his id in user_id field record in the Order table.
+We'll check if the specific user can only see his id in the **user_id** field record in the Order table.
 
 As you can see, Users can only see their own encoded data.
 ![user1.png](/security/recordmanagement/user1.png)
