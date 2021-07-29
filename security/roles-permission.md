@@ -2,7 +2,7 @@
 title: Roles and Permission
 description: Setup roles and permission
 published: true
-date: 2021-07-29T01:06:54.993Z
+date: 2021-07-29T01:11:49.949Z
 tags: security, setup, roles, permission
 editor: markdown
 dateCreated: 2021-07-27T01:28:17.429Z
@@ -20,7 +20,7 @@ This feature will automatically create the following:
 ## Pre-requisite
 - User Authentication must be setup first. [Click here](/en/security/authentication) 
 
-## Set Up
+## Setup
 Step by Step
 1. Click **Roles and Permmissios** button.
 ![1.png](/security/rolespermission/1.png)
