@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-29T23:14:59.059Z
+date: 2021-07-29T23:16:35.278Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -21,5 +21,5 @@ RadSystem Studio pages are the core of application development. The pages panel 
 3. The next button allows you to manage the Database. Through the interface, you can add, duplicate or delete tables and, for each table, you can manage the fields as well as the field type, size and other properties.
 4. The last button synchronizes the database updating all the changes that have occurred through the Database manager.
 ## Table Pages Section
-![table-pages-window.png](/pages/table-pages-window.png){.align-center}
+![table-pages-section.png](/pages/table-pages-section.png){.align-center}
 
