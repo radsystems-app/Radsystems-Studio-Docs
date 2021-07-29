@@ -2,7 +2,7 @@
 title: Authentication
 description: Setup authentication to your application
 published: true
-date: 2021-07-29T01:08:54.256Z
+date: 2021-07-29T01:12:20.061Z
 tags: security, authentication, username, password
 editor: markdown
 dateCreated: 2021-07-25T22:01:01.212Z
@@ -38,7 +38,7 @@ dateCreated: 2021-07-25T22:01:01.212Z
 
 4. Click **Save Changes** button
 
-## Set Up
+## Setup
 1. In **RadSystems Studio** main interface, click **Authentication Tab**.
 ![4.png](/security/4.png)
 ![5.png](/security/5.png)
