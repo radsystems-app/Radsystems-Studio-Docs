@@ -2,7 +2,7 @@
 title: User Record Management
 description: Setup User Record Management
 published: true
-date: 2021-07-29T00:10:13.285Z
+date: 2021-07-29T00:21:01.196Z
 tags: security, record, management
 editor: markdown
 dateCreated: 2021-07-28T03:46:28.160Z
@@ -57,4 +57,3 @@ We'll check if the specific user can only see his id in user_id field record in 
 As you can see, Users can only see their own encoded data.
 ![user1.png](/security/recordmanagement/user1.png)
 ![user2.png](/security/recordmanagement/user2.png)
-
