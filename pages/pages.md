@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T03:11:12.370Z
+date: 2021-07-30T03:20:36.516Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -124,7 +124,32 @@ For the "Add Page", we can configure the following properties:
 ### Subsection 03 - Page Components
 * **Load Indicator Settings**: Here you can set the pagination style, as well as set if the record counter, page counter and per page record selector will be visible.
 
+For the "Edit Page", we can configure the following properties:
+### Subsection 01 - Page Design
+* **PageTitle**: This option allows you to customize the name that will appear as Title in the Edit page.
+* **SubmitButtonText**: Allows you to customize the caption of the Edit button.
+* **EnableCaptchaValidation**: Let you set if the Captcha Validation will be available for a edited record.
+* **PageCustomValidation**: Let you place your own code for validate when a record is edited.
+### Subsection 02 - General
+* **FormLayoutType**: Let you select the form layout.
+* **MessageAfterAdd**: Allows you to customize the message that will be displayed once a record has been edited.
+### Subsection 02 - Record Events
+* **Redirect To After Add**: Let you set the page to which it will be redirected once the record has been edited.
+* **Mail Action Settings**: Here you can set if an email will be sent every time the record is edited as well as the title, subject and origin of the mail.
+> Make sure you have set the default mail configuration in the Project setting option.
+{.is-warning}
+### Subsection 03 - Page Components
+* **Load Indicator Settings**: Here you can set the pagination style, as well as set if the record counter, page counter and per page record selector will be visible.
 
+For the "Delte Page", we can configure the following properties:
+### Subsection 01 - General
+* **PromptMessageBeforeDelete**: Here you can customize the message displayed before a record is deleted.
+* **PromptDisplayStyle**: Let you set de Style of the prompt message displayed.
+* **Redirect To After Delete**: Let you set the page to which it will be redirected once the record has been deleted.
+### Subsection 02 - General
+* **Mail Action Settings**: Here you can set if an email will be sent every time the record is deleted as well as the title, subject and origin of the mail.
+> Make sure you have set the default mail configuration in the Project setting option.
+{.is-warning}
 ## Table Pages Fields Section
 ![table-pages-fields-section.png](/pages/table-pages-fields-section.png){.align-center}
 
