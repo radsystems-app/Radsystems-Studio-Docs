@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T00:45:35.715Z
+date: 2021-07-30T01:14:48.604Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -52,4 +52,11 @@ For the "List Page", we can configure the following properties:
 ### Subsection 05 - Page Components
 * **ActionButtonDisplayStile**: Allows you to specify whether to view, edit or delete a record, icons or a drop-down menu will be used.
 * **ActionButtonInFront**: You can select if the action buttons will be in front of each row of records or at the end of them.
+* **DeleteButton**: Select if the delete record button will be visible.
+* **EditButton**: Select if the Edit record button will be visible.
+* **ViewButton**: Select if the View record button will be visible.
+* **EditButtonText**: Allows you to customize the caption of the Edit button.
+* **ViewButtonText**: Allows you to customize the caption of the View button.
+* **DeleteButtonText**: Allows you to customize the caption of the Delete button.
+* **Export**: Specify whether the export selector will be present in the record list view.
 
