@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T00:06:06.657Z
+date: 2021-07-30T00:07:37.887Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -36,4 +36,4 @@ For the "List Page", we can configure the following properties:
 * **AjaxPage**: Allows you to establish whether the page will use the asynchronous JavaScript technique, processing any request to the server in the background.
 * **PageTittle**: By default, RadSystems Studio uses the table name as the page name. This option allows you to customize the name that will appear in the page view.
 * **DisplayType**: You can select how the data is presented. Choose between a tabular or a grid format.
-
+* **EmptyRecordMessage**: Allows you to customize the message when there is no data in the table.
