@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T01:43:37.314Z
+date: 2021-07-30T01:58:39.483Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -71,4 +71,15 @@ For the "List Page", we can configure the following properties:
 * **ModalEdit**: Allows you to set if the modal edition will be available.
 * **ModalView**: Allows you to set if the modal view will be available.
 ### Subsection 07 - Table Design
+* **TableBorderStyle**: Allows you to set the border Style of the List Page.
+* **TableStripped**: It allows to set if the list of records will be visually divided through separator lines.
+* **TableDark**: Allows to apply a dark theme to the records table.
+* **TableCompact**: Allows you to set a compact format for the list page.
+* **TableHeaderBackground**: Here you can select, in bootstrap format, the style of the background color of the field headers.
+* **TableHeaderTextColor**: Here you can select, in bootstrap format, the text colorr of the field headers.
+* **TableHoverable**: Allows you to set if the feature of selecting records on mouse over will be available.
+* **TableResponsive**: Allows you to set if the Responsive feature of the table will be available.
+* **TableCellAlignment**: Allows you to set the alignment of the data in the cells.
+
+
 
