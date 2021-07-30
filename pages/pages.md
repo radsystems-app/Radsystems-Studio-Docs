@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T01:15:14.296Z
+date: 2021-07-30T01:30:17.829Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -59,4 +59,7 @@ For the "List Page", we can configure the following properties:
 * **ViewButtonText**: Allows you to customize the caption of the View button.
 * **DeleteButtonText**: Allows you to customize the caption of the Delete button.
 * **Export**: Specify if the export selector will be present in the record list view.
+* **ExportSettings**: In the pop-up window, you can configure the export formats that will be available as well as specify a custom template or define the page orientation for export, among other options.
+* **ExportButtonText**: Allows you to customize the caption of the Export button.
+* **ImportData**: In the pop-up window, you can set whether the data import button will be available, define the text selector or the sign used to define the field separation in a CSV data import.
 
