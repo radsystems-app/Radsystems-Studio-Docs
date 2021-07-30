@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T00:24:44.780Z
+date: 2021-07-30T00:38:07.446Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -31,16 +31,22 @@ The Section also offers three buttons for managing the pages:
 At the bottom we have access to each of the properties that can be applied to a certain page.
 
 For the "List Page", we can configure the following properties:
-
 ### Subsection 01 - Page Design
 * **AjaxPage**: Allows you to establish whether the page will use the asynchronous JavaScript technique, processing any request to the server in the background.
 * **PageTittle**: By default, RadSystems Studio uses the table name as the page name. This option allows you to customize the name that will appear in the page view.
 * **DisplayType**: You can select how the data is presented. Choose between a tabular or a grid format.
 * **EmptyRecordMessage**: Allows you to customize the message when there is no data in the table.
-
 ### Subsection 02 - Default Query Configuration
 * **Join Tables**: Here you can specify your own SQL query or access a window that will help you with its construction.
 * **Where**: The option allows you to specify the SQL WHERE clause that allows you to retrieve a data set under a condition.
 * **Having**: The option allows you to specify the SQL HAVING clause that allows you to retrieve a data set under a SUM or MAX condition.
 * **Order By**: You can specify whether the query is sorted in ascending or descending order and the fields to which it applies.
 * **Record Limit**: It allows to specify the number of records to display per page block.
+### Subsection 04 - Inline Edit
+* **InlineEdit**: Allows you to specify whether it is possible to edit the records on the same list.
+* **EditFieldControlType**: Allows you to choose whether the inline edition will be based on what is configured on the Edition page or through a specific data format.
+* **UsePopOverDisplay**: Allows you to enable or disable the pop - screen for inline editing.
+* **Placement**: The option allows you to specify the position of the popover display on a inline edition.
+* **ActivateMode**: You can specify the method by which inline editing is triggered.
+* **ShowButtons**: Allows you to specify the position of the buttons that allow inline editing.
+
