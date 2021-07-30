@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T02:25:57.567Z
+date: 2021-07-30T02:38:42.034Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -36,7 +36,7 @@ For the "List Page", we can configure the following properties:
 > To enable ajax search in the list, it is important set to True this option.
 {.is-info}
 
-* **PageTitle**: By default, RadSystems Studio uses the table name as the page name. This option allows you to customize the name that will appear in the page view.
+* **PageTitle**: By default, RadSystems Studio uses the table name as the page name. This option allows you to customize the name of the Title that will appear in the List Page.
 * **DisplayType**: You can select how the data is presented. Choose between a tabular or a grid format.
 * **EmptyRecordMessage**: Allows you to customize the message when there is no data in the table.
 ### Subsection 02 - Default Query Configuration
@@ -87,7 +87,16 @@ For the "List Page", we can configure the following properties:
 For the "View Page", we can configure the following properties:
 ### Subsection 01 - Page Design
 * **AjaxPage**: Allows you to set whether the page will use the asynchronous JavaScript technique, processing any request to the server in the background.
-* **PageTitle**: 
+* **PageTitle**: This option allows you to customize the name that will appear as Title in the View page.
+* **DisplayType**: Here you can set if the layout of each record and its titles will be horizontal or vertical.
+### Subsection 02 - Query Configuration
+* **Join Tables**: Let you specify your own SQL query or access a window that will help you with its construction.
+### Subsection 02 - Record Events
+* **Mail Action Settings**: Here you can set if an email will be sent every time the record is displayed as well as the title, subject and origin of the mail.
+> Make sure you have set the default mail configuration in the Project setting option.
+{.is-info}
+
+
 ## Table Pages Fields Section
 ![table-pages-fields-section.png](/pages/table-pages-fields-section.png){.align-center}
 
