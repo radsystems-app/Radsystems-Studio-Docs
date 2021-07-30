@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T02:45:18.441Z
+date: 2021-07-30T02:46:57.540Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -104,7 +104,7 @@ For the "View Page", we can configure the following properties:
 * **Export**: Let you set if the export selector will be present in the view record.
 * **ExportSettings**: In the pop-up window, you can configure the export formats that will be available as well as specify a custom template or define the page orientation for export, among other options.
 * **ExportButtonText**: Allows you to customize the caption of the Export button.
-# Table Pages Fields Section
+## Table Pages Fields Section
 ![table-pages-fields-section.png](/pages/table-pages-fields-section.png){.align-center}
 
 
