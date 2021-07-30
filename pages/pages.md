@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T01:41:18.361Z
+date: 2021-07-30T01:43:37.314Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -67,4 +67,8 @@ For the "List Page", we can configure the following properties:
 * **IncludeCheckBox**: Specify if a Check Box will be present for each record in list view.
 * **Pagination**: Specify if the page number selector will be present in the record list view.
 * **PaginationSettings**: Here you can set the pagination style, as well as set if the record counter, page counter and per page record selector will be visible.
+### Subsection 06 - Page Modal
+* **ModalEdit**: Allows you to set if the modal edition will be available.
+* **ModalView**: Allows you to set if the modal view will be available.
+### Subsection 07 - Table Design
 
