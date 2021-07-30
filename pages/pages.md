@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T02:46:57.540Z
+date: 2021-07-30T03:11:12.370Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -94,7 +94,7 @@ For the "View Page", we can configure the following properties:
 ### Subsection 02 - Record Events
 * **Mail Action Settings**: Here you can set if an email will be sent every time the record is displayed as well as the title, subject and origin of the mail.
 > Make sure you have set the default mail configuration in the Project setting option.
-{.is-info}
+{.is-warning}
 ### Subsection 03 - Page Components
 * **EditButton**: Select if the Edit record button will be visible.
 * **DeleteButton**: Select if the Delete record button will be visible.
@@ -104,6 +104,27 @@ For the "View Page", we can configure the following properties:
 * **Export**: Let you set if the export selector will be present in the view record.
 * **ExportSettings**: In the pop-up window, you can configure the export formats that will be available as well as specify a custom template or define the page orientation for export, among other options.
 * **ExportButtonText**: Allows you to customize the caption of the Export button.
+
+For the "Add Page", we can configure the following properties:
+### Subsection 01 - Page Design
+* **PageTitle**: This option allows you to customize the name that will appear as Title in the Add page.
+* **SubmitButtonText**: Allows you to customize the caption of the Add button.
+* **EnableCaptchaValidation**: Let you set if the Captcha Validation will be available before add a record.
+* **PageCustomValidation**: Let you place your own code for validate when a new record is inserted.
+* **EnableAutoCompleteField**: Select if the autocomplete feature will be available.
+* **SubForms**: This feature let you add subforms when adding a record. You can Specify the relation type, the name of the child form and the foreing key.
+* **FormLayoutType**: Let you select the form layout.
+### Subsection 02 - General
+* **MessageAfterAdd**: Allows you to customize the message that will be displayed once a record has been added.
+### Subsection 02 - Record Events
+* **Redirect To After Add**: Let you set the page to which it will be redirected once the record has been added.
+* **Mail Action Settings**: Here you can set if an email will be sent every time the record is added as well as the title, subject and origin of the mail.
+> Make sure you have set the default mail configuration in the Project setting option.
+{.is-warning}
+### Subsection 03 - Page Components
+* **Load Indicator Settings**: Here you can set the pagination style, as well as set if the record counter, page counter and per page record selector will be visible.
+
+
 ## Table Pages Fields Section
 ![table-pages-fields-section.png](/pages/table-pages-fields-section.png){.align-center}
 
