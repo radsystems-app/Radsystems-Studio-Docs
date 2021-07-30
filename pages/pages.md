@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-29T23:43:11.330Z
+date: 2021-07-30T00:06:06.657Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -27,4 +27,13 @@ The Section also offers three buttons for managing the pages:
 1. The first button in the section allows you to add a custom page to the project. Among the options in the window, we can choose the name of the page, the type of page (List, Add, Edit or View). If we have a menu configured, we can also choose if the shortcut to be created is a submenu of the main one or if it is created as an independent access in the main menu.
 2. The second button allows you to duplicate the selected page.
 3. There is also a button for direct access to the page design.
+
+At the bottom we have access to each of the properties that can be applied to a certain page.
+
+For the "List Page", we can configure the following properties:
+
+### Subsection 01 - Page Design
+* **AjaxPage**: Allows you to establish whether the page will use the asynchronous JavaScript technique, processing any request to the server in the background.
+* **PageTittle**: By default, RadSystems Studio uses the table name as the page name. This option allows you to customize the name that will appear in the page view.
+* **DisplayType**: You can select how the data is presented. Choose between a tabular or a grid format.
 
