@@ -2,7 +2,7 @@
 title: Custom Javascript Code
 description: Modify or Create custom VueJS code
 published: true
-date: 2021-07-30T01:01:05.434Z
+date: 2021-07-30T01:03:44.054Z
 tags: custom, vuejs, javascript, code
 editor: markdown
 dateCreated: 2021-07-30T01:01:05.434Z
@@ -17,7 +17,8 @@ Knowledge in VueJS is a must, you can check the VueJS documentation here https:/
    - Setup
 		1. Select the Table (e.g **Order** table)
 		2. Select which Page (e.g **List Page**)
-		3. Click **Edit Page Js**
+		3. Tick the **Edit Code** checkbox
+		4. Goto **Edit Page Js** Tab
 
 
 In this example we will write an alert message everytime the page is loaded.
