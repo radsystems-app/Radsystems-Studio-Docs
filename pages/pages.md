@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T02:21:48.094Z
+date: 2021-07-30T02:25:57.567Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -36,7 +36,7 @@ For the "List Page", we can configure the following properties:
 > To enable ajax search in the list, it is important set to True this option.
 {.is-info}
 
-* **PageTittle**: By default, RadSystems Studio uses the table name as the page name. This option allows you to customize the name that will appear in the page view.
+* **PageTitle**: By default, RadSystems Studio uses the table name as the page name. This option allows you to customize the name that will appear in the page view.
 * **DisplayType**: You can select how the data is presented. Choose between a tabular or a grid format.
 * **EmptyRecordMessage**: Allows you to customize the message when there is no data in the table.
 ### Subsection 02 - Default Query Configuration
@@ -83,6 +83,11 @@ For the "List Page", we can configure the following properties:
 * **TableHoverable**: Allows you to set if the feature of selecting records on mouse over will be available.
 * **TableResponsive**: Allows you to set if the Responsive feature of the table will be available.
 * **TableCellAlignment**: Allows you to set the alignment of the data in the cells.
+
+For the "View Page", we can configure the following properties:
+### Subsection 01 - Page Design
+* **AjaxPage**: Allows you to set whether the page will use the asynchronous JavaScript technique, processing any request to the server in the background.
+* **PageTitle**: 
 ## Table Pages Fields Section
 ![table-pages-fields-section.png](/pages/table-pages-fields-section.png){.align-center}
 
