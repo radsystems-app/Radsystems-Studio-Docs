@@ -2,7 +2,7 @@
 title: Custom CSS Code
 description: Modify or Create custom CSS code
 published: true
-date: 2021-07-30T01:55:51.468Z
+date: 2021-07-30T01:58:15.642Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-30T01:55:51.468Z
@@ -27,6 +27,8 @@ In this example we will try to change the background color of the edit button.
 
 > **q-mx-xs** is the class name of the edit button, you can verify that by going to **Edit Page View** tab.
 {.is-info}
+
+![3.png](/custom-code/css/3.png)
 
 The output of our code would be like this:
 ![2.png](/custom-code/css/2.png)
