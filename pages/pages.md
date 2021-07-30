@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T02:38:42.034Z
+date: 2021-07-30T02:45:18.441Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -95,9 +95,16 @@ For the "View Page", we can configure the following properties:
 * **Mail Action Settings**: Here you can set if an email will be sent every time the record is displayed as well as the title, subject and origin of the mail.
 > Make sure you have set the default mail configuration in the Project setting option.
 {.is-info}
-
-
-## Table Pages Fields Section
+### Subsection 03 - Page Components
+* **EditButton**: Select if the Edit record button will be visible.
+* **DeleteButton**: Select if the Delete record button will be visible.
+* **EditButtonText**: Allows you to customize the caption of the Edit button.
+* **ModalEdit**: Allows you to set if the modal edition will be available.
+* **DeleteButtonText**: Allows you to customize the caption of the Delete button.
+* **Export**: Let you set if the export selector will be present in the view record.
+* **ExportSettings**: In the pop-up window, you can configure the export formats that will be available as well as specify a custom template or define the page orientation for export, among other options.
+* **ExportButtonText**: Allows you to customize the caption of the Export button.
+# Table Pages Fields Section
 ![table-pages-fields-section.png](/pages/table-pages-fields-section.png){.align-center}
 
 
