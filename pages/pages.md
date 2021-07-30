@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T01:14:48.604Z
+date: 2021-07-30T01:15:14.296Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -58,5 +58,5 @@ For the "List Page", we can configure the following properties:
 * **EditButtonText**: Allows you to customize the caption of the Edit button.
 * **ViewButtonText**: Allows you to customize the caption of the View button.
 * **DeleteButtonText**: Allows you to customize the caption of the Delete button.
-* **Export**: Specify whether the export selector will be present in the record list view.
+* **Export**: Specify if the export selector will be present in the record list view.
 
