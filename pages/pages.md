@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T15:12:50.704Z
+date: 2021-08-02T15:34:14.997Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -169,6 +169,7 @@ In the section we can also define the logical operator SQL LIKE and the wildcard
 ![field-properties-section.png](/pages/field-properties-section.png)
 
 In this section, the properties of a field will depend on the type of field that is chosen. In the view, for example, the PlainText type field allows us to:
+### Subsection 01 - Display
 * **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
 * **Field Link**: By default, the system sets a shortcut to the record view with the option --CurrentRecordDetail--. We can also choose between a direct access to the categories, the file, the search value, an email or a telephone as well as the pages to add or list the pages that we have created.
 	* **--CurrentRecordDetails--**: Redirects a field's record to a detail page or view page.
@@ -192,4 +193,13 @@ In this section, the properties of a field will depend on the type of field that
 	- **approximate(2)**: Approximates data in the current field record according to specified value.
 	- **to_number**: formats the data in a current field record. For example: **1988665545 to 1,988,665,545**.
 	- **number_to_words('en')**: formats a given data in a current field record to words. For example: 1 2 3 4 to "one two three four".
-* **FieldFooterExpressión**:  
+* **FieldFooterExpressión**: Through this property, we can define an expression that is displayed at the end of each page and at the foot of the selected field. You can select a sample expression from the drop-down list or create your own.
+![field-footer-expression-window.png](/pages/field-footer-expression-window.png)
+* **ColumnWidth**: Allows you to set the width of the field column.
+* **Display Label**: Allows you to set the Title of the Field column.
+### Subsection 01 - Master Detail Relation
+* **Record Detail Page**: Set the characteristics of a relationship between master and slave tables.
+	* **Relation Type**: You can select between a one-to-one or one-to-many relationship.
+	* **Master Table**: Sets the master table and the defined field as primary key.
+  
+  
