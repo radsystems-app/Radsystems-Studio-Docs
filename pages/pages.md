@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T22:39:00.086Z
+date: 2021-08-02T22:39:56.895Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -175,6 +175,7 @@ In this section, for the View-Page fields, you can find the same buttons for to 
 In this case, for the Add-Page fields, you can reorder the fields and manage the output of the fields on the add-page or edit-page of the record. 
 ### Edit-Page Fields
 ![edit-page-fields-section.png](/pages/edit-page-fields-section.png)
+In the case of the Edit-Page fields, you can find the same options as the Add-Page fields section.
 ## Field Properties Section
 ![field-properties-section.png](/pages/field-properties-section.png)
 
