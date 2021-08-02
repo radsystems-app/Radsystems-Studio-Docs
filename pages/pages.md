@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T22:31:06.683Z
+date: 2021-08-02T22:33:38.615Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -167,6 +167,12 @@ The next columns in the section allow you to:
 6. The checkboxes in the SEARCH column define whether the fields will be searched in the final view of the page.
 
 In the section we can also define the logical operator SQL LIKE and the wildcards for the search.
+### View-Page Fields
+![view-page-fields-section.png](/pages/view-page-fields-section.png)
+### Add-Page Fields
+![add-page-fields-section.png](/pages/add-page-fields-section.png)
+### Edit-Page Fields
+![edit-page-fields-section.png](/pages/edit-page-fields-section.png)
 ## Field Properties Section
 ![field-properties-section.png](/pages/field-properties-section.png)
 
