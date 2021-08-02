@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T16:40:34.318Z
+date: 2021-08-02T22:26:56.273Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -151,6 +151,7 @@ For the "Delte Page", we can configure the following properties:
 > Make sure you have set the default mail configuration in the Project setting option.
 {.is-warning}
 ## Table Pages Fields Section
+
 ![table-page-fields-section.png](/pages/table-page-fields-section.png)
 In this section, the first column is made up of the 5 types of buttons:
 1. The first two buttons allow you to reorder the fields for rendering on the page.
@@ -172,27 +173,27 @@ In this section, the properties of a field will depend on the type of field that
 ### Subsection 01 - Display
 * **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
 * **Field Link**: By default, the system sets a shortcut to the record view with the option --CurrentRecordDetail--. We can also choose between a direct access to the categories, the file, the search value, an email or a telephone as well as the pages to add or list the pages that we have created.
-	* **--CurrentRecordDetails--**: Redirects a field's record to a detail page or view page.
-	* **--CurrentFieldCategory--**: Filters record based on the field.
-	* **--CurrentFieldvalue--**: Used to link a particular field data to a file or an attachment.
-	* **--CurrentFieldValueSearch--**: Used to search current field. 
-	* **--CurrentFieldMailTo--**: Adds mailto link to the current field's data.
-	* **/menuexample/list**: Used to link the current field record or data to the list page.
-	* **/menuexample/add**: Used to link the current field record or data to the add page.
+    - **--CurrentRecordDetails--**: Redirects a field's record to a detail page or view page.
+    - **--CurrentFieldCategory--**: Filters record based on the field.
+    - **--CurrentFieldvalue--**: Used to link a particular field data to a file or an attachment.
+    - **--CurrentFieldValueSearch--**: Used to search current field. 
+    - **--CurrentFieldMailTo--**: Adds mailto link to the current field's data.
+    - **/menuexample/list**: Used to link the current field record or data to the list page.
+    - **/menuexample/add**: Used to link the current field record or data to the add page.
 * **FormatRecordField**: This property also depends on the type of field one chooses. For the example, through this property, we can set the date or currency format, format a STRING so that everything is uppercase or lowercase or convert a numeric data type to Letters among other options.
-	- **human_date:** convert the current field record to human readable date.
-	- **human_time**: converts the current field record to human readable time.
-	- **human_datetime**: converts the current field record to human readable date and time.
-	- **relative_date**: converts the current field record to relative date for example; few seconds ago.
-	- **to_currency('en_US')**: converts the current field record to currency.
-	- **ucwords**: converts the **first lette**r of every word in the current **field** **record** or data to uppercase.
-	- **ucfirst**: converts the first letter of every string in the current field record to uppercase.
-	- **strtolower**: converts the current field record to lowercase.
-	- **strtoupper**: converts the current field record to uppercase.
-	- **str_truncate(50,'...')**: intercepts the length of data in the current field record, to the specified value.
-	- **approximate(2)**: Approximates data in the current field record according to specified value.
-	- **to_number**: formats the data in a current field record. For example: **1988665545 to 1,988,665,545**.
-	- **number_to_words('en')**: formats a given data in a current field record to words. For example: 1 2 3 4 to "one two three four".
+	  - **human_date:** convert the current field record to human readable date.
+	  - **human_time**: converts the current field record to human readable time.
+	  - **human_datetime**: converts the current field record to human readable date and time.
+	  - **relative_date**: converts the current field record to relative date for example; few seconds ago.
+	  - **to_currency('en_US')**: converts the current field record to currency.
+	  - **ucwords**: converts the **first lette**r of every word in the current **field** **record** or data to uppercase.
+	  - **ucfirst**: converts the first letter of every string in the current field record to uppercase.
+	  - **strtolower**: converts the current field record to lowercase.
+	  - **strtoupper**: converts the current field record to uppercase.
+	  - **str_truncate(50,'...')**: intercepts the length of data in the current field record, to the specified value.
+	  - **approximate(2)**: Approximates data in the current field record according to specified value.
+	  - **to_number**: formats the data in a current field record. For example: **1988665545 to 1,988,665,545**.
+	  - **number_to_words('en')**: formats a given data in a current field record to words. For example: 1 2 3 4 to "one two three four".
 * **FieldFooterExpressión**: Through this property, we can define an expression that is displayed at the end of each page and at the foot of the selected field. You can select a sample expression from the drop-down list or create your own.
 ![field-footer-expression-window.png](/pages/field-footer-expression-window.png)
 * **ColumnWidth**: Allows you to set the width of the field column.
