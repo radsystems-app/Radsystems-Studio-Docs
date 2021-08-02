@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T23:39:26.437Z
+date: 2021-08-02T23:40:01.852Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -154,7 +154,7 @@ At the bottom we have access to each of the properties that can be applied to a 
 ### List-Page Fields
 
 ![table-page-fields-section.png](/pages/table-page-fields-section.png)
-In this section, the first column is made up of the 5 types of buttons:
+In this section, the first column is made up of 5 types of buttons:
 1. The first two buttons allow you to reorder the fields for rendering on the page.
 2. This button allows you to add a custom field.A new window opens, allowing you to enter an expression, an alias and the name of the field. You can enter an expression from the list of examples or create your own.
 ![custom-field-editor-window.png](/pages/custom-field-editor-window.png)
