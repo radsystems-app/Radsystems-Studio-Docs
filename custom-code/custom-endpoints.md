@@ -2,7 +2,7 @@
 title: Custom Endpoints
 description: 
 published: true
-date: 2021-08-02T08:06:23.172Z
+date: 2021-08-02T08:26:42.654Z
 tags: endpoint, routes, api
 editor: markdown
 dateCreated: 2021-08-02T05:07:16.716Z
@@ -69,6 +69,22 @@ def __ACTION_NAME__():
     except Exception as ex:
         return abort(500, str(ex))
 ```
+## ASPRad Vue
+```asp
+[HttpGet]
+        __allowanonymous
+        public ActionResult __ACTION_NAME__(){
+            try{
+                var sqlText = "SELECT * FROM tablename";
+                var records =  DB.RawSqlQuery(sqlText);
+                return Ok(records);
+            }
+            catch (Exception ex){
+                return StatusCode(500, $"{ex}");
+            }
+        }
+```
+
 
 # Test the Code
 There are multiple ways to test the code:
