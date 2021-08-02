@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-07-30T03:20:36.516Z
+date: 2021-08-02T14:08:39.687Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -151,6 +151,6 @@ For the "Delte Page", we can configure the following properties:
 > Make sure you have set the default mail configuration in the Project setting option.
 {.is-warning}
 ## Table Pages Fields Section
-![table-pages-fields-section.png](/pages/table-pages-fields-section.png){.align-center}
+![table-page-fields-section.png](/pages/table-page-fields-section.png)
 
 
