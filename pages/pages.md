@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T14:18:03.535Z
+date: 2021-08-02T14:24:13.500Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -156,4 +156,8 @@ In this section, the first column is made up of the 5 types of buttons:
 1. The first two buttons allow you to reorder the fields for rendering on the page.
 2. This button allows you to add a custom field.A new window opens, allowing you to enter an expression, an alias and the name of the field. You can enter an expression from the list of examples or create your own.
 ![custom-field-editor-window.png](/pages/custom-field-editor-window.png)
-
+3. You can edit the custom field.
+4. You can delete the custom field.
+The next columns in the section allow you to:
+5. The checkboxes in the OUTPUT column define whether the field will be rendered in the final view of the page.
+6. The checkboxes in the SEARCH column define whether the fields will be searched in the final view of the page.
