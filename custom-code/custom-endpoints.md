@@ -2,7 +2,7 @@
 title: Custom Endpoints
 description: 
 published: true
-date: 2021-08-02T06:27:49.376Z
+date: 2021-08-02T06:30:09.145Z
 tags: endpoint, routes, api
 editor: markdown
 dateCreated: 2021-08-02T05:07:16.716Z
@@ -35,7 +35,7 @@ public function __ACTION_NAME__(Request $request){
 ```
 
 
-## NodeRAD Code
+## NodeRAD Vue
 ```js
 router.get('__ACTION_PATH__', async (req, res) => {  
     try{
