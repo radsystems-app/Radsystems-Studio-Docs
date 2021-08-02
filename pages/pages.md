@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T15:35:38.697Z
+date: 2021-08-02T16:00:53.669Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -198,10 +198,15 @@ In this section, the properties of a field will depend on the type of field that
 * **ColumnWidth**: Allows you to set the width of the field column.
 * **Display Label**: Allows you to set the Title of the Field column.
 ### Subsection 01 - Master Detail Relation
-* **Record Detail Page**: Set the characteristics of a relationship between master and slave tables.
+* **Record Detail Page**: Set the characteristics of a relationship between master and detail tables.
 	* **Relation Type**: You can select between a one-to-one or one-to-many relationship.
 	* **Master Table**: Sets the master table and the defined field as primary key.
-	* **Detail Table**: Here you can choose the slave table and the related field.
+	* **Detail Table**: Here you can choose the detail table and the related field.
+	* **Aply To Pages**: The checkboxes allow you to establish whether the relationship will be applied to the detail view of the record or to the page of adding a record or to both.
+  
+  
+
+
   
   
   
