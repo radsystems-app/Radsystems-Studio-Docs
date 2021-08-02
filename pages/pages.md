@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T23:25:09.361Z
+date: 2021-08-02T23:32:31.228Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -299,3 +299,43 @@ If the online editing option is enabled in the assignment of page properties, he
 * **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
 ### Subsection 02 - Check Properties
 * **CheckValue**: If it is set to TRUE, the checkbox is marked.
+### <span style="color:blue">Properties for the *RelativeDate* Type</span>
+![relativedate-field-properties.png](/pages/relativedate-field-properties.png)
+### Subsection 01 - Display
+* **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
+* **Field Link**: Used to link a particular field record to a page.
+    - **--CurrentRecordDetails--**: Redirects a field's record to a detail page or view page.
+    - **--CurrentFieldCategory--**: Filters record based on the field.
+    - **--CurrentFieldvalue--**: Used to link a particular field data to a file or an attachment.
+    - **--CurrentFieldValueSearch--**: Used to search current field. 
+    - **--CurrentFieldMailTo--**: Adds mailto link to the current field's data.
+    - **/menuexample/list**: Used to link the current field record or data to the list page.
+    - **/menuexample/add**: Used to link the current field record or data to the add page.
+* **FormatRecordField**: Allows you to format the field's record data. 
+	  - **human_date:** convert the current field record to human readable date.
+	  - **human_time**: converts the current field record to human readable time.
+	  - **human_datetime**: converts the current field record to human readable date and time.
+	  - **relative_date**: converts the current field record to relative date for example; few seconds ago.
+	  - **to_currency('en_US')**: converts the current field record to currency.
+	  - **ucwords**: Converts the **first lette**r of every word in the current **field** **record** or data to uppercase.
+	  - **ucfirst**: Converts the first letter of every string in the current field record to uppercase.
+	  - **strtolower**: Converts the current field record to lowercase.
+	  - **strtoupper**: Converts the current field record to uppercase.
+	  - **str_truncate(50,'...')**: Intercepts the length of data in the current field record, to the specified value.
+	  - **approximate(2)**: Approximates data in the current field record according to specified value.
+	  - **to_number**: formats the data in a current field record.
+	  - **number_to_words('en')**: formats a given data in a current field record to words.
+* **FieldFooterExpressión**: Through this property, we can define an expression that is displayed at the end of each page and at the foot of the selected field. You can select a sample expression from the drop-down list or create your own.
+* **ColumnWidth**: Allows you to set the width of the field column.
+* **Display Label**: Allows you to set the Title of the Field column.
+### Subsection 02 - Master Detail Relation
+* Record Detail Page: Set the characteristics of a relationship between master and detail tables.
+### Subsection 04 - Inline Edit
+* **InlineEdit**: Allows you to specify whether it is possible to edit the records on the same list.
+* **EditFieldControlType**: Allows you to choose whether the inline edition will be based on what is configured on the Edition page or through a specific data format.
+* **UsePopOverDisplay**: Allows you to enable or disable the pop - screen for inline editing.
+* **Placement**: The option allows you to specify the position of the popover display on a inline edition.
+* **ActivateMode**: You can specify the method by which inline editing is triggered.
+* **ShowButtons**: Allows you to specify the position of the buttons that allow inline editing.
+### <span style="color:blue">Properties for the *Custom* Type</span>
+![custom-field-properties.png](/pages/custom-field-properties.png)
