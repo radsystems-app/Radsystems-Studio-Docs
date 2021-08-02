@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T14:28:22.849Z
+date: 2021-08-02T14:49:55.466Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -165,3 +165,11 @@ The next columns in the section allow you to:
 6. The checkboxes in the SEARCH column define whether the fields will be searched in the final view of the page.
 
 In the section we can also define the logical operator SQL LIKE and the wildcards for the search.
+## Field Properties Section
+![field-properties-section.png](/pages/field-properties-section.png)
+
+In this section, the properties of a field will depend on the type of field that is chosen. In the view, for example, the PlainText type field allows us to:
+* **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
+* **Field Link**: By default, the system sets a shortcut to the record view with the option --CurrentRecordDetail--. We can also choose between a direct access to the categories, the file, the search value, an email or a telephone as well as the pages to add or list the pages that we have created.
+* **FormatRecordField**: This property also depends on the type of field one chooses. For the example, through this property, we can set the date or currency format, format a STRING so that everything is uppercase or lowercase or convert a numeric data type to Letters among other options.
+* ** FieldFooterExpressión**: 
