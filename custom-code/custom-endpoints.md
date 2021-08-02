@@ -2,7 +2,7 @@
 title: Custom Endpoints
 description: 
 published: true
-date: 2021-08-02T07:05:35.281Z
+date: 2021-08-02T08:04:54.041Z
 tags: endpoint, routes, api
 editor: markdown
 dateCreated: 2021-08-02T05:07:16.716Z
@@ -43,7 +43,7 @@ public function __ACTION_NAME__(Request $request){
 }
 ```
 
-## NodeRAD Vue
+## NodeRad Vue
 ```js
 router.get('__ACTION_PATH__', async (req, res) => {  
     try{
@@ -55,6 +55,19 @@ router.get('__ACTION_PATH__', async (req, res) => {
         return res.serverError(err);
     }
 });
+```
+
+## PyRad Vue
+```py
+@__tablename_blueprint.route('__ACTION_PATH__', methods=['GET'])
+#AuthRequiredDecorator
+def __ACTION_NAME__():
+    try:
+    sqltext = "SELECT * FROM Orders"
+        records = db.session.execute(sqltext).all()
+        return jsonify([dict(row) for row in records])
+    except Exception as ex:
+        return abort(500, str(ex))
 ```
 
 # Test the Code
@@ -83,7 +96,7 @@ Route::get('orders/testing','OrdersController@testing');
 > 8050 - FrontEnd
 {.is-warning}
 
-## NodeRAD Vue
+## NodeRad Vue
 For **NodeRAD Vue** you can directly navigate to this link below:
 http://localhost:8060/api/orders/testing
 
