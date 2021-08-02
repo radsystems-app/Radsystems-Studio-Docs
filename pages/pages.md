@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T22:33:38.615Z
+date: 2021-08-02T22:39:00.086Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -169,8 +169,10 @@ The next columns in the section allow you to:
 In the section we can also define the logical operator SQL LIKE and the wildcards for the search.
 ### View-Page Fields
 ![view-page-fields-section.png](/pages/view-page-fields-section.png)
+In this section, for the View-Page fields, you can find the same buttons for to reorder and output a field and for to add, edit and delete a custom field.
 ### Add-Page Fields
 ![add-page-fields-section.png](/pages/add-page-fields-section.png)
+In this case, for the Add-Page fields, you can reorder the fields and manage the output of the fields on the add-page or edit-page of the record. 
 ### Edit-Page Fields
 ![edit-page-fields-section.png](/pages/edit-page-fields-section.png)
 ## Field Properties Section
