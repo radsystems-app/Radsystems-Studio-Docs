@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T15:34:14.997Z
+date: 2021-08-02T15:35:38.697Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -201,5 +201,7 @@ In this section, the properties of a field will depend on the type of field that
 * **Record Detail Page**: Set the characteristics of a relationship between master and slave tables.
 	* **Relation Type**: You can select between a one-to-one or one-to-many relationship.
 	* **Master Table**: Sets the master table and the defined field as primary key.
+	* **Detail Table**: Here you can choose the slave table and the related field.
+  
   
   
