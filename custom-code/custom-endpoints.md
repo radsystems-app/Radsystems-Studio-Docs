@@ -2,14 +2,14 @@
 title: Custom Endpoints
 description: 
 published: true
-date: 2021-08-02T05:07:16.716Z
+date: 2021-08-02T05:57:28.938Z
 tags: endpoint, routes, api
 editor: markdown
 dateCreated: 2021-08-02T05:07:16.716Z
 ---
 
 # Custom Endpoints
-**Custom Endpoints** is where we can create our own custom routes.
+**Custom Endpoints** is where we can create our own custom method or routes.
 
 ## Setup
 1. In main RS window, Click **Custom Endpoints**
