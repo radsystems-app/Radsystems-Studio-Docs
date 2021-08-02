@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T16:00:53.669Z
+date: 2021-08-02T16:12:40.462Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -203,9 +203,11 @@ In this section, the properties of a field will depend on the type of field that
 	* **Master Table**: Sets the master table and the defined field as primary key.
 	* **Detail Table**: Here you can choose the detail table and the related field.
 	* **Aply To Pages**: The checkboxes allow you to establish whether the relationship will be applied to the detail view of the record or to the page of adding a record or to both.
-  
-  
-
+  ![master-detail-relation-window.png](/pages/master-detail-relation-window.png)
+ 	* **Page Display**: Allows you to select the table that will be incorporated as a detail of the relationship and the style of its display (modal, online, popover or as a link).
+	* **Record Display Field / Text**: Here you can set the text that will be displayed in each related record. You can set it to show the value of the record or a specific value of the table fields.
+	* **Display Icon**: According to the original settings, you can choose the icon to be displayed on each related record.
+	* **Button Color**: In the boostrap format, you can select the color of the button that gives access to the detail table view.
 
   
   
