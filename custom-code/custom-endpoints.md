@@ -2,7 +2,7 @@
 title: Custom Endpoints
 description: 
 published: true
-date: 2021-08-02T08:04:54.041Z
+date: 2021-08-02T08:06:23.172Z
 tags: endpoint, routes, api
 editor: markdown
 dateCreated: 2021-08-02T05:07:16.716Z
@@ -97,7 +97,7 @@ Route::get('orders/testing','OrdersController@testing');
 {.is-warning}
 
 ## NodeRad Vue
-For **NodeRAD Vue** you can directly navigate to this link below:
+For **NodeRad Vue** you can directly navigate to this link below:
 http://localhost:8060/api/orders/testing
 
 > **NOTE: DEFAULT PORT**
