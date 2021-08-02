@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T23:34:59.003Z
+date: 2021-08-02T23:39:26.437Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -29,8 +29,8 @@ The Section also offers three buttons for managing the pages:
 3. There is also a button for direct access to the page design.
 
 At the bottom we have access to each of the properties that can be applied to a certain page.
+### <span style="color:blue">For the *"List Page"*, we can configure the following properties:</span>
 
-For the "List Page", we can configure the following properties:
 ### Subsection 01 - Page Design
 * **AjaxPage**: Allows you to establish whether the page will use the asynchronous JavaScript technique, processing any request to the server in the background.
 > To enable ajax search in the list, it is important set to True this option.
@@ -84,7 +84,7 @@ For the "List Page", we can configure the following properties:
 * **TableResponsive**: Allows you to set if the Responsive feature of the table will be available.
 * **TableCellAlignment**: Allows you to set the alignment of the data in the cells.
 
-For the "View Page", we can configure the following properties:
+### <span style="color:blue">For the *"View Page"*, we can configure the following properties:</span>
 ### Subsection 01 - Page Design
 * **AjaxPage**: Allows you to set whether the page will use the asynchronous JavaScript technique, processing any request to the server in the background.
 * **PageTitle**: This option allows you to customize the name that will appear as Title in the View page.
@@ -105,7 +105,7 @@ For the "View Page", we can configure the following properties:
 * **ExportSettings**: In the pop-up window, you can configure the export formats that will be available as well as specify a custom template or define the page orientation for export, among other options.
 * **ExportButtonText**: Allows you to customize the caption of the Export button.
 
-For the "Add Page", we can configure the following properties:
+### <span style="color:blue">For the *"Add Page"*, we can configure the following properties:</span>
 ### Subsection 01 - Page Design
 * **PageTitle**: This option allows you to customize the name that will appear as Title in the Add page.
 * **SubmitButtonText**: Allows you to customize the caption of the Add button.
@@ -124,7 +124,7 @@ For the "Add Page", we can configure the following properties:
 ### Subsection 03 - Page Components
 * **Load Indicator Settings**: Here you can set the pagination style, as well as set if the record counter, page counter and per page record selector will be visible.
 
-For the "Edit Page", we can configure the following properties:
+### <span style="color:blue">For the *"Edit Page"*, we can configure the following properties:</span>
 ### Subsection 01 - Page Design
 * **PageTitle**: This option allows you to customize the name that will appear as Title in the Edit page.
 * **SubmitButtonText**: Allows you to customize the caption of the Edit button.
@@ -141,7 +141,7 @@ For the "Edit Page", we can configure the following properties:
 ### Subsection 03 - Page Components
 * **Load Indicator Settings**: Here you can set the pagination style, as well as set if the record counter, page counter and per page record selector will be visible.
 
-For the "Delte Page", we can configure the following properties:
+### <span style="color:blue">For the *"Delete Page"*, we can configure the following properties:</span>
 ### Subsection 01 - General
 * **PromptMessageBeforeDelete**: Here you can customize the message displayed before a record is deleted.
 * **PromptDisplayStyle**: Let you set de Style of the prompt message displayed.
