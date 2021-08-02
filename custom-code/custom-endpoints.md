@@ -2,7 +2,7 @@
 title: Custom Endpoints
 description: 
 published: true
-date: 2021-08-02T06:30:09.145Z
+date: 2021-08-02T07:05:35.281Z
 tags: endpoint, routes, api
 editor: markdown
 dateCreated: 2021-08-02T05:07:16.716Z
@@ -34,6 +34,14 @@ public function __ACTION_NAME__(Request $request){
 }
 ```
 
+## PHPRad Vue
+```php
+public function __ACTION_NAME__(Request $request){
+   $sqltext = "SELECT * FROM Orders";
+   $records = DB::select($sqltext);
+   return $records;
+}
+```
 
 ## NodeRAD Vue
 ```js
@@ -52,7 +60,7 @@ router.get('__ACTION_PATH__', async (req, res) => {
 # Test the Code
 There are multiple ways to test the code:
 ## PHPRad Classic
-For **PHPRad Classic** we need to manually define the a routes in routes folder.
+For **PHPRad Classic** we need to manually define the a routes in routes/web.php
 1. Click **Project Explorer**.
 2. Navigate to **routes/web.php**.
 3. Inside the **web.php**, add this code below:
@@ -60,6 +68,31 @@ For **PHPRad Classic** we need to manually define the a routes in routes folder.
 Route::get('testing','OrdersController@testing')->name('orders.testing');
 ```
 4. Go to your browser and enter this link. http://localhost:8050/testing 
+
+## PHPRad Vue
+For **PHPRad Vue** we need to manually define the a routes in routes/api.php
+1. Click **Project Explorer**.
+2. Navigate to **routes/api.php**.
+3. Inside the **web.php**, add this code below:
+```php
+Route::get('orders/testing','OrdersController@testing');
+```
+4. Go to your browser and enter this link. http://localhost:8060/api/orders/testing 
+> **NOTE: DEFAULT PORT**
+> 8060 - Backend API
+> 8050 - FrontEnd
+{.is-warning}
+
+## NodeRAD Vue
+For **NodeRAD Vue** you can directly navigate to this link below:
+http://localhost:8060/api/orders/testing
+
+> **NOTE: DEFAULT PORT**
+> 8060 - Backend API
+> 8050 - FrontEnd
+{.is-warning}
+
+
 The output should be like this below:
 
 ```php
@@ -78,14 +111,3 @@ The output should be like this below:
   }
 ]
 ```
-
-## NodeRAD Vue
-For **NodeRAD Vue** you can directly navigate to this link below:
-http://localhost:8060/api/orders/testing
-
-> **NOTE: DEFAULT PORT**
-> 8060 - Backend API
-> 8050 - FrontEnd
-{.is-warning}
-
-![2.png](/custom-code/endpoints/2.png)
