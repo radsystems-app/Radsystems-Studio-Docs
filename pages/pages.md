@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T23:20:37.560Z
+date: 2021-08-02T23:25:09.361Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -290,3 +290,12 @@ If the online editing option is enabled in the assignment of page properties, he
 ### Subsection 02 - Progress Bar Properties
 * **MaxValue**: You can set the max value of the progress bar.
 * **ProgressBarClass**: You can set a custom class or a bootstrap class for styling the progress bar.
+### <span style="color:blue">Properties for the *CheckButton* Type</span>
+![checkbutton-field-properties.png](/pages/checkbutton-field-properties.png)
+### Subsection 01 - Display
+* **FieldFooterExpressión**: Through this property, we can define an expression that is displayed at the end of each page and at the foot of the selected field. You can select a sample expression from the drop-down list or create your own.
+* **ColumnWidth**: Allows you to set the width of the field column.
+* **Display Label**: Allows you to set the Title of the Field column.
+* **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
+### Subsection 02 - Check Properties
+* **CheckValue**: If it is set to TRUE, the checkbox is marked.
