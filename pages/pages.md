@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T22:39:56.895Z
+date: 2021-08-02T23:14:01.204Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -177,9 +177,20 @@ In this case, for the Add-Page fields, you can reorder the fields and manage the
 ![edit-page-fields-section.png](/pages/edit-page-fields-section.png)
 In the case of the Edit-Page fields, you can find the same options as the Add-Page fields section.
 ## Field Properties Section
-![field-properties-section.png](/pages/field-properties-section.png)
 
-In this section, the properties of a field will depend on the type of field that is chosen. In the view, for example, the PlainText type field allows us to:
+In this section, the properties of a field will depend on the type of field that is chosen. In RadStudio System there is 7 types of fields:
+  * PlainText
+  * Image
+  * StarRating
+  * ProgressBar
+  * CheckButton
+  * RelativeDate
+  * Custom
+
+### <span style="color:blue">Properties for the *PlainText* Type</span>
+
+![plaintext-field-properties.png](/pages/plaintext-field-properties.png)
+In the view, for example, the PlainText type field allows us to:
 ### Subsection 01 - Display
 * **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
 * **Field Link**: By default, the system sets a shortcut to the record view with the option --CurrentRecordDetail--. We can also choose between a direct access to the categories, the file, the search value, an email or a telephone as well as the pages to add or list the pages that we have created.
@@ -227,7 +238,47 @@ If the online editing option is enabled in the assignment of page properties, he
 * **Placement**: The option allows you to specify the position of the popover display on a inline edition.
 * **ActivateMode**: You can specify the method by which inline editing is triggered.
 * **ShowButtons**: Allows you to specify the position of the buttons that allow inline editing.
+### <span style="color:blue">Properties for the *Image* Type</span>
+![image-field-properties.png](/pages/image-field-properties.png)
+### Subsection 01 - Display
+* **Field Link**: Used to link a particular field record to a page.
+    - **--CurrentRecordDetails--**: Redirects a field's record to a detail page or view page.
+    - **--CurrentFieldCategory--**: Filters record based on the field.
+    - **--CurrentFieldvalue--**: Used to link a particular field data to a file or an attachment.
+    - **--CurrentFieldValueSearch--**: Used to search current field. 
+    - **--CurrentFieldMailTo--**: Adds mailto link to the current field's data.
+    - **/menuexample/list**: Used to link the current field record or data to the list page.
+    - **/menuexample/add**: Used to link the current field record or data to the add page.
+* **FormatRecordField**: Allows you to format the field's record data. 
+	  - **human_date:** convert the current field record to human readable date.
+	  - **human_time**: converts the current field record to human readable time.
+	  - **human_datetime**: converts the current field record to human readable date and time.
+	  - **relative_date**: converts the current field record to relative date for example; few seconds ago.
+	  - **to_currency('en_US')**: converts the current field record to currency.
+	  - **ucwords**: Converts the **first lette**r of every word in the current **field** **record** or data to uppercase.
+	  - **ucfirst**: Converts the first letter of every string in the current field record to uppercase.
+	  - **strtolower**: Converts the current field record to lowercase.
+	  - **strtoupper**: Converts the current field record to uppercase.
+	  - **str_truncate(50,'...')**: Intercepts the length of data in the current field record, to the specified value.
+	  - **approximate(2)**: Approximates data in the current field record according to specified value.
+	  - **to_number**: formats the data in a current field record.
+	  - **number_to_words('en')**: formats a given data in a current field record to words.
+* **FieldFooterExpressión**: Through this property, we can define an expression that is displayed at the end of each page and at the foot of the selected field. You can select a sample expression from the drop-down list or create your own.
+* **ColumnWidth**: Allows you to set the width of the field column.
+* **Display Label**: Allows you to set the Title of the Field column.
+* **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
+### Subsection 02 - Image Properties
+* **ImageSize**: You can set it to *small*, *medium* or *large* size of the image.
+* **Image Tag size**: Here you can specify the width and height of an image.
+* **MaxImages**: You can set the maximum number of images that the log will save.
+### <span style="color:blue">Properties for the *StarRating* Type</span>
+![starrating-field-properties.png](/pages/starrating-field-properties.png)
+### Subsection 01 - Display
+* **FieldFooterExpressión**: Through this property, we can define an expression that is displayed at the end of each page and at the foot of the selected field. You can select a sample expression from the drop-down list or create your own.
+* **ColumnWidth**: Allows you to set the width of the field column.
+* **Display Label**: Allows you to set the Title of the Field column.
+* **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
+### Subsection 02 - Star Properties
+* **NumberOfStars**: You can set the number of stars that appear in the rate field.
 
-  
-  
   
