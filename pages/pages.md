@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T16:12:40.462Z
+date: 2021-08-02T16:40:34.318Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -197,7 +197,7 @@ In this section, the properties of a field will depend on the type of field that
 ![field-footer-expression-window.png](/pages/field-footer-expression-window.png)
 * **ColumnWidth**: Allows you to set the width of the field column.
 * **Display Label**: Allows you to set the Title of the Field column.
-### Subsection 01 - Master Detail Relation
+### Subsection 02 - Master Detail Relation
 * **Record Detail Page**: Set the characteristics of a relationship between master and detail tables.
 	* **Relation Type**: You can select between a one-to-one or one-to-many relationship.
 	* **Master Table**: Sets the master table and the defined field as primary key.
@@ -208,6 +208,14 @@ In this section, the properties of a field will depend on the type of field that
 	* **Record Display Field / Text**: Here you can set the text that will be displayed in each related record. You can set it to show the value of the record or a specific value of the table fields.
 	* **Display Icon**: According to the original settings, you can choose the icon to be displayed on each related record.
 	* **Button Color**: In the boostrap format, you can select the color of the button that gives access to the detail table view.
+### Subsection 04 - Inline Edit
+If the online editing option is enabled in the assignment of page properties, here you can specify if this option will be available for each field individually.
+* **Inline Edit**: Set to TRUE to enable inline editing of the field.
+* **Inline Edit**: Allows you to choose whether the inline edition will be based on what is configured on the Edit page or through a specific data format.
+* **UsePopoverDisplay**: Allows you to enable or disable the pop - screen for inline editing.
+* **Placement**: The option allows you to specify the position of the popover display on a inline edition.
+* **ActivateMode**: You can specify the method by which inline editing is triggered.
+* **ShowButtons**: Allows you to specify the position of the buttons that allow inline editing.
 
   
   
