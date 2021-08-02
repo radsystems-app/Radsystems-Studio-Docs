@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T23:32:31.228Z
+date: 2021-08-02T23:34:59.003Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -339,3 +339,23 @@ If the online editing option is enabled in the assignment of page properties, he
 * **ShowButtons**: Allows you to specify the position of the buttons that allow inline editing.
 ### <span style="color:blue">Properties for the *Custom* Type</span>
 ![custom-field-properties.png](/pages/custom-field-properties.png)
+### Subsection 01 - Display
+* **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
+* **CustomCode**: You can insert your own custom code.
+* **FormatRecordField**: Allows you to format the field's record data. 
+	  - **human_date:** convert the current field record to human readable date.
+	  - **human_time**: converts the current field record to human readable time.
+	  - **human_datetime**: converts the current field record to human readable date and time.
+	  - **relative_date**: converts the current field record to relative date for example; few seconds ago.
+	  - **to_currency('en_US')**: converts the current field record to currency.
+	  - **ucwords**: Converts the **first lette**r of every word in the current **field** **record** or data to uppercase.
+	  - **ucfirst**: Converts the first letter of every string in the current field record to uppercase.
+	  - **strtolower**: Converts the current field record to lowercase.
+	  - **strtoupper**: Converts the current field record to uppercase.
+	  - **str_truncate(50,'...')**: Intercepts the length of data in the current field record, to the specified value.
+	  - **approximate(2)**: Approximates data in the current field record according to specified value.
+	  - **to_number**: formats the data in a current field record.
+	  - **number_to_words('en')**: formats a given data in a current field record to words.
+* **FieldFooterExpressión**: Through this property, we can define an expression that is displayed at the end of each page and at the foot of the selected field. You can select a sample expression from the drop-down list or create your own.
+* **ColumnWidth**: Allows you to set the width of the field column.
+* **Display Label**: Allows you to set the Title of the Field column.
