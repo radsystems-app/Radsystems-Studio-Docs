@@ -2,7 +2,7 @@
 title: Custom Endpoints
 description: 
 published: true
-date: 2021-08-02T08:26:42.654Z
+date: 2021-08-02T08:28:31.363Z
 tags: endpoint, routes, api
 editor: markdown
 dateCreated: 2021-08-02T05:07:16.716Z
@@ -70,7 +70,7 @@ def __ACTION_NAME__():
         return abort(500, str(ex))
 ```
 ## ASPRad Vue
-```asp
+```js
 [HttpGet]
         __allowanonymous
         public ActionResult __ACTION_NAME__(){
