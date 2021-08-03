@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-03T01:09:32.762Z
+date: 2021-08-03T01:14:35.227Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -20,9 +20,9 @@ There are two ways to enter Page Design.
 ## Pages, Components and Widgets
 ![pages-components-widgets-window.png](/pages/pages-components-widgets-window.png)
 ### Layout Components
-![row-container-window.png](/pages/row-container-window.png)
 ### <span style="color:blue">*Row* Component</span>
 The Row component is a wrapper for columns. In Bootstrap, the "row" class is used mainly to hold columns in it. Use it to create horizontal groups of columns.
+![row-container-window.png](/pages/row-container-window.png)
 ### Component Properties 
 #### 01 Page Design
 - **SectionHeaderTitle**: Allows you to set the title for a row.
@@ -31,4 +31,6 @@ The Row component is a wrapper for columns. In Bootstrap, the "row" class is use
 - **ContainerClass**: You can specify a bootstrap class to set the background, text color, padding, and so on. or create and specify your own class for the container.
 - **BorderSeparator**: Indicates whether a border will be present in the page view.
 - **RowClass**: You can specify a bootstrap class to set the background, text color, padding, and so on. or create and specify your own class for the Row.
-
+### <span style="color:blue">*Column* Component</span>
+The Column component in Bootstrap is a class that indicate the number of columns you'd like to use out of the possible 12 per row.
+![column-component-window.png](/pages/column-component-window.png)
