@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-03T00:51:44.628Z
+date: 2021-08-03T01:09:32.762Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -21,4 +21,14 @@ There are two ways to enter Page Design.
 ![pages-components-widgets-window.png](/pages/pages-components-widgets-window.png)
 ### Layout Components
 ![row-container-window.png](/pages/row-container-window.png)
+### <span style="color:blue">*Row* Component</span>
+The Row component is a wrapper for columns. In Bootstrap, the "row" class is used mainly to hold columns in it. Use it to create horizontal groups of columns.
+### Component Properties 
+#### 01 Page Design
+- **SectionHeaderTitle**: Allows you to set the title for a row.
+- **WrapInCard**: In Bootstrap, a card is a flexible and extensible content container. The option allows you to specify if the row will be contained in the Card element.
+- **SectionClass**: You can specify a bootstrap class to set the background, text color, padding, and so on. or create and specify your own class for the section.
+- **ContainerClass**: You can specify a bootstrap class to set the background, text color, padding, and so on. or create and specify your own class for the container.
+- **BorderSeparator**: Indicates whether a border will be present in the page view.
+- **RowClass**: You can specify a bootstrap class to set the background, text color, padding, and so on. or create and specify your own class for the Row.
 
