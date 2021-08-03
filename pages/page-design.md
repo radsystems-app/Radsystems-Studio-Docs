@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-03T01:52:34.020Z
+date: 2021-08-03T02:03:26.446Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -53,9 +53,22 @@ The Column component in Bootstrap is a class that indicate the number of columns
 * **Subtitle Class**: You can set the text style, color, margins and padding for the subtitle.
 ### <span style="color:blue">*Accordion* Component</span>
 The  accordion component organizes content within collapsable items. Allows to display only one collapsed item at a time.
+![accordion-component-window.png](/pages/accordion-component-window.png)
 ### Component Properties
 #### Various
 * **Header Title**: You can set the title of the accordion tab.
 * **Header Subtittle**: You can set the subtitle of the accordion tab.
 * **Header icon**: You can set an icon for the header title.
 * **OpenByDefault**: When set to True, displays the content of a particular Accordion tab when the page loads.
+### <span style="color:blue">*TabPage* Component</span>
+In the same way as the accordion component, the tab component allows you to organize content in windows.
+![tabpage-component-window.png](/pages/tabpage-component-window.png)
+### Component Properties
+#### 01 - Page Design
+* **NavType**: You can set if the nav-bar view will be by pills or tabs.
+* **TabOrientation**: Can be set to Horizontal, Horizontal End, Horizontal Center, Vertical or Vertical End.
+* **Justified**: Allows to establish if the titles of the tabs will be justified in the view of the page.
+* **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
+* **WrapperClass**: You can set the text style, color, margins and padding for the Tab component in a practical interface with the CSS Class Builder.
+
+#### Various
