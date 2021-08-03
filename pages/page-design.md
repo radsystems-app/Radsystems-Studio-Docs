@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-03T01:26:44.659Z
+date: 2021-08-03T01:43:18.624Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -40,3 +40,13 @@ The Column component in Bootstrap is a class that indicate the number of columns
 * **ResetGrids**: You can specify if grids are reset in bootstrap.
 * **Has Form**: Allows you to specify if the page contains a form to enable the submit button.
 * **Form Submit Button Text**: If the page contains a form, you can set the name of the submit button.
+### View Components
+### <span style="color:blue">*Header* Component</span>
+![header-component-window.png](/pages/header-component-window.png)
+### Component Properties
+#### Various
+* **Text**: You can specify the title that appears in the page view.
+* **Subtittle**: You can set the subtitle that appears in the page view.
+* **Tag**: There are six types of titles in bootstrap. Here you can select one of them.
+* **HeaderClass**: You can set the text style, color, margins and padding for the title component in a practical interface with the CSS Class Builder.
+![css-class-builder-window.png](/pages/css-class-builder-window.png)
