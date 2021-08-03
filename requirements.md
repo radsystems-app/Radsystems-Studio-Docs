@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2021-08-03T04:50:43.451Z
+date: 2021-08-03T06:34:58.281Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -61,7 +61,7 @@ https://www.microsoft.com/en-us/software-download/
 - NodeJS - https://nodejs.org/en/download/
 - VueJS - `npm install -g @vue/cli`
 - Quasar - `npm install -g @quasar/cli`
-- .Net SDK - http://aka.ms/dotnet-download
+- .Net SDK 3.1 - https://dotnet.microsoft.com/download/dotnet/3.1
 
 # Others
 > You can use <a href="https://www.apachefriends.org/download.html">XAMPP</a> or <a href="https://laragon.org/download/index.html">Laragon</a>. It has already PHP, MySQL/MariaDB and PhpMyAdmin to manage databases.
