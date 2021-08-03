@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-03T01:14:35.227Z
+date: 2021-08-03T01:26:44.659Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -32,5 +32,11 @@ The Row component is a wrapper for columns. In Bootstrap, the "row" class is use
 - **BorderSeparator**: Indicates whether a border will be present in the page view.
 - **RowClass**: You can specify a bootstrap class to set the background, text color, padding, and so on. or create and specify your own class for the Row.
 ### <span style="color:blue">*Column* Component</span>
-The Column component in Bootstrap is a class that indicate the number of columns you'd like to use out of the possible 12 per row.
+The Column component in Bootstrap is a class that indicate the number of columns you'd like to use out of the possible 12 per row. In the Grid System of Bootstrap, content must be placed within columns and only columns may be immediate children of rows
 ![column-component-window.png](/pages/column-component-window.png)
+### Component Properties
+#### Various
+* **ColumnWidthClass**: You can use Bootstrap classes to set the width of a 12 possible columns per row.
+* **ResetGrids**: You can specify if grids are reset in bootstrap.
+* **Has Form**: Allows you to specify if the page contains a form to enable the submit button.
+* **Form Submit Button Text**: If the page contains a form, you can set the name of the submit button.
