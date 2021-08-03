@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2021-08-03T06:34:58.281Z
+date: 2021-08-03T07:33:59.603Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -86,6 +86,7 @@ Some installations need to manually encode their parent folder in Windows Enviro
 - `D:\xampp2\php` (*This is the path of my php.exe*)
 - `%localappdata%\Programs\Python\Python39` (*This is the path of my python.exe*)
 - `%localappdata%\Programs\Python\Python39\Scripts` (*This is the path of my pip.exe*)
+- `%programfiles%\dotnet` (*This is the path of my dotnet.ext*)
 10. Click Okay
 11. Restart your computer if needed.
 ![3.png](/requirements/3.png)
