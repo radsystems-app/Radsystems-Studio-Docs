@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-03T01:43:18.624Z
+date: 2021-08-03T01:44:27.301Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -48,5 +48,6 @@ The Column component in Bootstrap is a class that indicate the number of columns
 * **Text**: You can specify the title that appears in the page view.
 * **Subtittle**: You can set the subtitle that appears in the page view.
 * **Tag**: There are six types of titles in bootstrap. Here you can select one of them.
-* **HeaderClass**: You can set the text style, color, margins and padding for the title component in a practical interface with the CSS Class Builder.
+* **Header Class**: You can set the text style, color, margins and padding for the title component in a practical interface with the CSS Class Builder.
 ![css-class-builder-window.png](/pages/css-class-builder-window.png)
+* **Subtitle Class**: You can set the text style, color, margins and padding for the subtitle.
