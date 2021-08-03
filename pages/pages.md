@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-02T23:40:01.852Z
+date: 2021-08-03T00:12:50.669Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
@@ -150,6 +150,10 @@ At the bottom we have access to each of the properties that can be applied to a 
 * **Mail Action Settings**: Here you can set if an email will be sent every time the record is deleted as well as the title, subject and origin of the mail.
 > Make sure you have set the default mail configuration in the Project setting option.
 {.is-warning}
+
+> For an explanation on the "Edit Code" column, please follow this [link](/en/custom-code/pages)
+{.is-info}
+
 ## Table Pages Fields Section
 ### List-Page Fields
 
