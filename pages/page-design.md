@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-03T02:03:26.446Z
+date: 2021-08-03T02:04:39.142Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -70,5 +70,5 @@ In the same way as the accordion component, the tab component allows you to orga
 * **Justified**: Allows to establish if the titles of the tabs will be justified in the view of the page.
 * **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
 * **WrapperClass**: You can set the text style, color, margins and padding for the Tab component in a practical interface with the CSS Class Builder.
-
 #### Various
+* **PlaceInCard**: You can set if the component will be contained in the Card element.
