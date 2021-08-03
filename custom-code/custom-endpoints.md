@@ -2,7 +2,7 @@
 title: Custom Endpoints
 description: 
 published: true
-date: 2021-08-02T08:28:31.363Z
+date: 2021-08-03T01:54:02.566Z
 tags: endpoint, routes, api
 editor: markdown
 dateCreated: 2021-08-02T05:07:16.716Z
@@ -69,6 +69,10 @@ def __ACTION_NAME__():
     except Exception as ex:
         return abort(500, str(ex))
 ```
+> **Note: PyRad Vue**
+Pay attention with your code indention and it is case-sensitive.
+{.is-warning}
+
 ## ASPRad Vue
 ```js
 [HttpGet]
@@ -121,6 +125,14 @@ http://localhost:8060/api/orders/testing
 > 8050 - FrontEnd
 {.is-warning}
 
+## PyRad Vue
+For **PyRad Vue** you can directly navigate to this link below:
+http://localhost:8060/api/orders/testing
+
+> **NOTE: DEFAULT PORT**
+> 8060 - Backend API
+> 8050 - FrontEnd
+{.is-warning}
 
 The output should be like this below:
 
