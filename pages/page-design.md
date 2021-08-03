@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-03T01:44:27.301Z
+date: 2021-08-03T01:52:34.020Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -51,3 +51,11 @@ The Column component in Bootstrap is a class that indicate the number of columns
 * **Header Class**: You can set the text style, color, margins and padding for the title component in a practical interface with the CSS Class Builder.
 ![css-class-builder-window.png](/pages/css-class-builder-window.png)
 * **Subtitle Class**: You can set the text style, color, margins and padding for the subtitle.
+### <span style="color:blue">*Accordion* Component</span>
+The  accordion component organizes content within collapsable items. Allows to display only one collapsed item at a time.
+### Component Properties
+#### Various
+* **Header Title**: You can set the title of the accordion tab.
+* **Header Subtittle**: You can set the subtitle of the accordion tab.
+* **Header icon**: You can set an icon for the header title.
+* **OpenByDefault**: When set to True, displays the content of a particular Accordion tab when the page loads.
