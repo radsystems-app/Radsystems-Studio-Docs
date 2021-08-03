@@ -2,7 +2,7 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-03T00:13:35.004Z
+date: 2021-08-03T00:14:30.773Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
