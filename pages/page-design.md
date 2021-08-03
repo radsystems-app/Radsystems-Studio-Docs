@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-03T00:50:52.804Z
+date: 2021-08-03T00:51:44.628Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -17,8 +17,8 @@ There are two ways to enter Page Design.
 2. Click on the direct access button to the design of the selected page.
 ![page-design-window.png](/pages/page-design-window.png)
 
-There are three sections in the design view:
 ## Pages, Components and Widgets
 ![pages-components-widgets-window.png](/pages/pages-components-widgets-window.png)
 ### Layout Components
 ![row-container-window.png](/pages/row-container-window.png)
+
