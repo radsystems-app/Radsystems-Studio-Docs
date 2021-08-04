@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-04T00:27:29.385Z
+date: 2021-08-04T00:36:07.533Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -89,3 +89,11 @@ The form wizard is a user interface that allows users to achieve a goal through 
 * **ThemeColor**: You can choose the color for the theme that will be applied to the form wizard.
 * **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
 * **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
+### Step Component Properties
+* **Header Title**: You can set the title for the step tab of the form wizard.
+* **Header Subtittle**: You can set the subtitle for the step tab of the form wizard.
+* **FormPage**: You can specify which page will be included in the step view.
+* **Header icon**: You can set an icon for the step tab.
+* **PreviousButtonText**: Here you can set a caption for the button that the component includes to access the previous step.
+* **NextButtonText**: Here you can set a caption for the button that the component includes to access the next step.
+
