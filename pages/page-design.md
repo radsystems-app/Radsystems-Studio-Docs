@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-04T02:27:41.217Z
+date: 2021-08-04T19:20:37.205Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -135,4 +135,13 @@ Add a search field on the page, allowing the user to make certain queries.
 * **Use Dropdown Search**: Enables drop-down search in the component.
 * **Placeholder**: Allows you to set the text label placed inside a field of a form.
 * **Search List Template**: Through the code editor, it allows to customize the ajax search format.
+### <span style="color:blue">*Range Field* Component</span>
+Add a Slide Range control to the page to filter the data by the range established in it.
+![rangefield-component-window.png](/pages/rangefield-component-window.png)
+### Component Properties
+#### 01 - Data Bind
+* **FieldName**: The property allows select the field by which the data will be filtered.
+* **DoubleRange**: Set a double slider for the component to filter data through two variables.
+* **SingleRangeComparator**: You can define comparison operator for data filtering.
+
 
