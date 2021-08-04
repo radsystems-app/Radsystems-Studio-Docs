@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-04T00:50:20.929Z
+date: 2021-08-04T00:52:05.686Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -104,6 +104,7 @@ The modal component provides an interface to create dialogs, including forms.
 * **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
 * **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
 ### Modal Contents Component Properties
+![modalcontents-component-window.png](/pages/modalcontents-component-window.png)
 #### Various
 * **Button Text**: You can set the caption for the modal button.
 * **ButtonClass**: Bootstrap provides several classes for styling buttons. Here you can specify one of these or your own.
