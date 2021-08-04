@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-04T00:36:07.533Z
+date: 2021-08-04T00:50:20.929Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -96,4 +96,18 @@ The form wizard is a user interface that allows users to achieve a goal through 
 * **Header icon**: You can set an icon for the step tab.
 * **PreviousButtonText**: Here you can set a caption for the button that the component includes to access the previous step.
 * **NextButtonText**: Here you can set a caption for the button that the component includes to access the next step.
-
+### <span style="color:blue">*Modal* Component</span>
+The modal component provides an interface to create dialogs, including forms.
+![modal-component-window.png](/pages/modal-component-window.png)
+### Component Properties
+#### 01 - Page Design
+* **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
+* **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
+### Modal Contents Component Properties
+#### Various
+* **Button Text**: You can set the caption for the modal button.
+* **ButtonClass**: Bootstrap provides several classes for styling buttons. Here you can specify one of these or your own.
+* **Header Title**: You can set the title for the modal window.
+* **Header icon**: You can set an icon for the title of the modal window.
+* **ModalSize**: You can specify a bootstrap class to set the size of the modal window.
+* **Show Backdrop**: By default the system dulls the background to give emphasis to the modal window, you can deactivate the option through this property.
