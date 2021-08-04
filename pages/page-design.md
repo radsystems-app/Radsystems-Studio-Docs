@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-04T02:24:55.132Z
+date: 2021-08-04T02:27:01.058Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -40,7 +40,7 @@ The Column component in Bootstrap is a class that indicate the number of columns
 * **ResetGrids**: You can specify if grids are reset in bootstrap.
 * **Has Form**: Allows you to specify if the page contains a form to enable the submit button.
 * **Form Submit Button Text**: If the page contains a form, you can set the name of the submit button.
-### View Components
+## View Components
 ### <span style="color:blue">*Header* Component</span>
 ![header-component-window.png](/pages/header-component-window.png)
 ### Component Properties
@@ -112,7 +112,7 @@ The modal component provides an interface to create dialogs, including forms.
 * **Header icon**: You can set an icon for the title of the modal window.
 * **ModalSize**: You can specify a bootstrap class to set the size of the modal window.
 * **Show Backdrop**: By default the system dulls the background to give emphasis to the modal window, you can deactivate the option through this property.
-### Page Filter Components
+## Page Filter Components
 ### <span style="color:blue">*Button* Component</span>
 Buttons allow to link to a specific page.
 ![button-component-window.png](/pages/button-component-window.png)
