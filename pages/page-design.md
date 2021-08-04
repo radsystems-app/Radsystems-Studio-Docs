@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-04T00:52:05.686Z
+date: 2021-08-04T02:12:46.321Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -112,3 +112,27 @@ The modal component provides an interface to create dialogs, including forms.
 * **Header icon**: You can set an icon for the title of the modal window.
 * **ModalSize**: You can specify a bootstrap class to set the size of the modal window.
 * **Show Backdrop**: By default the system dulls the background to give emphasis to the modal window, you can deactivate the option through this property.
+### Page Filter Components
+### <span style="color:blue">*Button* Component</span>
+Buttons allow to link to a specific page.
+![button-component-window.png](/pages/button-component-window.png)
+### Component Properties
+#### 01 - Page Design
+* **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
+* **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
+#### 01 - Page Records
+* **PageLink**: You can set the page to link.
+#### 02 - Design
+* **Text**: You can set the caption for the button.
+* **icon**: You can set an icon for the caption of the button.
+* **ButtonClass**: Bootstrap provides several classes for styling buttons. Here you can specify one of these or your own.
+* **OpenAsLink**: You can specify whether the button will redirect to the page in the navigation way, as an ajax modal window or inserted in the same view.
+### <span style="color:blue">*Search Field* Component</span>
+Add a search field on the page, allowing the user to make certain queries.
+![search-component-window.png](/pages/search-component-window.png)
+### Component Properties
+#### 01 - Search
+* **Use Dropdown Search**: Enables drop-down search in the component.
+* **Placeholder**: Allows you to set the text label placed inside a field of a form.
+* **Search List Template**: Through the code editor, it allows to customize the ajax search format.
+
