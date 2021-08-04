@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-04T00:11:24.621Z
+date: 2021-08-04T00:27:29.385Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -78,3 +78,14 @@ In the same way as the accordion component, the tab component allows you to orga
 * **Header Title**: You can set the title of the tab.
 * **FormPage**: You can specify which page will be included in the tab view.
 * **Header icon**: You can set an icon for the tab.
+### <span style="color:blue">*FormWizard* Component</span>
+The form wizard is a user interface that allows users to achieve a goal through a series of steps.
+![formwizard-component-window.png](/pages/formwizard-component-window.png)
+### Component Properties
+#### 01 - Page Design
+* **WizardStyle**: There are three predefined styles that can be used as a choice: dots, circles and arrows.
+* **Header Title**: You can set the title for the form wizard.
+* **Header Subtittle**: You can set the subtitle for the form wizard.
+* **ThemeColor**: You can choose the color for the theme that will be applied to the form wizard.
+* **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
+* **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
