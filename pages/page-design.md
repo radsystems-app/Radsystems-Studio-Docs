@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-03T02:04:39.142Z
+date: 2021-08-04T00:11:24.621Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -72,3 +72,9 @@ In the same way as the accordion component, the tab component allows you to orga
 * **WrapperClass**: You can set the text style, color, margins and padding for the Tab component in a practical interface with the CSS Class Builder.
 #### Various
 * **PlaceInCard**: You can set if the component will be contained in the Card element.
+### Tab Component Properties
+![tab-component-window.png](/pages/tab-component-window.png)
+#### Various
+* **Header Title**: You can set the title of the tab.
+* **FormPage**: You can specify which page will be included in the tab view.
+* **Header icon**: You can set an icon for the tab.
