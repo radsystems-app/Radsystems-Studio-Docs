@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-05T01:32:22.854Z
+date: 2021-08-05T01:41:02.840Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -154,5 +154,9 @@ Add a Slide Range control to the page to filter the data by the range establishe
 #### 01 - Page Design
 * **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
 * **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
+#### 02 - Component Design
+* **Header Title**: You can set the title for the componente container.
+* **ShowLabel**: If set to TRUE, the component's numerical scale will be visible.
+* **FilterTag**: Let you display the title for the currente filter result.
 
 
