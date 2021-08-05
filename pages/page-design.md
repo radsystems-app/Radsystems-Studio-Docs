@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-05T00:46:23.939Z
+date: 2021-08-05T01:31:32.023Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -143,5 +143,13 @@ Add a Slide Range control to the page to filter the data by the range establishe
 * **FieldName**: The property allows select the field by which the data will be filtered.
 * **DoubleRange**: Set a double slider for the component to filter data through two variables.
 * **SingleRangeComparator**: You can define comparison operator for data filtering.
+* **MinValue**: Allows you to set the minimum value of the range component.
+* **MaxValue**: Allows you to set the maximum value of the range component.
+* **LabelPrefix**: It allows to indicate a prefix for the label of the minimum and maximum values.
+* **LabelSuffix**: It allows to indicate a suffix for the label of the minimum and maximum values.
+* **ValueStep**: Allows to set the jump between values of the established range.
+* **MaxInterval**: Allows you to set the maximum range that is allowed between the minimum and maximum values.
+* **MinInterval**: Allows you to set the minimum range that is allowed between the minimum and maximum values.
+* **DefaultSelected**: Allows you to set the default value of the sliding indicator.
 
 
