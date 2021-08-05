@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-05T01:55:35.624Z
+date: 2021-08-05T02:01:56.673Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -171,4 +171,9 @@ Adds a date picker to the view to filter data by the selected date.
 * **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
 * **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
 #### 02 - Component Design
-* **Placeholder**: 
+* **Placeholder**: Allows you to set the text label placed inside the component.
+* **Label**: You can set the title for the componente container.
+* **InLineDisplay**: Allows to make the date picker permanently visible.
+* **FilterTag**: Let you display the title for the currente filter result.
+* **FilterTagDateForm**: Let you set the date picker format.
+
