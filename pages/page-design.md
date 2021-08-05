@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-05T01:31:32.023Z
+date: 2021-08-05T01:32:22.854Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -151,5 +151,8 @@ Add a Slide Range control to the page to filter the data by the range establishe
 * **MaxInterval**: Allows you to set the maximum range that is allowed between the minimum and maximum values.
 * **MinInterval**: Allows you to set the minimum range that is allowed between the minimum and maximum values.
 * **DefaultSelected**: Allows you to set the default value of the sliding indicator.
+#### 01 - Page Design
+* **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
+* **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
 
 
