@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-05T01:41:02.840Z
+date: 2021-08-05T01:55:35.624Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -158,5 +158,17 @@ Add a Slide Range control to the page to filter the data by the range establishe
 * **Header Title**: You can set the title for the componente container.
 * **ShowLabel**: If set to TRUE, the component's numerical scale will be visible.
 * **FilterTag**: Let you display the title for the currente filter result.
-
-
+### <span style="color:blue">*Date Field* Component</span>
+Adds a date picker to the view to filter data by the selected date.
+![datefield-component-window.png](/pages/datefield-component-window.png)
+### Component Properties
+#### 01 - Data Bind
+* **FieldName**: Allows select the field by which the data will be filtered.
+* **DateMode**: You can set a single date picker, multiple date picker or a range date picker.
+* **Comparator**: You can define comparison operator for data filtering.
+* **Selection Type**: You can select if the format for the date picker will include time or one of them.
+#### 01 - Page Design
+* **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
+* **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
+#### 02 - Component Design
+* **Placeholder**: 
