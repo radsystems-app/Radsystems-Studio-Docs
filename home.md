@@ -2,7 +2,7 @@
 title: Welcome to Radsystems Studio
 description: Official Documentation
 published: true
-date: 2021-08-13T13:26:47.442Z
+date: 2021-08-13T13:37:46.818Z
 tags: welcome, intro
 editor: markdown
 dateCreated: 2021-06-15T00:15:59.107Z
@@ -36,31 +36,49 @@ With few clicks, you get your robust application running
 # Main Feature
 Robust Modules and Advance Web Components
 - **Intuitive Design**
-RadSystems is the easiest low code platform on the planet. Anyone with an idea can build apps
+RadSystems is the easiest low code platform on the planet. Anyone with an idea can build apps.
 
 - **Platforms**
+Publish your apps in different platforms (Web, PWA, Mobile, Desktop) from a single code base.
 
+- **Different Frameworks**
+Publish your application in the language and framework of your choice (PHP Laravel, ASP.Net Core, Node ExpressJs, Python Flask, Still counting...)
 
+- **Page Filters**
+Add filter components to your pages to page filter recordsAdd filter components to your pages to page filter records.
 
+- **Responsive Apps**
+Retina display and highly mobile responsive apps.
 
-# Links
+- **Generate Api**
+Generate REST Api and Documentations with click of a button.
 
-Wiki.js is quick and easy to install. You should be up and running in no time.
-- [Requirements *Server and database prerequisites.*](/install/requirements)
-{.links-list}
+- **Well Documented Code**
+Uses industrial standards in code documentations and comments
 
-# Links with Icon
-Modules greatly expand the capabilities of your wiki.
-- [:lock: Authentication *Configure how users can login and register to your wiki.*](/auth)
-- [:speech_balloon: Comments *Add discussion capabilities to your wiki.*](/comments)
-- [:pencil: Editors *Manage the various editors used to create content.*](/editors)
-- [:clipboard: Logging *Forward logs to external logging services.*](/logging)
-- [:hourglass: Rendering *Configure how content is parsed and rendered into its readable form.*](/rendering)
-- [:floppy_disk: Storage *Backup or sync the content of your wiki with external storage services.*](/storage)
-- [:globe_with_meridians: Translations *Contribute a new language or test new keys*](/translations)
-- [:question: Ask a Question *We're here to help.*](https://forum.radsystems.io/c/questions/8)
-- [:fire: Report a Bug *Help us squash bugs.*](https://forum.radsystems.io/c/bugs/6)
-- [:bulb: Suggest a New Feature *We need your ideas!*](https://forum.radsystems.io/c/suggestions/5)
-{.links-list}
+- **Security**
+Security issues have been taken care of: (SQL Injection, CSRF, XSS, ...)
 
-![Radsystems Studio](/logo/logo_secondary_colored.png){.align-abstopright}
+- **Query Builder**
+Easily generate complex sql query with an advance query designer.
+
+- **Reporting**
+Integrate Reports into your application and generate reports in different format (Excel, PDF, CSV, Print).
+
+- **CRUD Operation**
+Perform basic CRUD Operations on database records.
+
+- **Code Editing**
+Edit page and components manually if you wish to do so.
+
+- **Localization**
+Build apps with multi-language support
+
+- **Different Layouts**
+Provide different layout for your apps
+
+- **Themes**
+Give your apps different look and feel with theme builder.
+
+# Awards
+![screenshot_2021-08-13_233634.png](/screenshot_2021-08-13_233634.png)
