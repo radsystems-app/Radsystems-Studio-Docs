@@ -2,7 +2,7 @@
 title: Welcome to Radsystems Studio
 description: Official Documentation
 published: true
-date: 2021-08-13T12:07:11.519Z
+date: 2021-08-13T13:26:47.442Z
 tags: welcome, intro
 editor: markdown
 dateCreated: 2021-06-15T00:15:59.107Z
@@ -27,6 +27,19 @@ dateCreated: 2021-06-15T00:15:59.107Z
 - Convert your Data and Business Models into Applications.
 - Trusted by Organizations and Professionals around the world.
 - Great tool for Beginners and Professionals.
+
+# How does it work?
+With few clicks, you get your robust application running
+
+![1.png](/1.png)
+
+# Main Feature
+Robust Modules and Advance Web Components
+- **Intuitive Design**
+RadSystems is the easiest low code platform on the planet. Anyone with an idea can build apps
+
+- **Platforms**
+
 
 
 
