@@ -2,33 +2,33 @@
 title: Welcome to Radsystems Studio
 description: Official Documentation
 published: true
-date: 2021-06-24T22:21:38.006Z
+date: 2021-08-13T12:07:11.519Z
 tags: welcome, intro
 editor: markdown
 dateCreated: 2021-06-15T00:15:59.107Z
 ---
 
-# This is a sample page
+# RadSystems Studio
 
-**Radsystems Studio (RS)** This page contains markdown demos for you to use in the documentation creation process. All documentation must be created with markdown editor.
+**Radsystems Studio (RS)** is a Rapid Application Development Environment, Generating Complete Applications Faster. **RadSystems** provides countless design options and components for generating modern applications and API with Little or No Coding.
 
-# Sample image
+# User Friendly IDE
 ![sample-pages-overview.png](/sample-pages-overview.png)
 
-# Amazing Features
-> Sample success!
-{.is-success} 
+# What is RadSystems?
+**RadSystems** is a robust integrated development environment tool and Low-code software that facilitates rapid application development process by reducing redundant coding time, **RadSystems** applications can be generated through **ASP.NET Core, Python Flask, PHP Laravel, Node Express.js, Vue.js,** and **Quasar Framework**. You can also build traditional or classic web applications using Bootstrap, jQuery, and Laravel. By setting up modules and plug-ins, adding custom CSS and JavaScript codes, and creating REST APIs, users can enhance and extend the capabilities of your applications.
 
-> Sample danger!
-{.is-danger}
+# Why RadSystems?
+**RadSystems** can be used to create **CRUD (Create, Read, Update and Delete)** applications. **RadSystems studio** allows users to add custom code to manage business rules and validation. RadSystems lets you create forms, queries in PHP, ranging from simple forms to forms having a high level of complex elements to manipulate data from databases (MySQL, PostgreSQL, SQLite, MS SQLServer).
 
-> Sample warning!
-{.is-warning}
+# Business Solutions
+**Radsystems** helps you achieve business targets and personal objectives
+- Develop Business Solutions Faster!
+- Convert your Data and Business Models into Applications.
+- Trusted by Organizations and Professionals around the world.
+- Great tool for Beginners and Professionals.
 
-> Sample info!
-{.is-info}
 
-> Sample quote!
 
 # Links
 
