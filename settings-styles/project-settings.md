@@ -2,7 +2,7 @@
 title: Project Settings
 description: 
 published: true
-date: 2021-08-13T11:39:16.953Z
+date: 2021-08-13T11:42:14.389Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T11:39:16.953Z
@@ -10,6 +10,8 @@ dateCreated: 2021-08-13T11:39:16.953Z
 
 # Project Settings
 Project Setting is the configuration solely for the current project opened. Meaning whatever you set up here will not affect the other projects.
+![1.png](/settings-style/1.png)
+
 ## Publish Project Files
 - This is a list of files to be generated during publish.
 > It will overwrite those existing files inside the project folder.
