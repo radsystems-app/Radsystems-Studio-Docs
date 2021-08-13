@@ -2,7 +2,7 @@
 title: Global Settings
 description: 
 published: true
-date: 2021-08-13T11:20:20.796Z
+date: 2021-08-13T11:40:42.801Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T11:11:33.690Z
@@ -15,23 +15,23 @@ Global Settings are the default behavior of your project upon creation.
 {.is-info}
 
 
-## New Project 
+## New Project
 - **ProjectDefaultDirectory** - Default projects directory location.
 - **DefaulIconPack** - Select which icon should be set as default.
 
-## Default Database Settings 
+## Default Database Settings
 - **Database** - Type of database (MYSQL/MARIADB, MSSQL, SQLITE, POSTGRES)
 - **DatabaseHost** - Location of the database (e.g localhost).
 - **DatabaseUsername** - Username of the Database.
 - **DatabasePassword** - Password of the database.
 - **DatabasePost** - The default database port.
 
-## General Settings 
+## General Settings
 - **HideLaravelDatabaseTables** - (True / False)
 - **PHPDateDefaultTimeZone** - Set project timezone.
 - **EnableAppDebug** (True / False)
 - **ShowPagePreloader** (True / False)
-- **DefaultAppTheme** 
+- **DefaultAppTheme**
 - **FormFieldValidationRequired** (True / False)
 - **ListPageFieldsSortable** (True / False)
 - **IncludePageFooter** (True / False)
@@ -50,9 +50,9 @@ Position of the Popover container. This only applies when `UsePopoverDisplay=Tru
 - **ShowButtons** (Left, Bottom, False)
 Inline edit action button position, if set to false, buttons will not be display and will requires user to press the 'Enter Key' before value is saved.
 - **ActivateMode** (dblClick, Click, MouseEnter, Button)
-Event use to activate inline edit on a page field.
+Event used to activate inline edit on a page field.
 - **EditFieldControlType**
-Control type use for the edit. All configuration applied to a field in the Edit Page will also bbe applied to inline edit field.
+Control type used for the edit. All configuration applied to a field in the Edit Page will also be applied to the inline edit field.
 
 ## Page Report
 This will define if the page can be exported to the following format:
@@ -77,7 +77,7 @@ This will define if the page can be exported to the following format:
 - **ListCheckBox** (True / False)
 - **EmptyRecordMessage** - Message to be displayed when there is no result record found.
 - **PromptMessageBeforeDelete** - Confirmation message.
-- **PromptDisplayStyle** - Define the way the message is display.
+- **PromptDisplayStyle** - Define the way the message is displayed.
 - **MessageAfterDelete**
 - **MessageAfterUpdate**
 - **MessageAfterAdd**
