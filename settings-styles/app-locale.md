@@ -2,7 +2,7 @@
 title: App Locale
 description: Multi Language Configuration
 published: true
-date: 2021-08-13T22:40:04.850Z
+date: 2021-08-13T23:39:41.543Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T22:38:36.327Z
@@ -34,3 +34,25 @@ Note: You cannot switch back to Single Language once setup and vise versa
 
 ![single_language.png](/settings-style/single_language.png)
 ![multi_language.png](/settings-style/multi_language.png)
+
+## Custom Language
+We can also add custom language to our project
+1. Go to your frontend folder
+`frontend -> src -> i18n`
+
+2. Create a folder for your custom language.
+> Note: You can copy the existing one and modify its content.
+{.is-info}
+
+![custom.png](/settings-style/custom.png)
+
+
+3. Once you create your new custom language folder/file, you need to inform your project by adding the import command to index.js in `frontend -> src -> i18n\index.js`
+> Note: In this example I use NodeRad.
+{.is-info}
+
+
+4. Edit `frontend -> src -> menu.js`. In the locales object add `"custom": "Custom"`.
+![custom2.png](/settings-style/custom2.png)
+
+5. Re-publish your project, and you should see the custom languages added in the dropdown.
