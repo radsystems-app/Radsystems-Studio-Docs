@@ -2,7 +2,7 @@
 title: App Locale
 description: Multi Language Configuration
 published: true
-date: 2021-08-13T22:38:36.327Z
+date: 2021-08-13T22:40:04.850Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T22:38:36.327Z
@@ -31,3 +31,6 @@ Note: You cannot switch back to Single Language once setup and vise versa
 - German
 - Spanish
 - Arabic
+
+![single_language.png](/settings-style/single_language.png)
+![multi_language.png](/settings-style/multi_language.png)
