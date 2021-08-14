@@ -2,7 +2,7 @@
 title: App Locale
 description: Multi Language Configuration
 published: true
-date: 2021-08-13T23:41:06.380Z
+date: 2021-08-14T00:21:14.789Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T22:38:36.327Z
@@ -51,7 +51,7 @@ We can also add custom language to our project
 
 ![custom.png](/settings-style/custom.png)
 
-4. Edit `frontend -> src -> menu.js`. In the locales object add `"custom": "Custom"`.
+4. Edit `frontend -> src -> menus.js`. In the locales object add `"custom": "Custom"`.
 ![custom2.png](/settings-style/custom2.png)
 
 5. Re-publish your project, and you should see the custom languages added in the dropdown.
