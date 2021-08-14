@@ -2,7 +2,7 @@
 title: App Locale
 description: Multi Language Configuration
 published: true
-date: 2021-08-14T00:21:14.789Z
+date: 2021-08-14T19:54:37.097Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T22:38:36.327Z
@@ -20,6 +20,17 @@ Note: You cannot switch back to Single Language once setup and vise versa
 
 ## Set Default Language
 `Project Settings -> Misc -> Default Locale`
+
+## Modify Languages and Phrases
+1. In **RS IDE**, click **App Locale.**
+2. Enable or Disable languages by ticking the checkboxes.
+3. If you want to edit the translation, 
+   - Click the specific languages
+   - Click the Key
+   - Modify the Phrase
+   - Click Okay button
+
+![applocal.png](/settings-style/applocal.png)
 
 ## Built-In Supported Languages
 - French
