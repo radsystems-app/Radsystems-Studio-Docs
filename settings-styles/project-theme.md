@@ -2,7 +2,7 @@
 title: App Theme
 description: 
 published: true
-date: 2021-08-16T04:11:25.565Z
+date: 2021-08-16T04:18:45.476Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-16T04:11:25.565Z
@@ -48,3 +48,7 @@ Unlike in PHPClassic. PhpRad, NodeRad, ASPRad and PyRad uses Quasar framework an
 9. Button
 
 10. Card
+
+
+> Note: You can check online for color generator, e.g https://htmlcolorcodes.com/
+{.is-info}
