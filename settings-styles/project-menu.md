@@ -2,7 +2,7 @@
 title: Project Menu
 description: Setup Menu Items
 published: true
-date: 2021-08-18T03:37:45.230Z
+date: 2021-08-18T03:38:53.912Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-18T03:37:45.230Z
@@ -10,7 +10,7 @@ dateCreated: 2021-08-18T03:37:45.230Z
 
 # Project Menu
 By default RadSystems will automatically generates menus for you base on the database table but you can still modify the functionality of each menu item.
-
+![standard_menu.png](/settings-style/project menu/standard_menu.png)
 ## Php Classic
 Menu Style - Select menu style
 - Fixed Collapse Sidebar
