@@ -2,7 +2,7 @@
 title: Project Menu
 description: Setup Menu Items
 published: true
-date: 2021-08-18T03:57:30.304Z
+date: 2021-08-18T03:58:30.145Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-18T03:37:45.230Z
@@ -53,10 +53,10 @@ Below configuration is for PHP Classic only.
 - **Path** - This the of the target file
 - **Display Label** - This the label appear in the browser
 - **Target** - How the target appear once clicked
-- _self
-- _parent
-- _blank
-- _top
+   - _self
+   - _parent
+   - _blank
+   - _top
 - **Menu Icon** - You can pick icons for the navigation itemArrow Up
 
 
@@ -80,10 +80,10 @@ Below configuration menu is for PhpRad Vue, NodeRad, PyRad and ASP Rad.
 - **Path** - This the of the target file
 - **Display Label** - This the label appear in the browser
 - **Target** - How the target appear once clicked
-- _self
-- _parent
-- _blank
-- _top
+   - _self
+   - _parent
+   - _blank
+   - _top
 - **Menu Icon** - You can pick icons for the navigation item
 ![icons.png](/settings-style/projectmenu/icons.png)
 - **Icon Color** - Select Icon color
