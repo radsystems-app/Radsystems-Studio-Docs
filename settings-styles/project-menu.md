@@ -2,7 +2,7 @@
 title: Project Menu
 description: Setup Menu Items
 published: true
-date: 2021-08-18T03:44:51.770Z
+date: 2021-08-18T03:55:53.891Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-18T03:37:45.230Z
@@ -10,9 +10,18 @@ dateCreated: 2021-08-18T03:37:45.230Z
 
 # Project Menu
 By default RadSystems will automatically generates menus for you base on the database table but you can still modify the functionality of each menu item.
-![standard_menu.png](/settings-style/projectmenu/standard_menu.png)
+
+![standardmenu.png](/settings-style/projectmenu/standardmenu.png)
+
+> Note: PHP Classic has different menu configuration compare to the other products.
+{.is-info}
+
+
 ## Php Classic
-Menu Style - Select menu style
+Below configuration is for PHP Classic only.
+![classic1.png](/settings-style/projectmenu/classic1.png)
+
+**Menu Style** - Select menu style
 - Fixed Collapse Sidebar
 - Fixed Partial Collapse Sidebar
 - Fixed Top
@@ -21,73 +30,60 @@ Menu Style - Select menu style
 - Static Partial Collapse Sidebar
 - Static Top
 
-Sidebar Class - This is a bootstrap classes
+**Sidebar Class** - This is a bootstrap classes
 - navbar-dark bg-dark
 - navbar-dark bg-primary
 - navbar-light bg-light
 - navbar-light bg-primary
 - navbar-light bg-white shadow-lg
 
-Accordion Behavior - Tick the checkbox to enable the accordion in navigation links
+**Accordion Behavior** - Tick the checkbox to enable the accordion in navigation links
 
-Arrow Up
-Arrow Down
-Add New
-Remove
+**Arrow Up** - To move the selected menu upward
+**Arrow Down** - To move the selected menu downward
+**Add New** - To create new menu item
+**Remove** - Remove menu item
 
-Navbar Position
+**Navbar Position**
 - Navbar Side Left
 - Navbar Top Left
 - Navbar Top Right
 
-Menu Properties
-- Path - This the of the target file
-- Display Label - This the label appear in the browser
-- Target
+**Menu Properties**
+- **Path** - This the of the target file
+- **Display Label** - This the label appear in the browser
+- **Target** - How the target appear once clicked
 	- _self
 	- _parent
 	- _blank
 	- _top
-- Menu Icon - You can pick icons for the navigation itemArrow Up
-Arrow Down
-Add New
-Remove
+- **Menu Icon** - You can pick icons for the navigation itemArrow Up
 
-Navbar Position
-- Navbar Side Left
-- Navbar Top Left
-- Navbar Top Right
-
-Menu Properties
-- Path - This the of the target file
-- Display Label - This the label appear in the browser
-- Target
-	- _self
-	- _parent
-	- _blank
-	- _top
-- Menu Icon - You can pick icons for the navigation item
 
 ## PhpRad Vue, NodeRad, PyRad, ASPRad
-Menu Style - Select menu style
+Below configuration menu is for PhpRad Vue, NodeRad, PyRad and ASP Rad.
+![quasar1.png](/settings-style/projectmenu/quasar1.png)
 
-Arrow Up
-Arrow Down
-Add New
-Remove
+**Menu Style** - Select menu style
 
-Navbar Position
+**Arrow Up** - To move the selected menu upward
+**Arrow Down** - To move the selected menu downward
+**Add New** - To create new menu item
+**Remove** - Remove menu item
+
+**Navbar Position**
 - Navbar Side Left
 - Navbar Top Left
 - Navbar Top Right
 
-Menu Properties
-- Path - This the of the target file
-- Display Label - This the label appear in the browser
-- Target
+**Menu Properties**
+- **Path** - This the of the target file
+- **Display Label** - This the label appear in the browser
+- **Target** - How the target appear once clicked
 	- _self
 	- _parent
 	- _blank
 	- _top
-- Menu Icon - You can pick icons for the navigation item
-- Icon Color - Select Icon color
+- **Menu Icon** - You can pick icons for the navigation item
+![icons.png](/settings-style/projectmenu/icons.png)
+- **Icon Color** - Select Icon color
