@@ -2,18 +2,18 @@
 title: Project Menu
 description: Setup Menu Items
 published: true
-date: 2021-08-18T03:55:53.891Z
+date: 2021-08-18T03:57:30.304Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-18T03:37:45.230Z
 ---
 
 # Project Menu
-By default RadSystems will automatically generates menus for you base on the database table but you can still modify the functionality of each menu item.
+By default RadSystems will automatically generate menus for you based on the database table but you can still modify the functionality of each menu item.
 
 ![standardmenu.png](/settings-style/projectmenu/standardmenu.png)
 
-> Note: PHP Classic has different menu configuration compare to the other products.
+> Note: PHP Classic has a different menu configuration compared to the other products.
 {.is-info}
 
 
@@ -53,10 +53,10 @@ Below configuration is for PHP Classic only.
 - **Path** - This the of the target file
 - **Display Label** - This the label appear in the browser
 - **Target** - How the target appear once clicked
-	- _self
-	- _parent
-	- _blank
-	- _top
+- _self
+- _parent
+- _blank
+- _top
 - **Menu Icon** - You can pick icons for the navigation itemArrow Up
 
 
@@ -80,10 +80,10 @@ Below configuration menu is for PhpRad Vue, NodeRad, PyRad and ASP Rad.
 - **Path** - This the of the target file
 - **Display Label** - This the label appear in the browser
 - **Target** - How the target appear once clicked
-	- _self
-	- _parent
-	- _blank
-	- _top
+- _self
+- _parent
+- _blank
+- _top
 - **Menu Icon** - You can pick icons for the navigation item
 ![icons.png](/settings-style/projectmenu/icons.png)
 - **Icon Color** - Select Icon color
