@@ -2,7 +2,7 @@
 title: App Icon
 description: 
 published: true
-date: 2021-08-14T20:21:49.943Z
+date: 2021-08-18T00:18:03.525Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T20:21:49.943Z
@@ -12,6 +12,8 @@ dateCreated: 2021-08-14T20:21:49.943Z
 **App Icon** feature is where you can set and modify the Logo and Icons for your project.
 - App Logo
 - Favicon
+
+![1.png](/settings-style/appicon/1.png)
 
 If you are using the Products with Quasar Framework i.e **PhpVue, NodRad, ASPRad, PyRad**, it is recommended to install **Icongenie** as it will generate icons for different screen sizes and platforms automatically.
 
