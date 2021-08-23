@@ -2,7 +2,7 @@
 title: Publish
 description: Guide on publishing the application
 published: true
-date: 2021-08-23T07:04:28.993Z
+date: 2021-08-23T07:10:19.433Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-23T04:21:42.799Z
@@ -13,8 +13,8 @@ Guide for publishing the project.
 
 ## Publish To Production
 Tick the publish to production checkbox to generate the final build of your project.
-- It will create dist folder under frontend.
-- inside dist folder is another folder that holds what platform it is intended for.
+- It will create `dist` folder under `frontend`.
+- Inside dist folder is another folder that holds what platform it is intended for.
 
 >  Tip: 
 Built files are meant to be served over an HTTP server
