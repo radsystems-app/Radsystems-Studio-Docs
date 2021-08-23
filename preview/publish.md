@@ -2,7 +2,7 @@
 title: Publish
 description: Guide on publishing the application
 published: true
-date: 2021-08-23T07:10:19.433Z
+date: 2021-08-23T08:52:14.427Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-23T04:21:42.799Z
@@ -12,7 +12,7 @@ dateCreated: 2021-08-23T04:21:42.799Z
 Guide for publishing the project.
 
 ## Publish To Production
-Tick the publish to production checkbox to generate the final build of your project.
+Tick the publish to production checkbox to generate the **final build** of your project.
 - It will create `dist` folder under `frontend`.
 - Inside dist folder is another folder that holds what platform it is intended for.
 
@@ -33,6 +33,12 @@ Also, an npm script (usually named "start") can be added for deployment environm
 
 
 ## App Platform
+You can choose different platform below without touching the source code:
+- SPA(default)
+- PWA
+- Desktop App (via Electron)
+- Mobile App (via PhoneGap)
+
 ## Api Platform
 ## Preview in Browser
 ## Re-Publish Project
