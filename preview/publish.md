@@ -2,7 +2,7 @@
 title: Publish
 description: Guide on publishing the application
 published: true
-date: 2021-08-23T06:50:39.076Z
+date: 2021-08-23T07:04:22.293Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-23T04:21:42.799Z
@@ -19,11 +19,15 @@ Tick the publish to production checkbox to generate the final build of your proj
 >  Tip: 
 Built files are meant to be served over an HTTP server
 Opening index.html over file:// won't work
-{.is-info}
+{.is-warning}
 
 > Tip: 
-You can use `"$ quasar serve"` command to create a web server, both for testing or production. Type `"$ quasar serve -h"` for parameters. Also, an npm script (usually named "start") can be added for deployment environments. If you're using Vue Router "history" mode, don't forget to specify the `"--history"` parameter: `"$ quasar serve --history"`
-{.is-info}
+You can use `"$ quasar serve"` command to create a web server, both for testing or production. Type `"$ quasar serve -h"` for parameters. 
+{.is-primary}
+> Tip: 
+Also, an npm script (usually named "start") can be added for deployment environments. If you're using Vue Router "history" mode, don't forget to specify the `"--history"` parameter: 
+`"$ quasar serve --history"`
+{.is-primary}
 
 
 
