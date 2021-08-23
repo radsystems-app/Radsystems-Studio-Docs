@@ -2,7 +2,7 @@
 title: Publish
 description: Guide on publishing the application
 published: true
-date: 2021-08-23T07:04:22.293Z
+date: 2021-08-23T07:04:28.993Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-23T04:21:42.799Z
@@ -24,6 +24,7 @@ Opening index.html over file:// won't work
 > Tip: 
 You can use `"$ quasar serve"` command to create a web server, both for testing or production. Type `"$ quasar serve -h"` for parameters. 
 {.is-primary}
+
 > Tip: 
 Also, an npm script (usually named "start") can be added for deployment environments. If you're using Vue Router "history" mode, don't forget to specify the `"--history"` parameter: 
 `"$ quasar serve --history"`
