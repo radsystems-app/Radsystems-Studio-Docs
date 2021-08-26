@@ -2,7 +2,7 @@
 title: Publish
 description: Guide on publishing the application
 published: true
-date: 2021-08-23T08:52:14.427Z
+date: 2021-08-26T07:17:53.177Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-23T04:21:42.799Z
@@ -10,6 +10,12 @@ dateCreated: 2021-08-23T04:21:42.799Z
 
 # Publish Project
 Guide for publishing the project.
+![2.png](/publish/2.png)
+
+## Test Project
+To test the project you created, you can just click directly the Publish tab and it will automatically generate necessary files to run your program.
+
+![1.png](/publish/1.png)
 
 ## Publish To Production
 Tick the publish to production checkbox to generate the **final build** of your project.
