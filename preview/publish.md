@@ -2,7 +2,7 @@
 title: Publish
 description: Guide on publishing the application
 published: true
-date: 2021-08-26T07:24:59.432Z
+date: 2021-08-26T07:36:49.870Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-23T04:21:42.799Z
@@ -47,6 +47,15 @@ You can choose different platform below without touching the source code:
 - Mobile App (via PhoneGap)
 
 ## Api Platform
+Api Platform is a backend of your project that responsible in communicating with your database.
+
+A good thing in RadSystems is same with the App Platform you can just switch which Api platform you want to create on the fly.
+
+- PHP-Laravel
+- Python Flask
+- NodeJS Express
+- ASP.Net Core
+
 ## Preview in Browser
 ## Re-Publish Project
 ## Browse Project Folder
