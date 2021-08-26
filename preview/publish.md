@@ -2,7 +2,7 @@
 title: Publish
 description: Guide on publishing the application
 published: true
-date: 2021-08-26T07:38:20.184Z
+date: 2021-08-26T07:59:25.675Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-23T04:21:42.799Z
@@ -17,6 +17,9 @@ To test the project you created, you can just click directly the Publish tab and
 
 ![1.png](/publish/1.png)
 ![3.png](/publish/3.png)
+
+It will generate two folders in your root project directory i.e backend and frontend.
+![pub_api4.png](/publish/pub_api4.png)
 
 ## Publish To Production
 Tick the publish to production checkbox to generate the **final build** of your project.
@@ -57,6 +60,27 @@ A good thing in RadSystems is same with the App Platform you can just switch whi
 - ASP.Net Core
 
 ## Preview in Browser
+Clicking this button will open your app in a browser.
+![prev.png](/publish/prev.png)
+
 ## Re-Publish Project
+Clicking this button will re-publish your project.
+![repub.png](/publish/repub.png)
+
 ## Browse Project Folder
+Clicking this button will open your project directory.
+![brow.png](/publish/brow.png)
+
 ## Publish API Documentation
+![brow.png](/publish/pub_api.png)
+This will generate a documentation of your API.
+
+![pub_api2.png](/publish/pub_api2.png)
+
+API documentation will be save at the root directory of your project.
+![pub_api3.png](/publish/pub_api3.png)
+
+Clicking **Open in browser** to view the documentation.
+
+![pub_api4.png](/publish/pub_api5.png)
+
