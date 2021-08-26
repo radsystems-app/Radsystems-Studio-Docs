@@ -2,7 +2,7 @@
 title: Publish
 description: Guide on publishing the application
 published: true
-date: 2021-08-26T07:36:49.870Z
+date: 2021-08-26T07:38:20.184Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-23T04:21:42.799Z
@@ -44,7 +44,7 @@ You can choose different platform below without touching the source code:
 - SPA(default)
 - PWA
 - Desktop App (via Electron)
-- Mobile App (via PhoneGap)
+- Mobile App (via Cordova)
 
 ## Api Platform
 Api Platform is a backend of your project that responsible in communicating with your database.
