@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2021-08-03T07:33:59.603Z
+date: 2021-09-08T19:30:47.282Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -26,6 +26,8 @@ https://www.microsoft.com/en-us/software-download/
 - PHP - https://www.php.net/downloads.php
 - Composer - https://getcomposer.org/download/
 
+> Please note that when you want to download **NodeJS**, it should be the **Long Term Support(LTS)** version.
+{.is-info}
 
 ## PHPRad Vue
 - NodeJS - https://nodejs.org/en/download/
