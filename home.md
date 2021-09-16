@@ -2,7 +2,7 @@
 title: Welcome to Radsystems Studio
 description: Official Documentation
 published: true
-date: 2021-09-16T20:03:53.681Z
+date: 2021-09-16T20:12:22.671Z
 tags: welcome, intro
 editor: markdown
 dateCreated: 2021-06-15T00:15:59.107Z
@@ -15,7 +15,7 @@ dateCreated: 2021-06-15T00:15:59.107Z
 # Framework Docs
 Here are the list of framework documentation used in Radsystems, to help you understand functions you can use in your project and how to use them.
 1. [Laravel](https://laravel.com/docs/7.x/): This is a backend framework used in **Radsystems Studio** **PHPRad Classic** and **PHPRad Vue** as the server language. This documentation link will help you understand how the framework works.
-2. [Quasar](https://quasar.dev/): This is a frontend framework used in **Radsystems Studio Pyrad**, **NodeRad**, **ASPRad**, and **PHPRad Vue** as the **frontend(i.e code executed on the browser)** language. It was made with [Vue.js](https://vuejs.org/v2/guide/).
+2. [Quasar](https://quasar.dev/): This is a frontend framework used in **Radsystems Studio Pyrad**, **NodeRad**, **ASPRad**, and **PHPRad Vue** as the **frontend(i.e code executed on the browser)** language. It was made with [Vue.js](https://vuejs.org/v2/guide/){:target="_blank"}.
 3. [Node Express JS](https://expressjs.com/en/4x/api.html): This is a backend framework used in **Radsystems Studio** **NodeRad** as the server language. This documentation link will help you understand how the framework works.
 4. [Python Flask](https://flask.palletsprojects.com/en/2.0.x/#api-reference): This is a backend framework used in **Radsystems Studio** **Pyrad** as the server language. This documentation link will help you understand how the framework works.
 5. [ASP.Net](https://docs.microsoft.com/en-us/aspnet/overview): This is a backend framework used in **Radsystems Studio** **ASPRad** as the server language. This documentation link will help you understand how the framework works.
