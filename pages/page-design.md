@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-09-19T01:00:32.075Z
+date: 2021-09-19T01:01:50.363Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -242,7 +242,7 @@ Add a drop-down button to the view to filter the data by the selected item.
 * **Button Icon**: Lets you set the icon for the drop-down button.
 * **Button Classes**: Bootstrap provides several classes for styling buttons. Here you can specify one of these or your own.
 #### Varios
-* **Menu Icon**: Lets you set a icon form the drop-down menu.
+* **Menu Icon**: Lets you set a icon for the drop-down menu.
 ### <span style="color:blue">*Nav Filter Menu* Component</span>
 Add a filter menu to the view to filter the data by the selected item.
 ![navfiltermenu-component-window.png](/pages/navfiltermenu-component-window.png)
@@ -266,4 +266,4 @@ Add a filter menu to the view to filter the data by the selected item.
 * **Vertical**: Lets you set the orientation of the component.
 * **NavType**: Here you can set the style of the navigation items (nav-pills or nav-tabs)
 #### Varios
-* **Menu Icon**: Lets you set an icon form the component.
+* **Menu Icon**: Lets you set an icon for the component.
