@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-09-19T01:22:52.001Z
+date: 2021-09-19T01:45:02.238Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -284,5 +284,26 @@ Add a Static Menu component to the view.
 * **Fixed**: Allows you to set the fixed property to the layout of the view.
 * **Mobile Responsibe: Allows you to set if the component will be mobile responsive.
 * **Vertical**: Lets you set the orientation of the component.
-
-
+### <span style="color:blue">*Dynamic Page Menu* Component</span>
+Add a Dynamic Menu component to the view.
+![dynamicpagemenu-component-window.png](/pages/dynamicpagemenu-component-window.png)
+### Component Properties
+#### 01 - Page Design
+* **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
+* **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
+#### Varios
+* **TableName**: Allows you to select the table to which the filters will be applied through the component.
+* **MenuValue**: Once the table is selected, it allows selecting the field from which the dynamic menu items will be extracted.
+* **MenuLabel**: Once the table is selected, it allows selecting the field from which the dynamic menu labels will be extracted,
+* **MenuOrderBy**: Allows you to select the field by which the component performs the sort.
+* **MenuOrderType**: You can select an ASC order or a DESC order.
+* **Menu Sql Text**: Opens a modal window where you can establish the source of the data for the component. You can access to a Quick List, define the values, select values through a table or or build your own sql statement.
+* **FilterPage**: Allows you to select the page that will be filtered through the component.
+* **FilterTag**: Lets you display the title for the currente filter result.
+* **MenuHeaderTittle**: Allows you to set the title of the Dynamic Menu component.
+* **Reset Item Text**: Allows you to set the text of the item to reset the component.
+* **Style**: You can choose between pills or a tabular menu.
+* **Fixed**: Allows you to set the fixed property to the layout of the view.
+* **Mobile Responsibe: Allows you to set if the component will be mobile responsive.
+* **Vertical**: Lets you set the orientation of the component.
+* **Icon**: Lets you set an icon for the component.
