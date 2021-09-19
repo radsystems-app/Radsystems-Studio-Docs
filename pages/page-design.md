@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-09-19T01:01:50.363Z
+date: 2021-09-19T01:10:29.894Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -267,3 +267,10 @@ Add a filter menu to the view to filter the data by the selected item.
 * **NavType**: Here you can set the style of the navigation items (nav-pills or nav-tabs)
 #### Varios
 * **Menu Icon**: Lets you set an icon for the component.
+## Menu Components
+### <span style="color:blue">*Static Menu* Component</span>
+Add a Static Menu component to the view.
+![staticmenu-component-window.png](/pages/staticmenu-component-window.png)
+### Component Properties
+#### 01 - Page Design
+
