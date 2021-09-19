@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-08-05T02:19:34.747Z
+date: 2021-09-19T00:13:56.158Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -192,3 +192,18 @@ Adds a list of checkboxes to the view to filter the data by the selected checkbo
 * **CheckboxClass**: You can customize the view of the checkboxes through the styles offered by the classes in bootstrap.
 #### Various
 * **FilterTag**: Let you display the title for the currente filter result.
+### <span style="color:blue">*Single Choice List Field* Component</span>
+Adds a list of radio buttons to the view to filter the data by the selected checkbox.
+![single_choicelist-field-window.png](/pages/single_choicelist-field-window.png)
+### Component Properties
+#### 01 - Data Bind
+* **FieldName**: The property allows select the field by which the data will be filtered.
+* **DataSource**: Opens a modal window where you can establish the source of the data for filtering. You can access to a Quick List, define the values, select values through a table or or build your own sql statement.
+![setfielddatasource-window.png](/pages/setfielddatasource-window.png)
+#### 01 - Page Design
+* **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
+* **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
+#### 02 - Component Design
+* **Label**: You can set the title for the componente container.
+* **FilterTag**: Let you display the title for the currente filter result.
+* **CheckboxClass**: You can customize the view of the radiobuttons (Custom Vertical, Custom Inline, Normal Inline, Normal Vertical, Button Group, Single Switch).
