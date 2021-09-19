@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-09-19T00:22:01.556Z
+date: 2021-09-19T00:38:27.060Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -207,7 +207,7 @@ Adds a list of radio buttons to the view to filter the data by the selected chec
 * **Label**: You can set the title for the componente container.
 * **FilterTag**: Let you display the title for the currente filter result.
 * **CheckboxClass**: You can customize the view of the radiobuttons (Custom Vertical, Custom Inline, Normal Inline, Normal Vertical, Button Group, Single Switch).
-### <span style="color:blue">*Single Choice List Field* Component</span>
+### <span style="color:blue">*Select Field* Component</span>
 Add a drop-down list to the view to filter the data by the selected item.
 ![select_field-component-window.png](/pages/select_field-component-window.png)
 ### Component Properties
@@ -222,3 +222,24 @@ Add a drop-down list to the view to filter the data by the selected item.
 * **Label**: You can set the title for the componente container.
 * **Placeholder**: Here you can enter the placeholder to guide the selection in the component.
 * **FilterTag**: Let you display the title for the currente filter result.
+### <span style="color:blue">*DropDown Menu* Component</span>
+Add a drop-down button to the view to filter the data by the selected item.
+![dropdownmenu-component-window.png](/pages/dropdownmenu-component-window.png)
+### Component Properties
+#### 01 - Data Bind
+* **FieldName**: The property allows select the field by which the data will be filtered.
+* **Menu Data Source**: Opens a modal window where you can establish the source of the data for filtering. You can access to a Quick List, define the values, select values through a table or or build your own sql statement.
+![setfielddatasource-window.png](/pages/setfielddatasource-window.png)
+* **SingleFilter**: Allows to enable the selection of one or several items at the same time.
+* **Comparator**; You can define comparison operator for data filtering.
+* **FilterTag**: Let you display the title for the currente filter result.
+#### 01 - Page Design
+* **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
+* **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
+#### 02 - Component Design
+* **Reset Item Text**: Allows you to set the text of the item to reset the component.
+* **Button Text**: Let you set the text of the drop-down button.
+* **Button Icon**: Let you set the icon for the drop-down button.
+* **Button Classes**: Bootstrap provides several classes for styling buttons. Here you can specify one of these or your own.
+#### Varios
+* **Menu Icon**: Let you set a icon form the drop-down menu.
