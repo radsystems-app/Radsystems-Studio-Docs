@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-09-19T01:10:29.894Z
+date: 2021-09-19T01:22:52.001Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -273,4 +273,16 @@ Add a Static Menu component to the view.
 ![staticmenu-component-window.png](/pages/staticmenu-component-window.png)
 ### Component Properties
 #### 01 - Page Design
+* **WrapInCard**: The option allows you to specify if the component will be contained in the Card element.
+* **WrapperClass**: You can set the text style, color, margins and padding for the component through the CSS Class Builder.
+#### Varios
+* **MenuItems**: Opens a modal window where you can manage the menu items.
+![staticmenuitems-editor-window.png](/pages/staticmenuitems-editor-window.png)
+* **Reset Item Text**: Allows you to set the text of the item to reset the component.
+* **Menu Header Tittle**: Allows you to set the title of the Static Menu component.
+* **Style**: You can choose between pills or a tabular menu.
+* **Fixed**: Allows you to set the fixed property to the layout of the view.
+* **Mobile Responsibe: Allows you to set if the component will be mobile responsive.
+* **Vertical**: Lets you set the orientation of the component.
+
 
