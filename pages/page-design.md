@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-09-19T01:45:02.238Z
+date: 2021-10-26T18:46:56.463Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -305,5 +305,5 @@ Add a Dynamic Menu component to the view.
 * **Style**: You can choose between pills or a tabular menu.
 * **Fixed**: Allows you to set the fixed property to the layout of the view.
 * **Mobile Responsibe: Allows you to set if the component will be mobile responsive.
-* **Vertical**: Lets you set the orientation of the component.
+* **Vertical**: Let you set the orientation of the component.
 * **Icon**: Lets you set an icon for the component.
