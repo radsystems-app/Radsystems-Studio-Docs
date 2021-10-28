@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-10-28T02:41:08.480Z
+date: 2021-10-28T02:46:19.369Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -315,3 +315,8 @@ For each table in your DB, RadSystems automatically creates a component that cou
 * **Tittle**: You can set the title of the component.
 * **Sql**: Opens a modal window where you can build your own sql statement.
 * **ValuePrefix**: You can set a prefix for the displayed data.
+* **ValueSuffix**: You can set a suffix for the displayed data.
+* **AnimateClass**: Allows you to choose between the different types of animation for the presentation of the data.
+* **Link**: Allows you to specify the view to which it will be redirected when clicking on the component.
+* **Short Description**: Allows you to enter a small description for the presentation of the data
+
