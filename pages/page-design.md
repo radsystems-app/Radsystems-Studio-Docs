@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-10-28T02:36:33.649Z
+date: 2021-10-28T02:37:28.364Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -312,4 +312,4 @@ For each table in your DB, RadSystems automatically creates a component that cou
 ![record-count-component-window.png](/pages/record-count-component-window.png)
 ### Component Properties
 #### 01 - Component
-* **Tittle**: 
+* **Tittle**: You can set the title of the component.
