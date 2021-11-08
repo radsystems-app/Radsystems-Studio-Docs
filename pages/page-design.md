@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-08T00:45:52.024Z
+date: 2021-11-08T00:49:50.331Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -309,7 +309,7 @@ Add a Dynamic Menu component to the view.
 * **Icon**: Lets you set an icon for the component.
 ## Record Count Component
 For each table in your DB, RadSystems automatically creates a component that counts the number of records in the table. In a table with customers, for example, by default it will generate an sql query to display the number of customers registered in the table.
-![record-count-component-window.png](/pages/record-count-component-window.png)
+![record_count-component-window.png](/pages/record_count-component-window.png)
 ### Component Properties
 #### 01 - Component
 * **Tittle**: You can set the title of the component.
