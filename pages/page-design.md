@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-08T00:49:50.331Z
+date: 2021-11-08T00:52:50.719Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -330,7 +330,8 @@ For each table in your DB, RadSystems automatically creates a component that cou
 * **Icon**: Displays a modal window in which you can choose the control icon.
 * **BackColor**: You can set the background color of the control.
 * **OutLine**: You can set whether the control will have the button style only with borders. 
-
+## Charts Component
+### <span style="color:blue">*Static Menu* Component</span>
 
 
 
