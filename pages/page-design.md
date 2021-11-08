@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-10-28T02:46:19.369Z
+date: 2021-11-08T00:45:52.024Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -319,4 +319,18 @@ For each table in your DB, RadSystems automatically creates a component that cou
 * **AnimateClass**: Allows you to choose between the different types of animation for the presentation of the data.
 * **Link**: Allows you to specify the view to which it will be redirected when clicking on the component.
 * **Short Description**: Allows you to enter a small description for the presentation of the data
+#### 01 - Progress
+* **ProgressBar**: Indicates to the system if a lower progress bar is displayed on the control.
+* **ProgressMaxValue**: You can define the maximum value that the progress bar will take as a parameter.
+* **ProgressBarClass**: You can define the style of the progress bar between the options offered by bootstrap.
+#### 01 - Button Design
+* **DisplayClass**: The control is shown by default as a button to which you can add one of the bootstrap styles or one defined by yourself.
+* **IconOnRight**: You can change the place of the icon from right to left.
+* **IconOpacity**: You can set the transparency level of the control as a button.
+* **Icon**: Displays a modal window in which you can choose the control icon.
+* **BackColor**: You can set the background color of the control.
+* **OutLine**: You can set whether the control will have the button style only with borders. 
+
+
+
 
