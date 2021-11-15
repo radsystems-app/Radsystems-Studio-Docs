@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-15T16:32:10.373Z
+date: 2021-11-15T16:37:11.732Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -332,7 +332,7 @@ For each table in your DB, RadSystems automatically creates a component that cou
 * **OutLine**: You can set whether the control will have the button style only with borders. 
 ## Charts Component
 Offers different types of graphs to visualize data.
-### <span style="color:blue">*Bar Chart* Component</span>
+### <span style="color:blue">*Bar Chart, Pie Chart, Line Chart, PolarArea Chart, Doughnut Chart, Radar Chart* Components</span>
 ![bar_chart-component-window.png](/pages/bar_chart-component-window.png)
 ### Component Properties
 #### 02 - Data Source
