@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-15T16:37:11.732Z
+date: 2021-11-15T16:38:04.960Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -335,6 +335,8 @@ Offers different types of graphs to visualize data.
 ### <span style="color:blue">*Bar Chart, Pie Chart, Line Chart, PolarArea Chart, Doughnut Chart, Radar Chart* Components</span>
 ![bar_chart-component-window.png](/pages/bar_chart-component-window.png)
 ### Component Properties
+#### 01 - Chart
+* **Type**: You can select the type of the chart.
 #### 02 - Data Source
 * **DataSource**: Opens a modal window where you can where you can build your own sql query or through the query designer.
 * **LabelField**: Allows you to select the field to be used as the title of the chart.
