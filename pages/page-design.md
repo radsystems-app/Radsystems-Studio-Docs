@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-15T16:22:14.609Z
+date: 2021-11-15T16:32:10.373Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -344,5 +344,12 @@ Offers different types of graphs to visualize data.
   * **BackgroundColor**: You can choose the background style from the drop-down list.
   * **BorderColor**: You can choose the border color style from the drop-down list.
   * **BorderWidth**: You can set the border width.
-  #### 02 - Chart Design
-  
+ #### 03 - Chart Design
+ * **Tittle**: Here you can set the Tittle of the Chart.
+ * **Description**: Allows you to set a description of the Chart.
+ * **YAxisLabel**: Here you can set the Chart's Y-Axis label.
+ * **XAxisLabel**: Here you can set the Chart's X-Axis label.
+ * **LineTension**: It allows to smooth the lines of the graph especially to attenuate the peaks of the curves.
+ * **SteppedLine**: Let you set if the Chart's lines will be broken or not.
+ #### 09 - Component Card
+ * **WrapperClass**: You can stylize the graphic through the CSS Class Builder.
