@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-15T16:38:04.960Z
+date: 2021-11-15T16:46:31.603Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -355,3 +355,6 @@ Offers different types of graphs to visualize data.
  * **SteppedLine**: Let you set if the Chart's lines will be broken or not.
  #### 09 - Component Card
  * **WrapperClass**: You can stylize the graphic through the CSS Class Builder.
+## Sub Pages Component
+It allows inserting a view of the tables that exist in the project either to list records or view, add, edit a record.
+![subpage-component-window.png](/pages/subpage-component-window.png)
