@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-08T00:56:15.432Z
+date: 2021-11-15T16:22:14.609Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -334,5 +334,15 @@ For each table in your DB, RadSystems automatically creates a component that cou
 Offers different types of graphs to visualize data.
 ### <span style="color:blue">*Bar Chart* Component</span>
 ![bar_chart-component-window.png](/pages/bar_chart-component-window.png)
-
-
+### Component Properties
+#### 02 - Data Source
+* **DataSource**: Opens a modal window where you can where you can build your own sql query or through the query designer.
+* **LabelField**: Allows you to select the field to be used as the title of the chart.
+* **DataSet**: You can set up to 3 Datasets.
+	* **ValueField**: Let you set the field as the value of the dataset.
+  * **Tittle**: Let you set the tittle of the dataset.
+  * **BackgroundColor**: You can choose the background style from the drop-down list.
+  * **BorderColor**: You can choose the border color style from the drop-down list.
+  * **BorderWidth**: You can set the border width.
+  #### 02 - Chart Design
+  
