@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-15T16:46:31.603Z
+date: 2021-11-15T16:53:36.788Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -358,3 +358,11 @@ Offers different types of graphs to visualize data.
 ## Sub Pages Component
 It allows inserting a view of the tables that exist in the project either to list records or view, add, edit a record.
 ![subpage-component-window.png](/pages/subpage-component-window.png)
+### Component Properties
+In a List SubPage, you can:
+#### 01 - Page Records
+* **FilterBy**: You can select the field by which the filter will be performed in the list of records.
+* **FilterValue**: You can set the value by which the records will be filtered.
+* **OrderBy**: Allows you to set the field by which the list will be sorted.
+* **OrderType**: It allows to establish if the applied order will be ascending or descending.
+* **PageLimit**: Allows you to set the limit of records displayed in the view.
