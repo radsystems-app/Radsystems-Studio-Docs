@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-15T21:26:36.057Z
+date: 2021-11-15T21:31:11.661Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -374,6 +374,14 @@ In a List SubPage, you can:
 * **WrapperClass**: You can stylize the graphic through the CSS Class Builder.
 #### Varios
 * **ResetGrids**: Breaks records down into rows to fit pages.
+In a View SubPage, you can:
+#### 01 - Page Records
+* **RecordId**: Allows you to indicate the record to view. By default, the primary field is selected through the variable $rec_id.
+#### 09 - Component Card
+* **WrapperClass**: You can stylize the graphic through the CSS Class Builder.
+#### Varios
+* **ShowHeader**: You can set to TRUE to show the component title or to FALSE to hide it.
+* **ShowFooter**: Allows you to set whether or not the footer is displayed.
 
 
 
