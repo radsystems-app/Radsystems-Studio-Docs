@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-15T21:59:07.917Z
+date: 2021-11-15T22:01:09.834Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -389,5 +389,12 @@ In a Add SubPage, you can:
 * **Field Value Data Bind**: In the pop-up window, you can set the Bind Value to link data.
 #### 09 - Component Card
 * **WrapperClass**: You can stylize the graphic through the CSS Class Builder.
-
-
+In a Edit SubPage, you can:
+#### 01 - Page Records
+* **RecordId**: Allows you to set the record to Edit.
+#### 02 - DataBind
+* **Field Value Data Bind**: In the pop-up window, you can set the Bind Value to link data.
+#### 02 - Page Design
+* **ShowHeader**: You can set to TRUE to show the component title or to FALSE to hide it.
+#### 09 - Component Card
+* **WrapperClass**: You can stylize the graphic through the CSS Class Builder.
