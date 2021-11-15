@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-15T16:53:36.788Z
+date: 2021-11-15T21:26:36.057Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -366,3 +366,15 @@ In a List SubPage, you can:
 * **OrderBy**: Allows you to set the field by which the list will be sorted.
 * **OrderType**: It allows to establish if the applied order will be ascending or descending.
 * **PageLimit**: Allows you to set the limit of records displayed in the view.
+#### 02 - Page Design
+* **ShowHeader**: You can set to TRUE to show the component title or to FALSE to hide it.
+* **ShowFooter**: Allows you to set whether or not the footer is displayed.
+* **Pagination**: Allows you to set whether or not the pagination is displayed.
+#### 09 - Component Card
+* **WrapperClass**: You can stylize the graphic through the CSS Class Builder.
+#### Varios
+* **ResetGrids**: Breaks records down into rows to fit pages.
+
+
+
+
