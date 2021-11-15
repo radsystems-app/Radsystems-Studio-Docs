@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-15T21:31:11.661Z
+date: 2021-11-15T21:59:07.917Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -382,7 +382,12 @@ In a View SubPage, you can:
 #### Varios
 * **ShowHeader**: You can set to TRUE to show the component title or to FALSE to hide it.
 * **ShowFooter**: Allows you to set whether or not the footer is displayed.
-
-
+In a Add SubPage, you can:
+#### 01 - Page Design
+* **ShowHeader**: You can set to TRUE to show the component title or to FALSE to hide it.
+#### 02 - Data Bind
+* **Field Value Data Bind**: In the pop-up window, you can set the Bind Value to link data.
+#### 09 - Component Card
+* **WrapperClass**: You can stylize the graphic through the CSS Class Builder.
 
 
