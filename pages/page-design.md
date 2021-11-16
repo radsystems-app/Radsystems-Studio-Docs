@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-15T22:01:09.834Z
+date: 2021-11-16T00:28:45.080Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -113,6 +113,28 @@ The modal component provides an interface to create dialogs, including forms.
 * **ModalSize**: You can specify a bootstrap class to set the size of the modal window.
 * **Show Backdrop**: By default the system dulls the background to give emphasis to the modal window, you can deactivate the option through this property.
 ## Page Filter Components
+### <span style="color:blue">*Calender* Component</span>
+Allows you to insert a Calendar.
+![calender-component-window.png](/pages/calender-component-window.png)
+### Component Properties
+#### 02 - Data Bind
+* **EventTittleFild**: Allows you to select the field that contains the title of the component.
+* **EventStartDateFild**: Allows you to select the field that will be used as the Start Date for the calendar.
+* **EventEndDateFild**: Allows you to select the field that will be used as the End Date for the calendar.
+* **EventStartTimeFild**: Allows you to select the field that will be used as the Start Time of the calendar.
+* **EventEndTimeFild**: Allows you to select the field that will be used as the End Time of the calendar.
+* **EventImageFild**: Allows you to select the field that contains the image to be used by the calendar.
+* **EventIconFild**: Allows you to select the field that contains the icon to be used by the Calendar.
+* **EventColorFild**: Allows you to select the field that contains the color to be used by the Calendar.
+#### 03 - Component Design
+* **DefaultView**: You can set a default view from drop down list.
+* **CalenderHeight**: You can set the height of the component.
+* **ViewOptions**: In the modal window you can select the available views as well as the names assigned to them.
+* **IncludeHeader**: You can set whether or not the component will have a header.
+* **EventViewPage**: You can select the page containing the calendar events.
+* **AllowChangeDate**: Set it to True to allow the user to change de event date.
+#### 09 - Component Card
+* **WrapperClass**: You can stylize the graphic through the CSS Class Builder.
 ### <span style="color:blue">*Button* Component</span>
 Buttons allow to link to a specific page.
 ![button-component-window.png](/pages/button-component-window.png)
