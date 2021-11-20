@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-16T00:28:45.080Z
+date: 2021-11-20T01:03:46.402Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -118,14 +118,14 @@ Allows you to insert a Calendar.
 ![calender-component-window.png](/pages/calender-component-window.png)
 ### Component Properties
 #### 02 - Data Bind
-* **EventTittleFild**: Allows you to select the field that contains the title of the component.
-* **EventStartDateFild**: Allows you to select the field that will be used as the Start Date for the calendar.
-* **EventEndDateFild**: Allows you to select the field that will be used as the End Date for the calendar.
-* **EventStartTimeFild**: Allows you to select the field that will be used as the Start Time of the calendar.
-* **EventEndTimeFild**: Allows you to select the field that will be used as the End Time of the calendar.
-* **EventImageFild**: Allows you to select the field that contains the image to be used by the calendar.
-* **EventIconFild**: Allows you to select the field that contains the icon to be used by the Calendar.
-* **EventColorFild**: Allows you to select the field that contains the color to be used by the Calendar.
+* **EventTittleField**: Allows you to select the field that contains the title of the component.
+* **EventStartDateField**: Allows you to select the field that will be used as the Start Date for the calendar.
+* **EventEndDateField**: Allows you to select the field that will be used as the End Date for the calendar.
+* **EventStartTimeField**: Allows you to select the field that will be used as the Start Time of the calendar.
+* **EventEndTimeField**: Allows you to select the field that will be used as the End Time of the calendar.
+* **EventImageField**: Allows you to select the field that contains the image to be used by the calendar.
+* **EventIconField**: Allows you to select the field that contains the icon to be used by the Calendar.
+* **EventColorField**: Allows you to select the field that contains the color to be used by the Calendar.
 #### 03 - Component Design
 * **DefaultView**: You can set a default view from drop down list.
 * **CalenderHeight**: You can set the height of the component.
