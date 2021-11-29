@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2021-11-20T01:03:46.402Z
+date: 2021-11-29T21:00:44.910Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z
@@ -132,7 +132,7 @@ Allows you to insert a Calendar.
 * **ViewOptions**: In the modal window you can select the available views as well as the names assigned to them.
 * **IncludeHeader**: You can set whether or not the component will have a header.
 * **EventViewPage**: You can select the page containing the calendar events.
-* **AllowChangeDate**: Set it to True to allow the user to change de event date.
+* **AllowChangeDate**: Set it to True to allow the user to change the event date.
 #### 09 - Component Card
 * **WrapperClass**: You can stylize the graphic through the CSS Class Builder.
 ### <span style="color:blue">*Button* Component</span>
