@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2021-12-03T17:28:12.752Z
+date: 2021-12-03T17:29:40.420Z
 tags: releses
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -12,8 +12,8 @@ dateCreated: 2021-12-03T16:13:58.048Z
 - :bug: **Fixed** logo update in **PHPrad Classic** project.
 - :fire: Addition of 4 new components. 
 - :hash: Redesign of master detail relationship. 
-- :hash: Redesign of calendar 
-- :hash: Redesign of s3 upload
+- :hash: Redesign of calendar. 
+- :hash: Redesign of s3 upload.
 - :hash: Redesign of file upload and file management.
 - :fire: Implementation of auth2.
 - :fire: Implementation of admin approve account.
