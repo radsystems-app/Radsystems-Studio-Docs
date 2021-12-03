@@ -2,14 +2,14 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2021-12-03T17:29:40.420Z
+date: 2021-12-03T17:30:22.253Z
 tags: releses
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
 
 # Version - 5.0.0
-- :bug: **Fixed** logo update in **PHPrad Classic** project.
+- :bug: **Fixed** logo update bug in **PHPrad Classic** project.
 - :fire: Addition of 4 new components. 
 - :hash: Redesign of master detail relationship. 
 - :hash: Redesign of calendar. 
