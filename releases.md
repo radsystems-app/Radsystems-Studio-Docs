@@ -2,8 +2,8 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2021-12-03T17:30:22.253Z
-tags: releses
+date: 2021-12-03T17:43:14.378Z
+tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
