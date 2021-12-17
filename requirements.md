@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2021-12-17T14:35:45.733Z
+date: 2021-12-17T14:36:32.555Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -66,7 +66,7 @@ https://www.microsoft.com/en-us/software-download/
 - .Net SDK 3.1 - https://dotnet.microsoft.com/download/dotnet/3.1
 
 ## Mobile Build With Quasar
-- Visit [Quasar Docs](https://quasar.dev/quasar-cli/developing-cordova-apps/preparation#-add-cordova-quasar-mode)
+- Visit [Quasar mobile development requirement docs](https://quasar.dev/quasar-cli/developing-cordova-apps/preparation#-add-cordova-quasar-mode)
 
 # Others
 > You can use <a href="https://www.apachefriends.org/download.html">XAMPP</a> or <a href="https://laragon.org/download/index.html">Laragon</a>. It has already PHP, MySQL/MariaDB and PhpMyAdmin to manage databases.
