@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2021-07-25T21:50:23.020Z
+date: 2022-02-22T18:59:45.097Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -35,7 +35,7 @@ These might be:
 
 > **NodeRad Vue** - *Generate SPA, PWA, Desktop Apps and Mobile Apps With Node ExpressJS, VueJs Quasar Framework*
 
-> **ASPRad Vue** - *Generate SPA, PWA, Desktop Apps and Mobile Apps With Node ExpressJS, VueJs Quasar Framework*
+> **ASPRad Vue** - *Generate SPA, PWA, Desktop Apps and Mobile Apps With ASP.Net Core, VueJs Quasar Framework*
 
 *in this case we choise a PHPRad Classic Project with a MySQL database connection.
 
