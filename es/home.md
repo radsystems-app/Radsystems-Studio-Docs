@@ -2,7 +2,7 @@
 title: Bienvenido a Radsystems Studio
 description: Documentación Oficial
 published: false
-date: 2022-05-06T15:22:41.685Z
+date: 2022-05-06T15:23:30.393Z
 tags: intro, bienvenida
 editor: markdown
 dateCreated: 2022-05-06T00:02:03.779Z
@@ -79,7 +79,7 @@ RadSystems es la plataforma de bajo código más sencilla del planeta. Cualquier
 - **Plataformas**
 Publica tus aplicaciones en diferentes plataformas (Web, PWA, Móvil, Escritorio) desde una única base de código.
 - **Diferentes Frameworks**
-Publica tu aplicación en el lenguaje y marco de trabajo que elijas (PHP Laravel, ASP Net Core, Node ExpressJs, Python Flask, y seguimos contando...)
+Publica tu aplicación en el lenguaje y marco de trabajo que elijas (PHP Laravel, ASP Net Core, Node ExpressJs, Python Flask, y seguimos contando...)
 - **Filtros de página**
 Añade componentes de filtrado a tus páginas a los registros de filtrado de páginas
 - **Aplicaciones Adaptables**
