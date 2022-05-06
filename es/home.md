@@ -2,7 +2,7 @@
 title: Bienvenido a Radsystems Studio
 description: Documentación Oficial
 published: false
-date: 2022-05-06T16:04:33.212Z
+date: 2022-05-06T16:07:23.946Z
 tags: intro, bienvenida
 editor: markdown
 dateCreated: 2022-05-06T00:02:03.779Z
@@ -16,11 +16,11 @@ Radsystems Studio (RS) es un entorno de desarrollo rápido de aplicaciones, que 
 Aquí está la lista de la documentación de los Frameworks  utilizado en Radsystems, para ayudarle a entender las funciones que puede utilizar en su proyecto y cómo aplicarlas.
 
 ---
->  <a class="is-external-link" href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">**Boostrap**</a>:Es un Framework de Frontend utilizado en Radsystems Studio (PHP Laravel) como lenguaje de Frontend (es decir, código ejecutado en el navegador).
+>  <a class="is-external-link" href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">**Boostrap**</a>:Es un Framework de frontend utilizado en Radsystems Studio (PHP Laravel) como lenguaje de frontend (es decir, código ejecutado en el navegador).
 {.is-info}
 
 
-> <a class="is-external-link" href="https://www.primefaces.org/primevue/#/">**PrimeVue**</a>: Este es un framework de Frontend utilizado en Radsystems Studio Pyrad, NodeRad, ASPRad, y PHPRad Vue como lenguaje de Frontend (por ejemplo código ejecutado en el navegador). Fue realizado con Vue.js.
+> <a class="is-external-link" href="https://www.primefaces.org/primevue/#/">**PrimeVue**</a>: Este es un framework de frontend utilizado en Radsystems Studio Pyrad, NodeRad, ASPRad, y PHPRad Vue como lenguaje de frontend (por ejemplo código ejecutado en el navegador). Fue realizado con Vue.js.
 {.is-info}
 
 
