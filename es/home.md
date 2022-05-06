@@ -2,7 +2,7 @@
 title: Bienvenido a Radsystems Studio
 description: Documentación Oficial
 published: false
-date: 2022-05-06T13:37:49.988Z
+date: 2022-05-06T14:09:04.084Z
 tags: intro, bienvenida
 editor: markdown
 dateCreated: 2022-05-06T00:02:03.779Z
@@ -42,5 +42,7 @@ Aquí está la lista de la documentación del Framework utilizado en Radsystems,
 
 ><a class="is-external-link" href="https://docs.microsoft.com/en-us/aspnet/overview">**ASP.Net**</a>: Este es un framework de backend utilizado en Radsystems Studio ASPRad como lenguaje de servidor. Este enlace de documentación le ayudará a entender cómo funciona el framework.
 {.is-info}
+
+# Interfaz del Usuario Amigable 
 
 
