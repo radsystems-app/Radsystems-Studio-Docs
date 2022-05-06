@@ -2,7 +2,7 @@
 title: Bienvenido a Radsystems Studio
 description: Documentación Oficial
 published: false
-date: 2022-05-06T15:23:30.393Z
+date: 2022-05-06T15:24:23.618Z
 tags: intro, bienvenida
 editor: markdown
 dateCreated: 2022-05-06T00:02:03.779Z
@@ -107,4 +107,4 @@ Dé a sus aplicaciones un aspecto diferente con el constructor de temas.
 
 # Premios
 
-![1sp2.png](/1sp2.png)
+![premios.png](/premios.png)
