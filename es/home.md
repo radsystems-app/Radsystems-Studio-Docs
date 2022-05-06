@@ -2,7 +2,7 @@
 title: Bienvenido a Radsystems Studio
 description: Documentación Oficial
 published: false
-date: 2022-05-06T16:07:23.946Z
+date: 2022-05-06T16:14:32.576Z
 tags: intro, bienvenida
 editor: markdown
 dateCreated: 2022-05-06T00:02:03.779Z
@@ -24,7 +24,7 @@ Aquí está la lista de la documentación de los Frameworks  utilizado en Radsys
 {.is-info}
 
 
-> <a class="is-external-link" href="https://quasar.dev/">**Vue Quasar**</a>: Este es un marco de frontend utilizado en Radsystems Studio Pyrad, NodeRad, ASPRad, y PHPRad Vue como el lenguaje de frontend (es decir, el código ejecutado en el navegador). Permite publicar tu proyecto en aplicaciones móviles, de escritorio, SPA y PWA. Permite Se hizo con Vue.js.
+> <a class="is-external-link" href="https://quasar.dev/">**Vue Quasar**</a>: Este es un marco de frontend utilizado en Radsystems Studio Pyrad, NodeRad, ASPRad, y PHPRad Vue como el lenguaje de frontend (es decir, el código ejecutado en el navegador). Permite publicar tu proyecto en aplicaciones móviles, de escritorio, SPA y PWA.  Se construyó con Vue.js.
 {.is-info}
 
 
@@ -81,7 +81,7 @@ Publica tus aplicaciones en diferentes plataformas (Web, PWA, Móvil, Escritorio
 - **Diferentes Frameworks**
 Publica tu aplicación en el lenguaje y marco de trabajo que elijas (PHP Laravel, ASP Net Core, Node ExpressJs, Python Flask, y seguimos contando...)
 - **Filtros de página**
-Añade componentes de filtrado a tus páginas a los registros de filtrado de páginas
+Añade componentes de filtrado a tus páginas que permiten seleccionar distintos registros.
 - **Aplicaciones Adaptables**
 Aplicaciones con pantalla Retina y altamente adaptables en móviles.
 - **Generar Apis**
@@ -101,7 +101,7 @@ Edite manualmente la página y los componentes si lo desea.
 - **Localización**
 Construya aplicaciones con soporte multilingüe
 - **Diferentes diseños**
-Proporcione diferentes diseños para sus aplicaciones
+Elija diferentes diseños para sus aplicaciones
 - **Temas**
 Dé a sus aplicaciones un aspecto diferente con el constructor de temas.
 
