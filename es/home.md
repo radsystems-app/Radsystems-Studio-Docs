@@ -2,7 +2,7 @@
 title: Bienvenido a Radsystems Studio
 description: Documentación Oficial
 published: false
-date: 2022-05-06T13:22:59.703Z
+date: 2022-05-06T13:29:14.485Z
 tags: intro, bienvenida
 editor: markdown
 dateCreated: 2022-05-06T00:02:03.779Z
@@ -16,7 +16,7 @@ Radsystems Studio (RS) es un entorno de desarrollo rápido de aplicaciones, que 
 Aquí está la lista de la documentación del Framework utilizado en Radsystems, para ayudarle a entender las funciones que puede utilizar en su proyecto y cómo aplicarlas.
 
 ---
-> ****Boostrap:**** Es un Framework de Frontend utilizado en Radsystems Studio (PHP Laravel) como lenguaje de frontend (es decir, código ejecutado en el navegador).
+>  <a class="is-external-link" href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">**Boostrap**</a>:Es un Framework de Frontend utilizado en Radsystems Studio (PHP Laravel) como lenguaje de frontend (es decir, código ejecutado en el navegador).
 {.is-info}
 
 
