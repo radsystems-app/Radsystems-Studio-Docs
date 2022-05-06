@@ -2,7 +2,7 @@
 title: Bienvenido a Radsystems Studio
 description: Documentación Oficial
 published: false
-date: 2022-05-06T14:25:18.410Z
+date: 2022-05-06T14:32:15.281Z
 tags: intro, bienvenida
 editor: markdown
 dateCreated: 2022-05-06T00:02:03.779Z
@@ -47,6 +47,10 @@ Aquí está la lista de la documentación del Framework utilizado en Radsystems,
 ![radsystemsaa.jpg](/radsystemsaa.jpg)
 
 
+# ¿Qué es RadSystems?
+
+
+RadSystems es una herramienta robusta de **Entorno Integrado de Desarrollo - IDE** y software **"Low-code"** que facilita un rápido proceso de desarrollo de aplicaciones, reduciendo el tiempo de codificación redundante. Las aplicaciones de RadSystems pueden ser generadas a través de Frameworks como ASP NET Core, Python Flask, PHP Laravel, Node Express.js, Vue.js, y Quasar. También se pueden construir aplicaciones web tradicionales o clásicas utilizando Bootstrap, jQuery y Laravel. Mediante la configuración de módulos y complementos, la adición de códigos CSS y JavaScript personalizados y la creación de API REST, los usuarios pueden mejorar y ampliar las capacidades de sus aplicaciones.
 
 
 
