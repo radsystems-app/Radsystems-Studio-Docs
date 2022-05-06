@@ -2,7 +2,7 @@
 title: Bienvenido a Radsystems Studio
 description: Documentación Oficial
 published: false
-date: 2022-05-06T14:44:10.105Z
+date: 2022-05-06T14:56:09.752Z
 tags: intro, bienvenida
 editor: markdown
 dateCreated: 2022-05-06T00:02:03.779Z
@@ -70,4 +70,4 @@ RadSystems es una herramienta robusta, un **Entorno Integrado de Desarrollo - ID
 
 Con unos pocos clics, usted pone una aplicación robusta en marcha.
 
-
+![1sp2.png](/1sp2.png)
