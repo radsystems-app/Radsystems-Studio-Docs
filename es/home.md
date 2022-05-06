@@ -2,7 +2,7 @@
 title: Bienvenido a Radsystems Studio
 description: Documentación Oficial
 published: false
-date: 2022-05-06T14:38:59.016Z
+date: 2022-05-06T14:44:10.105Z
 tags: intro, bienvenida
 editor: markdown
 dateCreated: 2022-05-06T00:02:03.779Z
@@ -54,9 +54,20 @@ RadSystems es una herramienta robusta, un **Entorno Integrado de Desarrollo - ID
 
 # ¿Por qué RadSystems?
 
-> **RadSystems** puede utilizarse para crear aplicaciones CRUD (crear, leer, actualizar y eliminar). **R**adSystems Studio permite a los usuarios añadir código personalizado para gestionar las reglas de negocio y la validación. **P**ermite crear formularios y consultas en PHP, desde formularios sencillos hasta formularios con un alto nivel de complejidad para manipular datos de bases de datos (MySQL, PostgreSQL, SQLite, MS SQLServer).
+> ***RadSystems*** puede utilizarse para crear aplicaciones CRUD (crear, leer, actualizar y eliminar). **R**adSystems Studio permite a los usuarios añadir código personalizado para gestionar las reglas de negocio y la validación. **P**ermite crear formularios y consultas en PHP, desde formularios sencillos hasta formularios con un alto nivel de complejidad para manipular datos de bases de datos (MySQL, PostgreSQL, SQLite, MS SQLServer).
 
-r
+# Soluciones de Negocios
 
+***RadSystems*** le ayuda a alcanzar sus objetivos empresariales y personales
+
+- Desarrolle soluciones de negocio más rápidamente
+- Convierta sus datos y modelos de negocio en aplicaciones.
+- Con la confianza de organizaciones y profesionales de todo el mundo.
+- Gran herramienta para principiantes y profesionales.
+
+
+# ¿Cómo Funciona?
+
+Con unos pocos clics, usted pone una aplicación robusta en marcha.
 
 
