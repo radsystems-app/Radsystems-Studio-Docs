@@ -2,7 +2,7 @@
 title: Bienvenido a Radsystems Studio
 description: Documentación Oficial
 published: false
-date: 2022-05-06T14:19:59.930Z
+date: 2022-05-06T14:25:18.410Z
 tags: intro, bienvenida
 editor: markdown
 dateCreated: 2022-05-06T00:02:03.779Z
@@ -44,7 +44,7 @@ Aquí está la lista de la documentación del Framework utilizado en Radsystems,
 {.is-info}
 
 # Interfaz del Usuario Amigable 
-
+![radsystemsaa.jpg](/radsystemsaa.jpg)
 
 
 
