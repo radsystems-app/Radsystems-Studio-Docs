@@ -2,7 +2,7 @@
 title: Bienvenido a Radsystems Studio
 description: Documentación Oficial
 published: false
-date: 2022-05-06T14:56:09.752Z
+date: 2022-05-06T15:20:30.501Z
 tags: intro, bienvenida
 editor: markdown
 dateCreated: 2022-05-06T00:02:03.779Z
@@ -69,5 +69,42 @@ RadSystems es una herramienta robusta, un **Entorno Integrado de Desarrollo - ID
 # ¿Cómo Funciona?
 
 Con unos pocos clics, usted pone una aplicación robusta en marcha.
+
+![1sp2.png](/1sp2.png)
+
+# Característica Principal
+
+- **Diseño intuitivo**
+RadSystems es la plataforma de bajo código más sencilla del planeta. Cualquiera con una idea puede construir aplicaciones.
+- **Plataformas**
+Publica tus aplicaciones en diferentes plataformas (Web, PWA, Móvil, Escritorio) desde una única base de código.
+- **Diferentes Frameworks**
+Publica tu aplicación en el lenguaje y marco de trabajo que elijas (PHP Laravel, ASP.Net Core, Node ExpressJs, Python Flask, y seguimos contando...)
+- **Filtros de página**
+Añade componentes de filtrado a tus páginas a los registros de filtrado de páginas
+- **Aplicaciones Adaptables**
+Aplicaciones con pantalla Retina y altamente adaptables en móviles.
+- **Generar Apis**
+Genere Api REST y documentaciones con el clic de un botón.
+- **Código bien documentado**
+Utiliza estándares industriales en las documentaciones y comentarios del código.
+- **Seguridad**
+Se han solucionado los problemas de seguridad: (SQL Injection, CSRF, XSS, ...)
+- **Constructor de consultas**
+Genera fácilmente consultas sql complejas con un diseñador de consultas avanzado.
+- **Informes**
+Integre informes en su aplicación y genere informes en diferentes formatos (Excel, PDF, CSV, Print).
+- **Operaciones CRUD**
+Realice operaciones CRUD básicas en los registros de la base de datos.
+-  **Edición de código**
+Edite manualmente la página y los componentes si lo desea.
+- **Localización**
+Construya aplicaciones con soporte multilingüe
+- **Diferentes diseños**
+Proporcione diferentes diseños para sus aplicaciones
+- **Temas**
+Dé a sus aplicaciones un aspecto diferente con el constructor de temas.
+
+# Premios
 
 ![1sp2.png](/1sp2.png)
