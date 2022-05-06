@@ -2,14 +2,14 @@
 title: Bienvenido a Radsystems Studio
 description: Documentación Oficial
 published: false
-date: 2022-05-06T14:34:32.242Z
+date: 2022-05-06T14:38:59.016Z
 tags: intro, bienvenida
 editor: markdown
 dateCreated: 2022-05-06T00:02:03.779Z
 ---
 
 # RadSystems Studio
-Radsystems Studio (RS) es un entorno de desarrollo rápido de aplicaciones, que genera sistemas completos con mayor rapidez. RadSystems proporciona innumerables opciones de diseño y componentes para generar aplicaciones modernas y API con poca o ninguna codificación.
+Radsystems Studio (RS) es un entorno de desarrollo rápido de aplicaciones, que genera sistemas completos con mayor rapidez. RadSystems proporciona innumerables opciones de diseño y componentes para generar aplicaciones modernas y API's con poca o ninguna codificación.
 
 # Info del Framework
 
@@ -52,6 +52,11 @@ Aquí está la lista de la documentación del Framework utilizado en Radsystems,
 
 RadSystems es una herramienta robusta, un **Entorno Integrado de Desarrollo - IDE** y software **"Low-code"** que facilita un rápido proceso de desarrollo de aplicaciones, reduciendo el tiempo de codificación redundante. Las aplicaciones de RadSystems pueden ser generadas a través de Frameworks como ASP NET Core, Python Flask, PHP Laravel, Node Express.js, Vue.js y Quasar. También se pueden construir aplicaciones web tradicionales o clásicas utilizando Bootstrap, jQuery y Laravel. Mediante la configuración de módulos y complementos, la adición de códigos CSS y JavaScript personalizados y la creación de API REST, los usuarios pueden mejorar y ampliar las capacidades de sus aplicaciones.
 
+# ¿Por qué RadSystems?
+
+> **RadSystems** puede utilizarse para crear aplicaciones CRUD (crear, leer, actualizar y eliminar). **R**adSystems Studio permite a los usuarios añadir código personalizado para gestionar las reglas de negocio y la validación. **P**ermite crear formularios y consultas en PHP, desde formularios sencillos hasta formularios con un alto nivel de complejidad para manipular datos de bases de datos (MySQL, PostgreSQL, SQLite, MS SQLServer).
+
+r
 
 
 
