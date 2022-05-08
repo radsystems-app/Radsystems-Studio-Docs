@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2021-12-17T14:36:32.555Z
+date: 2022-05-08T23:04:31.828Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -12,60 +12,57 @@ dateCreated: 2021-08-03T03:09:09.844Z
 **System requirements** will vary on what application you want to create.
 
 ## Operating System
-- Windows x86/x64 (Windows 7, 8, 10, 11)
-https://www.microsoft.com/en-us/software-download/
+Radsystems Studio currently supports only the **Windows Operating System(OS)**, **Windows x86/x64 (7, 8, 10, 11)**. You can download the OS from the [Microsoft Website](https://www.microsoft.com/en-us/software-download/). For those using other operating systems, you will need to install a **Virtual Machine (VM)** and then install the supported windows OS to that **Virtual Machine (VM)** in order to install **Radsystems Studio** in it.
+- [VirtualBox (MacOS, Linux, Solaris)](https://www.virtualbox.org/wiki/Downloads) 
+- [Wine (Linux, MacOS, Android)](https://wiki.winehq.org/Download)
+- [Parallels Desktop (MacOS)](https://www.parallels.com/)
+- [VMWare (MacOS, Linux)](https://www.vmware.com/products/fusion.html)
+- [CrossOver (ChromeOS, MacOS, Linux)](https://www.codeweavers.com/crossover/)
 
-## Database
-- MariaDB - https://mariadb.org/download/
-- MySQL - https://dev.mysql.com/downloads/installer/
-- SQLite - https://www.sqlite.org/download.html
-- PostgreSQL - https://www.postgresql.org/download/
-- MSSQL Server - https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+These are just a few options out there.
+## Development Server
+The recommended development server for Radsystems Studio is [Laragon](https://laragon.org/download/). [Laragon](https://laragon.org/download/) gives the option to install multiple versions of [PHP](https://www.php.net/), [NodeJS](https://nodejs.org/en/), [Python](https://www.python.org/downloads/), etc.
 
-## PHPRad Classic
-- PHP - https://www.php.net/downloads.php
-- Composer - https://getcomposer.org/download/
+### Database
+**Radsystems Studio** currently supports 4 database types, ([MariaDB](https://mariadb.org/download/) or [MySQL](https://dev.mysql.com/downloads/installer/)), [SQLite](https://www.sqlite.org/download.html), [PostgreSQL](https://www.postgresql.org/download/), and [MSSQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads).
 
-> Please note that when you want to download **NodeJS**, it should be the **Long Term Support(LTS)** version.
+### Backend Framework (API)
+Backend Frameworks are the aspect of the project that runs and is executed on the server.
+
+#### PHP - Laravel
+The **PHP -  Laravel** framwork depends on mostly PHP and Composer for package management. But if you download and install the [Laragon](https://laragon.org/download/) full setup, you are ready to develop a Laravel, Boostrap & jquery(PHPRad Classic) project.
+
+If you choose to install just php and composer, then you can download them from the links below:
+- [PHP](https://www.php.net/downloads.php)
+- [Composer](https://getcomposer.org/download/)
+
+#### NodeJS - Express
+The **NodeJS - Express** framwork depends on **NodeJS version 10** and above, but it is recomended you use **NodeJS version 14** or any of the **[Long Term Support(LTS)](https://nodejs.org/en/)** versions. Once it is installed, you are ready to use the **NodeJS - Express** backend framework.
+> Please note that, It is recomended you download any of the **[Long Term Support(LTS)](https://nodejs.org/en/)** versions.
 {.is-info}
 
-## PHPRad Vue
-- NodeJS - https://nodejs.org/en/download/
-- VueJS - `npm install -g @vue/cli`
-- Quasar - `npm install -g @quasar/cli`
-- PHP - https://www.php.net/downloads.php
-- Composer - https://getcomposer.org/download/
+#### Python - Flask
+The **Python - Flask** framwork depends on **Python 3**, but it is recomended you use **[Python 3.8](https://www.python.org/downloads/release/python-3810/)** Once it is installed, you are ready to use the **Python - Flask** backend framework.
 
-## NodeRad Vue
-- NodeJS - https://nodejs.org/en/download/
-- VueJS - `npm install -g @vue/cli`
-- Quasar - `npm install -g @quasar/cli`
+#### ASP .Net Core
+The **ASP .Net Core** framwork depends on **[.NET Core 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)** Once it is installed, you are ready to use the **ASP .Net Core** backend framework.
 
-## PyRad Vue
-- NodeJS - https://nodejs.org/en/download/
-- VueJS - `npm install -g @vue/cli`
-- Quasar - `npm install -g @quasar/cli`
-- Python - https://www.python.org/downloads/windows/
-- pip - https://www.geeksforgeeks.org/how-to-install-pip-on-windows/
-> **RadSystems** will auto-detect needed packages and ask you to install upon opening the **RS** window such as:
-{.is-success}
-- flask
-- flask-wtf
-- flask-sqlalchemy
-- marshmallow-sqlalchemy
-- flask-bcrypt
-- flask-cors
-- flask-mail
-- flask-jwt-extended
-- pymysql
+### Frontend Framework (UI)
+These are the frameworks used for generating the HTML, CSS and JavaScript for the projects.
 
-## ASPRad Vue
-- NodeJS - https://nodejs.org/en/download/
-- VueJS - `npm install -g @vue/cli`
-- Quasar - `npm install -g @quasar/cli`
-- .Net SDK 3.1 - https://dotnet.microsoft.com/download/dotnet/3.1
+#### Vue Quasar
+The **Vue Quasar** framwork depends on **NodeJS version 10.18.1**, **Quasar CLI**. It is recomended you use **NodeJS version 14** version. After installing **NodeJS**, you can install **Vue Quasar CLI** using `npm i -g @quasar/cli`, if you dont and you try to create a project, **Radsystems Studio** will prompt you to intsall it.
 
-## Mobile Build With Quasar
+> Please note that, It is recomended you download any of the **[Long Term Support(LTS)](https://nodejs.org/en/)** versions.
+{.is-info}
+
+#### PrimeVue
+The **PrimeVue** framwork depends on **VueJS**, but it is not required to install the **VueJS CLI**. But it is recomended you have **NodeJS** already installed.
+
+#### Bootstrap JQuery
+The **Bootstrap JQuery** framworks does not have any requirements that needs to be installed. Onece you have installed [Laragon](https://laragon.org/download/), [XAMPP](https://www.apachefriends.org/download.html), or any orther dev server.
+
+### Mobile Build With Quasar 📱
 - Visit [Quasar mobile development requirement docs](https://quasar.dev/quasar-cli/developing-cordova-apps/preparation#-add-cordova-quasar-mode)
 
 # Others
