@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-09T12:04:11.084Z
+date: 2022-05-09T12:23:27.795Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -60,7 +60,9 @@ The **PrimeVue** framwork depends on **VueJS**, but it is not required to instal
 ### Bootstrap JQuery
 The **Bootstrap JQuery** framworks does not have any requirements that needs to be installed. Once you have installed <a href="https://laragon.org/download/" target="_blank">Laragon</a>, <a href="https://www.apachefriends.org/download.html" target="_blank">XAMPP</a> or any orther dev server, you are ready to create Bootstrap and JQuery projects.
 
-### Mobile Build With Quasar 📱
+### Desktop Platform with Quasar📱
+The requirement for developing a Desktop app with Quasar, is <a href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/introduction" target="_blank">Electron</a>. When you click on the Desktop platform during publish, **Radsystems Studio** runs the <a href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/preparation" target="_blank">`quasar mode add electron`</a> command, which downloads and adds the necessary files to your project.
+### Mobile Platform with Quasar💻
 - Visit [Quasar mobile development requirement docs](https://quasar.dev/quasar-cli/developing-cordova-apps/preparation#-add-cordova-quasar-mode)
 
 # Others
