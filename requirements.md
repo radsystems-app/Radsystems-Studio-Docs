@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-09T14:25:07.924Z
+date: 2022-05-09T14:50:51.164Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -75,18 +75,8 @@ In order to develop mobile app with **Radsystems Studio**, there are multiple <a
 > Please use the path where your JDK was installed, the paths above are just examples.
 {.is-warning}
 
-![add-app-to-path.png](/getting-started/add-app-to-path.png)
-
 - Download, install and add <a href="https://downloads.gradle-dn.com/distributions/gradle-4.10.3-all.zip" target="_blank">Gradle</a> to environmental variable.
-
-- <a href="https://quasar.dev/quasar-cli-vite/developing-cordova-apps/preparation#-start-developing" target="_blank">Quasar mobile development requirement docs</a>
-
-# Others
-> You can use <a href="https://laragon.org/download/">Laragon</a>  or <a href="https://www.apachefriends.org/download.html">XAMPP</a>. It has already PHP, MySQL/MariaDB and PhpMyAdmin to manage databases.
-{.is-info}
-
-> Webserver such as Apache or Nginx is not required.
-{.is-info}
+You can read more from <a href="https://quasar.dev/quasar-cli-vite/developing-cordova-apps/preparation#-start-developing" target="_blank">Quasar mobile development requirement docs</a>
 
 # Setup Environment Variable Path
 Some installations need to manually encode their parent folder in Windows Environment variables (e.g php.exe, python and pip)
@@ -99,7 +89,7 @@ Some installations need to manually encode their parent folder in Windows Enviro
 6. In the **User variables** and **System Variables** , click variable **Path**
 7. Click **Edit**
 8. Click **New**
-![2.png](/requirements/2.png)
+![add-app-to-path.png](/getting-started/add-app-to-path.png)
 9. Enter the following path below: (*Note: This is the path in my computer, yours is different*)
 - `D:\xampp2\php` (*This is the path of my php.exe*)
 - `%localappdata%\Programs\Python\Python39` (*This is the path of my python.exe*)
