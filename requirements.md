@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-09T15:31:24.634Z
+date: 2022-05-09T15:37:09.921Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -85,9 +85,10 @@ To loacate the **Environmental Variables** panel, click on **Sart Menu**, click 
 E.g <kbd>Sart</kbd> <kbd>></kbd> <kbd>Control Panel</kbd> <kbd>></kbd> <kbd>Systems</kbd> <kbd>></kbd> <kbd>Advance system settings</kbd> <kbd>></kbd> <kbd>Environment Variables</kbd>
 
 ![environmental-variables.png](/requirements/environmental-variables.png)
-6. In the **User variables** and **System Variables** , click variable **Path**
-7. Click **Edit**
-8. Click **New**
+
+To add an app to the path variable, click on **Path** variable from either **User variables** or **System Variables** section, click on **Edit**, then click on **New** and add the application path to it.
+E.g <kbd>Path</kbd> <kbd>></kbd> <kbd>Edit</kbd> <kbd>></kbd> <kbd>New</kbd>
+
 ![add-app-to-path.png](/requirements/add-app-to-path.png)
 9. Enter the following path below: (*Note: This is the path in my computer, yours is different*)
 - `D:\xampp2\php` (*This is the path of my php.exe*)
@@ -96,4 +97,3 @@ E.g <kbd>Sart</kbd> <kbd>></kbd> <kbd>Control Panel</kbd> <kbd>></kbd> <kbd>Syst
 - `%programfiles%\dotnet` (*This is the path of my dotnet.ext*)
 10. Click Okay
 11. Restart your computer if needed.
-![3.png](/requirements/3.png)
