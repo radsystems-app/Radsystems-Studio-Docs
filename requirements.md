@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-09T15:15:32.711Z
+date: 2022-05-09T15:31:24.634Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -79,13 +79,12 @@ In order to develop mobile app with **Radsystems Studio**, there are multiple <a
 You can read more from <a href="https://quasar.dev/quasar-cli-vite/developing-cordova-apps/preparation#-start-developing" target="_blank">Quasar mobile development requirement docs</a>
 
 # Setup Environment Variables
-Some installations need to manually encode their parent folder in Windows Environment variables (e.g **PHP**, **Android**, **Java**, **python** and **pip**). If you are using Laragon then you can add the paths to all installed To add 
-1. Go to **Start->Control Panel**
-2. **System and Security**
-3. **System**
-4. **Advance system settings**
-5. **Environment Variables**
-![1.png](/requirements/1.png)
+Some installations need to manually encode their parent folder in Windows Environment variables (e.g **PHP**, **Android**, **Java**, **python** and **pip**). 
+
+To loacate the **Environmental Variables** panel, click on **Sart Menu**, click on **Control Panel**, click on **Systems**, click on **Advance system settings**, then click on **Environment Variables**.
+E.g <kbd>Sart</kbd> <kbd>></kbd> <kbd>Control Panel</kbd> <kbd>></kbd> <kbd>Systems</kbd> <kbd>></kbd> <kbd>Advance system settings</kbd> <kbd>></kbd> <kbd>Environment Variables</kbd>
+
+![environmental-variables.png](/requirements/environmental-variables.png)
 6. In the **User variables** and **System Variables** , click variable **Path**
 7. Click **Edit**
 8. Click **New**
