@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-09T15:58:20.245Z
+date: 2022-05-09T15:59:57.333Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
