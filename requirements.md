@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-09T15:37:09.921Z
+date: 2022-05-09T15:57:10.352Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -90,10 +90,13 @@ To add an app to the path variable, click on **Path** variable from either **Use
 E.g <kbd>Path</kbd> <kbd>></kbd> <kbd>Edit</kbd> <kbd>></kbd> <kbd>New</kbd>
 
 ![add-app-to-path.png](/requirements/add-app-to-path.png)
-9. Enter the following path below: (*Note: This is the path in my computer, yours is different*)
-- `D:\xampp2\php` (*This is the path of my php.exe*)
-- `%localappdata%\Programs\Python\Python39` (*This is the path of my python.exe*)
-- `%localappdata%\Programs\Python\Python39\Scripts` (*This is the path of my pip.exe*)
-- `%programfiles%\dotnet` (*This is the path of my dotnet.ext*)
-10. Click Okay
-11. Restart your computer if needed.
+
+Below are the list of paths you need to enter if they dont already exist:
+- Add **XAMPP PHP** Path `C:\xampp\php` or else locate you **PHP** installation path and add it.
+- Add **Python** path `%localappdata%\Programs\Python\Python38` (*This is the path of my python.exe*).
+- Add **Python Script** path `%localappdata%\Programs\Python\Python38\Scripts` (*This is the path of my pip.exe*).
+- Add **.NetCore** path `%programfiles%\dotnet` (*This is the path of my dotnet.ext*).
+
+> When done, click on the Okay button to save it, then restart your computer if needed.
+{.is-success}
+
