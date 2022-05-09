@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-09T18:43:27.796Z
+date: 2022-05-09T18:46:43.453Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -20,7 +20,7 @@ Select your project type:
 
 ### PHP - Laravel <i class="mdi mdi-laravel"></i> + Bootstrap & JQuery <i class="mdi mdi-bootstrap"></i>
 
-### NodeJS <i class="mdi mdi-nodejs"></i> - Express + Bootstrap & JQuery <i class="mdi mdi-ubuntu"></i>
+### NodeJS - Express <i class="mdi mdi-nodejs"></i> + Bootstrap & JQuery <i class="mdi mdi-ubuntu"></i>
 
 ---
 
