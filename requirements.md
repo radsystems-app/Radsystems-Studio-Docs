@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-09T11:12:20.872Z
+date: 2022-05-09T11:14:36.888Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -13,7 +13,8 @@ dateCreated: 2021-08-03T03:09:09.844Z
 {.is-warning}
 
 # Operating System
-Radsystems Studio currently supports only the **Windows Operating System(OS)**, **Windows x86/x64 (7, 8, 10, 11)**. You can download the OS from the [Microsoft Website](https://www.microsoft.com/en-us/software-download/). For those using other operating systems, you will need to install a **Virtual Machine (VM)** and then install the supported windows OS to that **Virtual Machine (VM)** in order to install **Radsystems Studio** in it.
+Radsystems Studio currently supports only the **Windows Operating System(OS)**, **Windows x86/x64 (7, 8, 10, 11)**. You can download the OS from the 
+<a href="https://www.microsoft.com/en-us/software-download/" target="_blank">Microsoft Website</a>. For those using other operating systems, you will need to install a **Virtual Machine (VM)** and then install the supported windows OS to that **Virtual Machine (VM)** in order to install **Radsystems Studio** in it.
 - [VirtualBox (MacOS, Linux, Solaris)](https://www.virtualbox.org/wiki/Downloads) 
 - [Wine (Linux, MacOS, Android)](https://wiki.winehq.org/Download)
 - [Parallels Desktop (MacOS)](https://www.parallels.com/)
@@ -72,7 +73,7 @@ The **PrimeVue** framwork depends on **VueJS**, but it is not required to instal
 The **Bootstrap JQuery** framworks does not have any requirements that needs to be installed. Once you have installed [Laragon](https://laragon.org/download/), [XAMPP](https://www.apachefriends.org/download.html) or any orther dev server, you are ready to create Bootstrap and JQuery projects.
 
 ### Mobile Build With Quasar 📱
-- Visit [Quasar mobile development requirement docs](https://quasar.dev/quasar-cli/developing-cordova-apps/preparation#-add-cordova-quasar-mode){:target="_blank" rel="noopener"}
+- Visit [Quasar mobile development requirement docs](https://quasar.dev/quasar-cli/developing-cordova-apps/preparation#-add-cordova-quasar-mode)
 
 # Others
 > You can use <a href="https://laragon.org/download/">Laragon</a>  or <a href="https://www.apachefriends.org/download.html">XAMPP</a>. It has already PHP, MySQL/MariaDB and PhpMyAdmin to manage databases.
