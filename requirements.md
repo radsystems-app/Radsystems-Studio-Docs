@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-09T15:57:10.352Z
+date: 2022-05-09T15:58:20.245Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -97,6 +97,6 @@ Below are the list of paths you need to enter if they dont already exist:
 - Add **Python Script** path `%localappdata%\Programs\Python\Python38\Scripts` (*This is the path of my pip.exe*).
 - Add **.NetCore** path `%programfiles%\dotnet` (*This is the path of my dotnet.ext*).
 
-> When done, click on the Okay button to save it, then restart your computer if needed.
+> When done, click on the **Okay** button to save it, then restart your computer if needed.
 {.is-success}
 
