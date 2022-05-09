@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-09T12:42:34.203Z
+date: 2022-05-09T12:48:45.280Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -65,8 +65,9 @@ The **Bootstrap JQuery** framworks does not have any requirements that needs to 
 The requirement for developing a Desktop app with Quasar, is <a href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/introduction" target="_blank">Electron</a>. When you click on the Desktop platform during publish, **Radsystems Studio** runs the <a href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/preparation" target="_blank">`quasar mode add electron`</a> command, which downloads and adds the necessary files to your project. You can find the configurations available for Quasar Desktop to use in quasar.config.js file <a href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/configuring-electron" target="_blank">here</a>.
 
 ### Mobile Platform with Quasar📱
-In order to develop mobile app with Radsystems Studio, there are multiple requirements that need to be installed properly for it to work.
-- Visit [Quasar mobile development requirement docs](https://quasar.dev/quasar-cli/developing-cordova-apps/preparation#-add-cordova-quasar-mode)
+In order to develop mobile app with **Radsystems Studio**, there are multiple <a href="https://quasar.dev/quasar-cli-vite/developing-cordova-apps/preparation#-start-developing" target="_blank">requirements</a> that needs to be met before you can do so.
+
+- <a href="https://quasar.dev/quasar-cli-vite/developing-cordova-apps/preparation#-start-developing" target="_blank">Quasar mobile development requirement docs</a>
 
 # Others
 > You can use <a href="https://laragon.org/download/">Laragon</a>  or <a href="https://www.apachefriends.org/download.html">XAMPP</a>. It has already PHP, MySQL/MariaDB and PhpMyAdmin to manage databases.
