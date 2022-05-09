@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-09T12:48:45.280Z
+date: 2022-05-09T14:25:07.924Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -66,6 +66,18 @@ The requirement for developing a Desktop app with Quasar, is <a href="https://qu
 
 ### Mobile Platform with Quasar📱
 In order to develop mobile app with **Radsystems Studio**, there are multiple <a href="https://quasar.dev/quasar-cli-vite/developing-cordova-apps/preparation#-start-developing" target="_blank">requirements</a> that needs to be met before you can do so.
+
+- You need to download and install <a href="https://developer.android.com/studio" target="_blank">Android Studio</a>.
+- After installing <a href="https://developer.android.com/studio" target="_blank">Android Studio</a>, you need to add your android SDK path to `ANDROID_HOME` and `ANDROID_SDK_ROOT`.
+![add-android-sdk-root.png](/getting-started/add-android-sdk-root.png)
+- Download and install <a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">JDK</a>
+- Add JDK installation path to `JAVA_HOME`, similar to what was done for `ANDROID_HOME` and `ANDROID_SDK_ROOT`, and then add JDK bin(`C:\Program Files\Java\jdk1.8.x\bin`) and JRE(`C:\Program Files\Java\jre1.8.x`) to path variable. 
+> Please use the path where your JDK was installed, the paths above are just examples.
+{.is-warning}
+
+![add-app-to-path.png](/getting-started/add-app-to-path.png)
+
+- Download, install and add <a href="https://downloads.gradle-dn.com/distributions/gradle-4.10.3-all.zip" target="_blank">Gradle</a> to environmental variable.
 
 - <a href="https://quasar.dev/quasar-cli-vite/developing-cordova-apps/preparation#-start-developing" target="_blank">Quasar mobile development requirement docs</a>
 
