@@ -2,13 +2,25 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-02-22T18:59:45.097Z
+date: 2022-05-09T18:43:27.796Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
 ---
 
 # Creating a New Project
+
+Select your project type:
+
+## Project types {.tabset}
+
+### PHP - Laravel <i class="mdi mdi-laravel"></i> + Vue Quasar <i class="mdi mdi-vuejs"></i>
+
+### PHP - Laravel <i class="mdi mdi-laravel"></i> + PrimeVue <i class="mdi mdi-vuejs"></i>
+
+### PHP - Laravel <i class="mdi mdi-laravel"></i> + Bootstrap & JQuery <i class="mdi mdi-bootstrap"></i>
+
+### NodeJS <i class="mdi mdi-nodejs"></i> - Express + Bootstrap & JQuery <i class="mdi mdi-ubuntu"></i>
 
 ---
 
