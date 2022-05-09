@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-09T14:50:51.164Z
+date: 2022-05-09T15:15:32.711Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -69,7 +69,7 @@ In order to develop mobile app with **Radsystems Studio**, there are multiple <a
 
 - You need to download and install <a href="https://developer.android.com/studio" target="_blank">Android Studio</a>.
 - After installing <a href="https://developer.android.com/studio" target="_blank">Android Studio</a>, you need to add your android SDK path to `ANDROID_HOME` and `ANDROID_SDK_ROOT`.
-![add-android-sdk-root.png](/getting-started/add-android-sdk-root.png)
+![add-android-sdk-root.png](/requirements/add-android-sdk-root.png)
 - Download and install <a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">JDK</a>
 - Add JDK installation path to `JAVA_HOME`, similar to what was done for `ANDROID_HOME` and `ANDROID_SDK_ROOT`, and then add JDK bin(`C:\Program Files\Java\jdk1.8.x\bin`) and JRE(`C:\Program Files\Java\jre1.8.x`) to path variable. 
 > Please use the path where your JDK was installed, the paths above are just examples.
@@ -78,8 +78,8 @@ In order to develop mobile app with **Radsystems Studio**, there are multiple <a
 - Download, install and add <a href="https://downloads.gradle-dn.com/distributions/gradle-4.10.3-all.zip" target="_blank">Gradle</a> to environmental variable.
 You can read more from <a href="https://quasar.dev/quasar-cli-vite/developing-cordova-apps/preparation#-start-developing" target="_blank">Quasar mobile development requirement docs</a>
 
-# Setup Environment Variable Path
-Some installations need to manually encode their parent folder in Windows Environment variables (e.g php.exe, python and pip)
+# Setup Environment Variables
+Some installations need to manually encode their parent folder in Windows Environment variables (e.g **PHP**, **Android**, **Java**, **python** and **pip**). If you are using Laragon then you can add the paths to all installed To add 
 1. Go to **Start->Control Panel**
 2. **System and Security**
 3. **System**
@@ -89,7 +89,7 @@ Some installations need to manually encode their parent folder in Windows Enviro
 6. In the **User variables** and **System Variables** , click variable **Path**
 7. Click **Edit**
 8. Click **New**
-![add-app-to-path.png](/getting-started/add-app-to-path.png)
+![add-app-to-path.png](/requirements/add-app-to-path.png)
 9. Enter the following path below: (*Note: This is the path in my computer, yours is different*)
 - `D:\xampp2\php` (*This is the path of my php.exe*)
 - `%localappdata%\Programs\Python\Python39` (*This is the path of my python.exe*)
