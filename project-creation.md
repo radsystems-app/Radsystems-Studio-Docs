@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-10T16:12:07.872Z
+date: 2022-05-10T20:36:52.539Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -18,21 +18,27 @@ Select your project type:
 ![phpradvue-php-laravel-vue-quasar.png](/getting-started/phpradvue-php-laravel-vue-quasar.png)
 
 ### PHP - Laravel <i class="mdi mdi-laravel"></i> + PrimeVue <i class="mdi mdi-vuejs"></i>
+![phpradvue-php-laravel-primevue.png](/getting-started/phpradvue-php-laravel-primevue.png)
 
 ### PHP - Laravel <i class="mdi mdi-laravel"></i> + Bootstrap & JQuery <i class="mdi mdi-bootstrap"></i>
+![phpradclassic-php-laravel-bootstrap-jquery.png](/getting-started/phpradclassic-php-laravel-bootstrap-jquery.png)
 
 ### NodeJS - Express <i class="mdi mdi-nodejs"></i> + Vue Quasar <i class="mdi mdi-vuejs"></i>
+![noderadvue-nodejs-express-vue-quasar.png](/getting-started/noderadvue-nodejs-express-vue-quasar.png)
 
 ### NodeJS - Express <i class="mdi mdi-nodejs"></i> + PrimeVue <i class="mdi mdi-vuejs"></i>
+![noderadvue-nodejs-express-primevue.png](/getting-started/noderadvue-nodejs-express-primevue.png)
 
 ### Python - Flask <i class="mdi mdi-language-python"></i> + Vue Quasar <i class="mdi mdi-vuejs"></i>
+![pyradradvue-python-flask-vue-quasar.png](/getting-started/pyradradvue-python-flask-vue-quasar.png)
 
 ### Python - Flask <i class="mdi mdi-language-python"></i> + PrimeVue <i class="mdi mdi-vuejs"></i>
+![pyradradvue-python-flask-primevue.png](/getting-started/pyradradvue-python-flask-primevue.png)
 
 ### ASP .Net Core <i class="mdi mdi-dot-net"></i> + Vue Quasar <i class="mdi mdi-vuejs"></i>
+![aspradvue-asp-.net-core-vue-quasar.png](/getting-started/aspradvue-asp-.net-core-vue-quasar.png)
 
 ### ASP .Net Core <i class="mdi mdi-dot-net"></i> + PrimeVue <i class="mdi mdi-vuejs"></i>
-
 ![aspradvue-asp-.net-core-primevue.png](/getting-started/aspradvue-asp-.net-core-primevue.png)
 
 ## STEP 1 - Select a type of project
