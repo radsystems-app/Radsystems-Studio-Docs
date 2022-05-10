@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-10T20:36:52.539Z
+date: 2022-05-10T21:28:10.556Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -10,7 +10,8 @@ dateCreated: 2021-06-30T04:48:13.567Z
 
 # Creating a New Project
 
-Select your project type:
+> **Note:** Before you create a project in Radsystems Studio, please make sure you have created your database witht the database server of your choice.
+{.is-warning}
 
 ## Project types {.tabset}
 
@@ -41,8 +42,12 @@ Select your project type:
 ### ASP .Net Core <i class="mdi mdi-dot-net"></i> + PrimeVue <i class="mdi mdi-vuejs"></i>
 ![aspradvue-asp-.net-core-primevue.png](/getting-started/aspradvue-asp-.net-core-primevue.png)
 
-## STEP 1 - Select a type of project
 
+## Enter project details
+
+![create-new-project-panel.png](/getting-started/create-new-project-panel.png)
+
+- Enter your project name.
 
 ![project-creation-1.jpg](/pages/project-creation/project-creation-1.jpg)
 
