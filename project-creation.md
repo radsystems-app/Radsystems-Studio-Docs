@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-10T21:37:42.994Z
+date: 2022-05-10T21:50:57.294Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -43,7 +43,7 @@ dateCreated: 2021-06-30T04:48:13.567Z
 ![aspradvue-asp-.net-core-primevue.png](/getting-started/aspradvue-asp-.net-core-primevue.png)
 
 
-## Enter project details
+# Enter project details
 
 ![create-new-project-panel.png](/getting-started/create-new-project-panel.png)
 
