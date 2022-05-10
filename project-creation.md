@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-10T23:10:25.721Z
+date: 2022-05-10T23:42:45.332Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -47,12 +47,12 @@ dateCreated: 2021-06-30T04:48:13.567Z
 
 ![create-new-project-panel.png](/getting-started/create-new-project-panel.png)
 
-**1.** Enter your project name, it should only contain any of the following alphabets, numbers, and spaces. You should avaoid special characters in order not to get errors while publishing your project.
+1. Enter your project name, it should only contain any of the following alphabets, numbers, and spaces. You should avoid special characters in order not to get errors while publishing your project.
 2. Project location is automatically set, but you can change it to a different folder.
 > **Note:** If you want to set the default location you want to use for new projects, you will have to do it from <kbd>Global Settings</kbd> <kbd>></kbd> <kbd>ProjectsDefaultDirectory</kbd>, by selecting a new folder.
 {.is-info}
 3. Site Address is set to the default, but your project is running on a different port order than the one set, you can add the correct site address.
-4. You can select the default language you want to use for you project, and also turn on myultiple language support.
+4. You can select the default language you want to use for you project, and also turn on myultiple language support. The list of languages supported are: `English, French, Russian, Chinese, Italian, Hindi, Portuguese, German, Spanish, and Arabic`.
 > Becareful with this, as you cannot change it later on in the project. In order to change the default language, you will have to recreate the project.
 {.is-warning}
 5. Next, you select your project icon. depending on the project type, there are different icons availble.
@@ -66,6 +66,7 @@ dateCreated: 2021-06-30T04:48:13.567Z
 #### PrimeVue <i class="mdi mdi-vuejs"></i>
 ##### Icons
 - PrimeIcons
+
 #### Bootstrap & JQuery <i class="mdi mdi-bootstrap"></i>
 ##### Icons
 - Material-Icons
@@ -73,9 +74,42 @@ dateCreated: 2021-06-30T04:48:13.567Z
 - FontAwesome
 - Drip-Icons
 
+# Select Database
+
+## Database types {.tabset}
+
+### MariaDB/MySQL <i class="mdi mdi-mysql"></i>
+
+### SQLite <i class="mdi mdi-laravel"></i>
+
+### Postgres <i class="mdi mdi-laravel"></i>
+
+### MSSQL <i class="mdi mdi-nodejs"></i> 
+
 ##
 > Please note that if you do not understand these settings, it is better to leave them to the default values set by **Radsystems Studio**. 
 {.is-warning}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![project-creation-1.jpg](/pages/project-creation/project-creation-1.jpg)
 
