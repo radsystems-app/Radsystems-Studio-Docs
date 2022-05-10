@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-10T21:50:57.294Z
+date: 2022-05-10T23:09:19.901Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -49,7 +49,33 @@ dateCreated: 2021-06-30T04:48:13.567Z
 
 1. Enter your project name, it should only contain any of the following alphabets, numbers, and spaces. You should avaoid special characters in order not to get errors while publishing your project.
 2. Project location is automatically set, but you can change it to a different folder.
-Note that if you want to set the default location you want to use for new projects, you will have to do it from <kbd>Global Settings</kbd> <kbd>></kbd> <kbd>ProjectsDefaultDirectory</kbd>, 
+> **Note:** If you want to set the default location you want to use for new projects, you will have to do it from <kbd>Global Settings</kbd> <kbd>></kbd> <kbd>ProjectsDefaultDirectory</kbd>, by selecting a new folder.
+{.is-info}
+3. Site Address is set to the default, but your project is running on a different port order than the one set, you can add the correct site address.
+4. You can select the default language you want to use for you project, and also turn on myultiple language support.
+> Becareful with this, as you cannot change it later on in the project. In order to change the default language, you will have to recreate the project.
+{.is-warning}
+5. Next, you select your project icon. depending on the project type, there are different icons availble.
+### Icon types {.tabset}
+#### Vue Quasar <i class="mdi mdi-vuejs"></i>
+##### Icons
+- Material-Icons
+- FontAwesome-v5
+- Line-Awesome
+
+#### PrimeVue <i class="mdi mdi-vuejs"></i>
+##### Icons
+- PrimeIcons
+#### Bootstrap & JQuery <i class="mdi mdi-bootstrap"></i>
+##### Icons
+- Material-Icons
+- Simple-Line-Icons
+- FontAwesome
+- Drip-Icons
+
+##
+> Please note that if you do not understand these settings, it is better to leave them to the default values set by **Radsystems Studio**. 
+{.is-warning}
 
 ![project-creation-1.jpg](/pages/project-creation/project-creation-1.jpg)
 
