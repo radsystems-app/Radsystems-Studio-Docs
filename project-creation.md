@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-10T23:09:19.901Z
+date: 2022-05-10T23:10:25.721Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -47,7 +47,7 @@ dateCreated: 2021-06-30T04:48:13.567Z
 
 ![create-new-project-panel.png](/getting-started/create-new-project-panel.png)
 
-1. Enter your project name, it should only contain any of the following alphabets, numbers, and spaces. You should avaoid special characters in order not to get errors while publishing your project.
+**1.** Enter your project name, it should only contain any of the following alphabets, numbers, and spaces. You should avaoid special characters in order not to get errors while publishing your project.
 2. Project location is automatically set, but you can change it to a different folder.
 > **Note:** If you want to set the default location you want to use for new projects, you will have to do it from <kbd>Global Settings</kbd> <kbd>></kbd> <kbd>ProjectsDefaultDirectory</kbd>, by selecting a new folder.
 {.is-info}
