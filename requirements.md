@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-09T16:05:05.567Z
+date: 2022-05-10T16:05:22.252Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -69,7 +69,7 @@ In order to develop mobile app with **Radsystems Studio**, there are multiple <a
 
 - You need to download and install <a href="https://developer.android.com/studio" target="_blank">Android Studio</a>.
 - After installing <a href="https://developer.android.com/studio" target="_blank">Android Studio</a>, you need to add your android SDK path to `ANDROID_HOME` and `ANDROID_SDK_ROOT`.
-![add-android-sdk-root.png](/requirements/add-android-sdk-root.png)
+![add-android-sdk-root.png](/getting-started/add-android-sdk-root.png)
 - Download and install <a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">JDK</a>
 - Add JDK installation path to `JAVA_HOME`, similar to what was done for `ANDROID_HOME` and `ANDROID_SDK_ROOT`, and then add JDK bin(`C:\Program Files\Java\jdk1.8.x\bin`) and JRE(`C:\Program Files\Java\jre1.8.x`) to path variable. 
 > Please use the path where your JDK was installed, the paths above are just examples.
@@ -84,12 +84,12 @@ Some installations need to manually encode their parent folder in Windows Enviro
 To loacate the **Environmental Variables** panel, click on **Sart Menu**, click on **Control Panel**, click on **Systems**, click on **Advance system settings**, then click on **Environment Variables**.
 E.g <kbd>Sart</kbd> <kbd>></kbd> <kbd>Control Panel</kbd> <kbd>></kbd> <kbd>Systems</kbd> <kbd>></kbd> <kbd>Advance system settings</kbd> <kbd>></kbd> <kbd>Environment Variables</kbd>
 
-![environmental-variables.png](/requirements/environmental-variables.png)
+![environmental-variables.png](/getting-started/environmental-variables.png)
 
 To add an app to the path variable, click on **Path** variable from either **User variables** or **System Variables** section, click on **Edit**, then click on **New** and add the application path to it.
 E.g <kbd>Path</kbd> <kbd>></kbd> <kbd>Edit</kbd> <kbd>></kbd> <kbd>New</kbd>
 
-![add-app-to-path.png](/requirements/add-app-to-path.png)
+![add-app-to-path.png](/getting-started/add-app-to-path.png)
 
 Below are the list of paths you need to enter if they dont already exist:
 - Add **XAMPP PHP** Path `C:\xampp\php` or else locate you **PHP** installation path and add it.
