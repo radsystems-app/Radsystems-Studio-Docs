@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-10T23:42:45.332Z
+date: 2022-05-10T23:45:30.163Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -78,13 +78,13 @@ dateCreated: 2021-06-30T04:48:13.567Z
 
 ## Database types {.tabset}
 
-### MariaDB/MySQL <i class="mdi mdi-mysql"></i>
+### MariaDB/MySQL
 
-### SQLite <i class="mdi mdi-laravel"></i>
+### SQLite
 
-### Postgres <i class="mdi mdi-laravel"></i>
+### Postgres
 
-### MSSQL <i class="mdi mdi-nodejs"></i> 
+### MSSQL
 
 ##
 > Please note that if you do not understand these settings, it is better to leave them to the default values set by **Radsystems Studio**. 
