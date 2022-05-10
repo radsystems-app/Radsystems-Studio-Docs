@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-10T15:21:10.881Z
+date: 2022-05-10T16:12:07.872Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -15,6 +15,7 @@ Select your project type:
 ## Project types {.tabset}
 
 ### PHP - Laravel <i class="mdi mdi-laravel"></i> + Vue Quasar <i class="mdi mdi-vuejs"></i>
+![phpradvue-php-laravel-vue-quasar.png](/getting-started/phpradvue-php-laravel-vue-quasar.png)
 
 ### PHP - Laravel <i class="mdi mdi-laravel"></i> + PrimeVue <i class="mdi mdi-vuejs"></i>
 
@@ -32,7 +33,7 @@ Select your project type:
 
 ### ASP .Net Core <i class="mdi mdi-dot-net"></i> + PrimeVue <i class="mdi mdi-vuejs"></i>
 
----
+![aspradvue-asp-.net-core-primevue.png](/getting-started/aspradvue-asp-.net-core-primevue.png)
 
 ## STEP 1 - Select a type of project
 
