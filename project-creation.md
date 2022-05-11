@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-11T15:25:06.227Z
+date: 2022-05-11T16:01:07.381Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -75,11 +75,18 @@ dateCreated: 2021-06-30T04:48:13.567Z
 - Drip-Icons
 
 # Select Database
+Before getting to this point, you need to make sure you have prepared your database connection details for the database of your choice.
 
 ## Database types {.tabset}
 
 ### MariaDB/MySQL
 ![select-database-maria-db-mysql.png](/getting-started/select-database-maria-db-mysql.png)
+6. Select the database you want to use. By default **MariaDB** is selected which is the same as **MySQL**.
+7. Enter you database save address here. If your database is on the same PC you are using for development, you should set the address to `localhost` or `127.0.0.1`. But if your database is in a remote **PC**, you need to make sure that you have allowed remote connections to the database.
+8. Set you port here or leave it empty if you are using the default **MySQL/MariaDB** port.
+9. Enter the **username** for the database here.
+10. Enter the **password** for the database here.
+11. After entering the correct **server address**, **port**, **username**, and **password**, when you click on this select field, you should see a list of thatabase for the detail you have entered. Then select the database you want to use for the project.
 
 ### SQLite
 ![select-database-sqlite.png](/getting-started/select-database-sqlite.png)
