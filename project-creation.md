@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-11T16:30:35.386Z
+date: 2022-05-11T16:32:38.052Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -125,6 +125,9 @@ Before getting to this point, you need to make sure you have prepared your datab
 ![create-project-button.png](/getting-started/create-project-button.png)
 
 After setting up your database detials, you need to click on the **Create Project** button for **Radsystems Studio** to connect to your database and create the default project configuration for your project.
+
+
+# Publish you Project
 
 
 
