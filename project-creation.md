@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-10T23:45:30.163Z
+date: 2022-05-11T15:25:06.227Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -51,11 +51,11 @@ dateCreated: 2021-06-30T04:48:13.567Z
 2. Project location is automatically set, but you can change it to a different folder.
 > **Note:** If you want to set the default location you want to use for new projects, you will have to do it from <kbd>Global Settings</kbd> <kbd>></kbd> <kbd>ProjectsDefaultDirectory</kbd>, by selecting a new folder.
 {.is-info}
-3. Site Address is set to the default, but your project is running on a different port order than the one set, you can add the correct site address.
+3. Site Address is set to default, but if your project is running on a different port order than the one set, you can add the correct site address.
 4. You can select the default language you want to use for you project, and also turn on myultiple language support. The list of languages supported are: `English, French, Russian, Chinese, Italian, Hindi, Portuguese, German, Spanish, and Arabic`.
 > Becareful with this, as you cannot change it later on in the project. In order to change the default language, you will have to recreate the project.
 {.is-warning}
-5. Next, you select your project icon. depending on the project type, there are different icons availble.
+5. Next, you select your project icon. depending on the project type, there are different icons available.
 ### Icon types {.tabset}
 #### Vue Quasar <i class="mdi mdi-vuejs"></i>
 ##### Icons
@@ -79,12 +79,16 @@ dateCreated: 2021-06-30T04:48:13.567Z
 ## Database types {.tabset}
 
 ### MariaDB/MySQL
+![select-database-maria-db-mysql.png](/getting-started/select-database-maria-db-mysql.png)
 
 ### SQLite
+![select-database-sqlite.png](/getting-started/select-database-sqlite.png)
 
 ### Postgres
+![select-database-postgres.png](/getting-started/select-database-postgres.png)
 
 ### MSSQL
+![select-database-mssql.png](/getting-started/select-database-mssql.png)
 
 ##
 > Please note that if you do not understand these settings, it is better to leave them to the default values set by **Radsystems Studio**. 
