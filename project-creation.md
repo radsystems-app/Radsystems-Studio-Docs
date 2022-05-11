@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-11T16:01:07.381Z
+date: 2022-05-11T16:30:35.386Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -82,24 +82,49 @@ Before getting to this point, you need to make sure you have prepared your datab
 ### MariaDB/MySQL
 ![select-database-maria-db-mysql.png](/getting-started/select-database-maria-db-mysql.png)
 6. Select the database you want to use. By default **MariaDB** is selected which is the same as **MySQL**.
-7. Enter you database save address here. If your database is on the same PC you are using for development, you should set the address to `localhost` or `127.0.0.1`. But if your database is in a remote **PC**, you need to make sure that you have allowed remote connections to the database.
-8. Set you port here or leave it empty if you are using the default **MySQL/MariaDB** port.
+7. Enter your database server address here. If your database is on the same PC you are using for development, you should set the address to `localhost` or `127.0.0.1`. But if your database is in a remote **PC**, you need to make sure that you have allowed remote connections to the database.
+8. Set your port here or leave it empty if you are using the default **MySQL/MariaDB** port.
 9. Enter the **username** for the database here.
-10. Enter the **password** for the database here.
-11. After entering the correct **server address**, **port**, **username**, and **password**, when you click on this select field, you should see a list of thatabase for the detail you have entered. Then select the database you want to use for the project.
+10. Enter the **password** for the database user here.
+11. After entering the correct **server address**, **port**, **username**, and **password**, when you click on this select field, you should see a list of databases for the detail you have entered. Then select the database you want to use for the project.
 
 ### SQLite
 ![select-database-sqlite.png](/getting-started/select-database-sqlite.png)
+6. Select **SQLite**.
+7. Enter the name you want to use for your new SQLite database.
+8. If you alrady have an **SQLite** database already created, click on this button to select it from the location where it is on you **PC**.
 
 ### Postgres
 ![select-database-postgres.png](/getting-started/select-database-postgres.png)
+6. Select **PostgresDB**.
+7. Enter your database server address here. If your database is on the same PC you are using for development, you should set the address to `localhost` or `127.0.0.1`. But if your database is in a remote **PC**, you need to make sure that you have allowed remote connections to the database.
+8. Set your port here or leave it to the default port set if you are using the default **PostgresDB** port.
+9. Enter the **username** for the database here or leave it to `postgres` if you are using the default **Postgres** user.
+10. Enter the **password** for the database user here.
+11. After entering the correct **server address**, **port**, **username**, and **password**, when you click on this select field, you should see a list of databases for the detail you have entered. Then select the database you want to use for the project.
+> In some cases, you might have to enter the name of the database instead of selecting it from the list.
+{.is-info}
 
 ### MSSQL
 ![select-database-mssql.png](/getting-started/select-database-mssql.png)
+6. Select **MSSQL**.
+7. Enter your database server address here. If your database is on the same PC you are using for development, you should set the address to `localhost` or `127.0.0.1`. But if your database is in a remote **PC**, you need to make sure that you have allowed remote connections to the database.
+8. Set your port here or leave it blank if you are using the default **MSSQL** port.
+9. Click this checkbox if you want to use **Windows Authentication** to connect to your **MSSQL** database. If this is used, then you can skip step **10** and **11**.
+10. Enter the **username** for the database here.
+11. Enter the **password** for the database user here.
+12. After entering the correct **server address**, **port**, **username**, and **password**, when you click on this select field, you should see a list of databases for the detail you have entered. Then select the database you want to use for the project.
+> In some cases, you might have to enter the name of the database instead of selecting it from the list.
+{.is-info}
+
 
 ##
 > Please note that if you do not understand these settings, it is better to leave them to the default values set by **Radsystems Studio**. 
 {.is-warning}
+
+![create-project-button.png](/getting-started/create-project-button.png)
+
+After setting up your database detials, you need to click on the **Create Project** button for **Radsystems Studio** to connect to your database and create the default project configuration for your project.
 
 
 
