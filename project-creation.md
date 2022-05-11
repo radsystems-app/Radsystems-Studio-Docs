@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-11T16:32:38.052Z
+date: 2022-05-11T16:33:55.425Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
