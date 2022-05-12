@@ -2,7 +2,7 @@
 title: Global Settings
 description: 
 published: true
-date: 2021-08-13T11:40:42.801Z
+date: 2021-08-13T11:40:45.488Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T11:11:33.690Z

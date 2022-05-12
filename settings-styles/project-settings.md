@@ -2,7 +2,7 @@
 title: Project Settings
 description: 
 published: true
-date: 2021-08-13T11:42:14.389Z
+date: 2021-08-13T11:42:16.951Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T11:39:16.953Z

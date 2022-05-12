@@ -2,7 +2,7 @@
 title: Custom Javascript Code
 description: Modify or Create custom VueJS code
 published: true
-date: 2021-07-30T01:03:44.054Z
+date: 2021-07-30T01:03:46.578Z
 tags: custom, vuejs, javascript, code
 editor: markdown
 dateCreated: 2021-07-30T01:01:05.434Z

@@ -2,7 +2,7 @@
 title: App Icon
 description: 
 published: true
-date: 2021-08-18T00:18:03.525Z
+date: 2021-08-18T00:18:06.612Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T20:21:49.943Z

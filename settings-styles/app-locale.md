@@ -2,7 +2,7 @@
 title: App Locale
 description: Multi Language Configuration
 published: true
-date: 2021-08-14T19:54:37.097Z
+date: 2021-08-14T19:54:39.730Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T22:38:36.327Z

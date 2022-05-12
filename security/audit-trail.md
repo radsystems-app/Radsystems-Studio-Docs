@@ -2,7 +2,7 @@
 title: Audit Trail
 description: Log Page Actions
 published: true
-date: 2021-07-29T04:01:23.025Z
+date: 2021-07-29T04:01:25.737Z
 tags: audit, trail, log, history
 editor: markdown
 dateCreated: 2021-07-29T01:04:33.658Z
