@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-13T15:10:42.217Z
+date: 2022-05-13T15:21:12.655Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -40,8 +40,12 @@ If you choose to install just php and composer, then you can download them from 
 
 ### NodeJS - Express
 The **NodeJS - Express** framework depends on **NodeJS version 10** and above, but it is recomended you use **NodeJS version 14** or any of the **<a href="https://nodejs.org/en/" target="_blank">Long Term Support(LTS)</a>** versions. Once it is installed, you are ready to use the **NodeJS - Express** backend framework.
+
 > Please note that, It is recomended you download any of the **<a href="https://nodejs.org/en/" target="_blank">Long Term Support(LTS)</a>** versions.
 {.is-info}
+
+> Please note that if you are using **NodeJS version 16** and above, the node server for your project will not be automatically started. You are adviced to use the latest **NodeJS version 14**.
+{.is-warning}
 
 ### Python - Flask
 The **Python - Flask** framework depends on **Python 3**, but it is recomended you use **<a href="https://www.python.org/downloads/release/python-3810/" target="_blank">Python 3.8</a>** Once it is installed, you are ready to use the **Python - Flask** backend framework.
