@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-13T12:36:55.089Z
+date: 2022-05-13T13:43:32.968Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -153,7 +153,7 @@ Before getting to this point, you need to make sure you have prepared your datab
 {.is-info}
 
 
-##
+#
 > Please note that if you do not understand these settings, it is better to leave them to the default values set by **Radsystems Studio**. 
 {.is-warning}
 
