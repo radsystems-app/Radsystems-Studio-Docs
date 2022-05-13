@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-13T12:28:08.709Z
+date: 2022-05-13T12:36:55.089Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -18,30 +18,65 @@ dateCreated: 2021-06-30T04:48:13.567Z
 ### PHP - Laravel <i class="mdi mdi-laravel"></i> + Vue Quasar <i class="mdi mdi-vuejs"></i>
 ![phpradvue-php-laravel-vue-quasar.png](/getting-started/phpradvue-php-laravel-vue-quasar.png)
 
+1. Select the backend frame work you want to use for the project.
+2. Select the frontend frame work you want to use for the project.
+3. Click on the **Create Project** button.
+
 ### PHP - Laravel <i class="mdi mdi-laravel"></i> + PrimeVue <i class="mdi mdi-vuejs"></i>
 ![phpradvue-php-laravel-primevue.png](/getting-started/phpradvue-php-laravel-primevue.png)
+
+1. Select the backend frame work you want to use for the project.
+2. Select the frontend frame work you want to use for the project.
+3. Click on the **Create Project** button.
 
 ### PHP - Laravel <i class="mdi mdi-laravel"></i> + Bootstrap & JQuery <i class="mdi mdi-bootstrap"></i>
 ![phpradclassic-php-laravel-bootstrap-jquery.png](/getting-started/phpradclassic-php-laravel-bootstrap-jquery.png)
 
+1. Select the backend frame work you want to use for the project.
+2. Select the frontend frame work you want to use for the project.
+3. Click on the **Create Project** button.
+
 ### NodeJS - Express <i class="mdi mdi-nodejs"></i> + Vue Quasar <i class="mdi mdi-vuejs"></i>
 ![noderadvue-nodejs-express-vue-quasar.png](/getting-started/noderadvue-nodejs-express-vue-quasar.png)
+
+1. Select the backend frame work you want to use for the project.
+2. Select the frontend frame work you want to use for the project.
+3. Click on the **Create Project** button.
 
 ### NodeJS - Express <i class="mdi mdi-nodejs"></i> + PrimeVue <i class="mdi mdi-vuejs"></i>
 ![noderadvue-nodejs-express-primevue.png](/getting-started/noderadvue-nodejs-express-primevue.png)
 
+1. Select the backend frame work you want to use for the project.
+2. Select the frontend frame work you want to use for the project.
+3. Click on the **Create Project** button.
+
 ### Python - Flask <i class="mdi mdi-language-python"></i> + Vue Quasar <i class="mdi mdi-vuejs"></i>
 ![pyradradvue-python-flask-vue-quasar.png](/getting-started/pyradradvue-python-flask-vue-quasar.png)
+
+1. Select the backend frame work you want to use for the project.
+2. Select the frontend frame work you want to use for the project.
+3. Click on the **Create Project** button.
 
 ### Python - Flask <i class="mdi mdi-language-python"></i> + PrimeVue <i class="mdi mdi-vuejs"></i>
 ![pyradradvue-python-flask-primevue.png](/getting-started/pyradradvue-python-flask-primevue.png)
 
+1. Select the backend frame work you want to use for the project.
+2. Select the frontend frame work you want to use for the project.
+3. Click on the **Create Project** button.
+
 ### ASP .Net Core <i class="mdi mdi-dot-net"></i> + Vue Quasar <i class="mdi mdi-vuejs"></i>
 ![aspradvue-asp-.net-core-vue-quasar.png](/getting-started/aspradvue-asp-.net-core-vue-quasar.png)
+
+1. Select the backend frame work you want to use for the project.
+2. Select the frontend frame work you want to use for the project.
+3. Click on the **Create Project** button.
 
 ### ASP .Net Core <i class="mdi mdi-dot-net"></i> + PrimeVue <i class="mdi mdi-vuejs"></i>
 ![aspradvue-asp-.net-core-primevue.png](/getting-started/aspradvue-asp-.net-core-primevue.png)
 
+1. Select the backend frame work you want to use for the project.
+2. Select the frontend frame work you want to use for the project.
+3. Click on the **Create Project** button.
 
 # Enter project details
 
