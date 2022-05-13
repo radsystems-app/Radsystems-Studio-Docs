@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-13T15:04:22.697Z
+date: 2022-05-13T15:10:42.217Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -13,7 +13,7 @@ dateCreated: 2021-08-03T03:09:09.844Z
 {.is-warning}
 
 # Operating System
-Radsystems Studio currently supports only the **Windows Operating System(OS)**, **Windows x86/x64 (7, 8, 10, 11)**. You can download the OS from the <a href="https://www.microsoft.com/en-us/software-download/" target="_blank">Microsoft Website</a>. For those using other operating systems, you will need to install a **Virtual Machine (VM)** and then install the supported windows OS to that **Virtual Machine (VM)** in order to install **Radsystems Studio** in it.
+**Radsystems Studio** currently supports only the **Windows Operating System(OS)**, **Windows x86/x64 (7, 8, 10, 11)**. You can download the OS from the <a href="https://www.microsoft.com/en-us/software-download/" target="_blank">Microsoft Website</a>. For those using other operating systems, you will need to install a **Virtual Machine (VM)** and then install the supported windows OS to that **Virtual Machine (VM)** in order to install **Radsystems Studio** in it.
 - <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox (MacOS, Linux, Solaris)</a>
 - <a href="https://wiki.winehq.org/Download" target="_blank">Wine (Linux, MacOS, Android)</a>
 - <a href="https://www.parallels.com/" target="_blank">Parallels Desktop (MacOS)</a>
@@ -31,34 +31,35 @@ The recommended development server for Radsystems Studio is <a href="https://lar
 Backend Frameworks are the aspect of the project that runs and is executed on the server.
 
 ### PHP - Laravel
-The **PHP -  Laravel** framwork depends on mostly **PHP 7.2.3** to **7.4.x** and Composer for package management. But if you download and install the <a href="https://laragon.org/download/" target="_blank">Laragon</a> full setup, you are ready to develop a **Laravel, Boostrap & jquery(PHPRad Classic)** project.
+The **PHP -  Laravel** depends on **Laravel 7.24** framework, which requires **PHP 7.2.5** to **7.4.x** and Composer for package management. But if you download and install the <a href="https://laragon.org/download/" target="_blank">Laragon</a> full setup, you are ready to develop a **Laravel, Boostrap & jquery(PHPRad Classic)** project.
 
 If you choose to install just php and composer, then you can download them from the links below:
+- <a href="https://laravel.com/docs/7.x" target="_blank">Laravel 7.24</a>
 - <a href="https://www.php.net/downloads.php" target="_blank">PHP</a>
 - <a href="https://getcomposer.org/download/" target="_blank">Composer</a>
 
 ### NodeJS - Express
-The **NodeJS - Express** framwork depends on **NodeJS version 10** and above, but it is recomended you use **NodeJS version 14** or any of the **<a href="https://nodejs.org/en/" target="_blank">Long Term Support(LTS)</a>** versions. Once it is installed, you are ready to use the **NodeJS - Express** backend framework.
+The **NodeJS - Express** framework depends on **NodeJS version 10** and above, but it is recomended you use **NodeJS version 14** or any of the **<a href="https://nodejs.org/en/" target="_blank">Long Term Support(LTS)</a>** versions. Once it is installed, you are ready to use the **NodeJS - Express** backend framework.
 > Please note that, It is recomended you download any of the **<a href="https://nodejs.org/en/" target="_blank">Long Term Support(LTS)</a>** versions.
 {.is-info}
 
 ### Python - Flask
-The **Python - Flask** framwork depends on **Python 3**, but it is recomended you use **<a href="https://www.python.org/downloads/release/python-3810/" target="_blank">Python 3.8</a>** Once it is installed, you are ready to use the **Python - Flask** backend framework.
+The **Python - Flask** framework depends on **Python 3**, but it is recomended you use **<a href="https://www.python.org/downloads/release/python-3810/" target="_blank">Python 3.8</a>** Once it is installed, you are ready to use the **Python - Flask** backend framework.
 
 ### ASP .Net Core
-The **ASP .Net Core** framwork depends on **<a href="https://dotnet.microsoft.com/en-us/download/dotnet/3.1" target="_blank">.NET Core 3.1</a>** Once it is installed, you are ready to use the **ASP .Net Core** backend framework.
+The **ASP .Net Core** framework depends on **<a href="https://dotnet.microsoft.com/en-us/download/dotnet/3.1" target="_blank">.NET Core 3.1</a>** Once it is installed, you are ready to use the **ASP .Net Core** backend framework.
 
 ## Frontend Framework (UI)
 These are the frameworks used for generating the HTML, CSS and JavaScript for the projects.
 
 ### Vue Quasar
-The **Vue Quasar** framwork depends on **NodeJS version 10.18.1**, **Quasar CLI**. It is recomended you use **NodeJS version 14** version. After installing **NodeJS**, you can install **Vue Quasar CLI** using `npm i -g @quasar/cli`, if you dont and you try to create a project, **Radsystems Studio** will prompt you to intsall it.
+The **Vue Quasar** framework depends on **NodeJS version 10.18.1**, **Quasar CLI**. It is recomended you use **NodeJS version 14** version. After installing **NodeJS**, you can install **Vue Quasar CLI** using `npm i -g @quasar/cli`, if you dont and you try to create a project, **Radsystems Studio** will prompt you to intsall it.
 
 ### PrimeVue
-The **PrimeVue** framwork depends on **VueJS**, but it is not required to install the **VueJS CLI**. But it is recomended you have **NodeJS** already installed.
+The **PrimeVue** framework depends on **VueJS**, but it is not required to install the **VueJS CLI**. But it is recomended you have **NodeJS** already installed.
 
 ### Bootstrap JQuery
-The **Bootstrap JQuery** framworks does not have any requirements that needs to be installed. Once you have installed <a href="https://laragon.org/download/" target="_blank">Laragon</a>, <a href="https://www.apachefriends.org/download.html" target="_blank">XAMPP</a> or any orther dev server, you are ready to create Bootstrap and JQuery projects.
+The **Bootstrap JQuery** frameworks does not have any requirements that needs to be installed. Once you have installed <a href="https://laragon.org/download/" target="_blank">Laragon</a>, <a href="https://www.apachefriends.org/download.html" target="_blank">XAMPP</a> or any orther dev server, you are ready to create Bootstrap and JQuery projects.
 
 ## Publish Platforms
 ### Desktop Platform with Quasar💻
