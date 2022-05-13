@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-12T17:49:17.100Z
+date: 2022-05-13T12:28:08.709Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -59,20 +59,20 @@ dateCreated: 2021-06-30T04:48:13.567Z
 ### Icon types {.tabset}
 #### Vue Quasar <i class="mdi mdi-vuejs"></i>
 ##### Icons
-- Material-Icons
-- FontAwesome-v5
-- Line-Awesome
+- <a href="https://fonts.google.com/icons?selected=Material+Icons" target="_blank">Material-Icons</a>
+- <a href="https://fontawesome.com/icons" target="_blank">FontAwesome-v5</a>
+- <a href="https://icons8.com/line-awesome" target="_blank">Line-Awesome</a>
 
 #### PrimeVue <i class="mdi mdi-vuejs"></i>
 ##### Icons
-- PrimeIcons
+- <a href="https://www.primefaces.org/primevue/icons" target="_blank">PrimeIcons</a>
 
 #### Bootstrap & JQuery <i class="mdi mdi-bootstrap"></i>
 ##### Icons
-- Material-Icons
-- Simple-Line-Icons
-- FontAwesome
-- Drip-Icons
+- <a href="https://fonts.google.com/icons?selected=Material+Icons" target="_blank">Material-Icons</a>
+- <a href="https://simplelineicons.github.io/" target="_blank">Simple-Line-Icons</a>
+- <a href="https://fontawesome.com/icons" target="_blank">FontAwesome</a>
+- <a href="http://demo.amitjakhu.com/dripicons/" target="_blank">Drip-Icons</a>
 
 # Select Database
 Before getting to this point, you need to make sure you have prepared your database connection details for the database of your choice.
@@ -128,3 +128,10 @@ After setting up your database detials, you need to click on the **Create Projec
 
 
 # Save & Publish your Project
+![save-publish-preview.png](/getting-started/save-publish-preview.png)
+1. You are adviced to save your project at least once, by clicking on the **Save Project** before you proceed with any configuration, as you might loose the project because it is not yet saved.
+2. Click on the "**Publish**" tab to navigate to the publish window.
+3. Click on the "**F5 - Publish Project**" button to pubish the project with out living the current window you are working with. You can also press the <kbd>F5</kbd> button on your keyboard to publish the project.
+
+> To learn more about the publish section, visit [publish](/en/preview/publish).
+{.is-info}
