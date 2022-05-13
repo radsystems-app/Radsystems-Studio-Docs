@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-13T15:21:12.655Z
+date: 2022-05-13T15:22:24.243Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -10,7 +10,7 @@ dateCreated: 2021-08-03T03:09:09.844Z
 
 
 > **System requirements** will vary on what application you want to create.
-{.is-warning}
+{.is-info}
 
 # Operating System
 **Radsystems Studio** currently supports only the **Windows Operating System(OS)**, **Windows x86/x64 (7, 8, 10, 11)**. You can download the OS from the <a href="https://www.microsoft.com/en-us/software-download/" target="_blank">Microsoft Website</a>. For those using other operating systems, you will need to install a **Virtual Machine (VM)** and then install the supported windows OS to that **Virtual Machine (VM)** in order to install **Radsystems Studio** in it.
