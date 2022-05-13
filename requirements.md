@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-05-10T16:05:42.806Z
+date: 2022-05-13T15:04:22.697Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -31,7 +31,7 @@ The recommended development server for Radsystems Studio is <a href="https://lar
 Backend Frameworks are the aspect of the project that runs and is executed on the server.
 
 ### PHP - Laravel
-The **PHP -  Laravel** framwork depends on mostly PHP and Composer for package management. But if you download and install the <a href="https://laragon.org/download/" target="_blank">Laragon</a> full setup, you are ready to develop a **Laravel, Boostrap & jquery(PHPRad Classic)** project.
+The **PHP -  Laravel** framwork depends on mostly **PHP 7.2.3** to **7.4.x** and Composer for package management. But if you download and install the <a href="https://laragon.org/download/" target="_blank">Laragon</a> full setup, you are ready to develop a **Laravel, Boostrap & jquery(PHPRad Classic)** project.
 
 If you choose to install just php and composer, then you can download them from the links below:
 - <a href="https://www.php.net/downloads.php" target="_blank">PHP</a>
