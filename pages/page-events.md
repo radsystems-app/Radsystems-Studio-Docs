@@ -2,7 +2,7 @@
 title: Page Events
 description: Handle Page Actions
 published: true
-date: 2022-05-18T00:10:09.800Z
+date: 2022-05-18T00:15:59.115Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T12:49:16.192Z
