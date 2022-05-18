@@ -2,7 +2,7 @@
 title: Page Events
 description: Handle Page Actions
 published: true
-date: 2022-05-18T00:42:02.789Z
+date: 2022-05-18T01:13:30.797Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T12:49:16.192Z
@@ -32,8 +32,12 @@ dateCreated: 2022-05-13T12:49:16.192Z
 ![4.png](/page-events/4.png)
 ![5.png](/page-events/5.png)
 
+> Note: If you want to remove your page event code, click **Clear Page Event**.
+{.is-info}
+
+
 # Example
-For our example we will be creating a Log System where we can track every changes in our Todo App data.
+For our example we will be creating a Log System where we can track every new Todo added.
 
 1. Create Database, name it: **todo-db**
 2. Create the first table, name it: **Todos**
@@ -48,11 +52,29 @@ For our example we will be creating a Log System where we can track every change
 - **action** *(VARCHAR(15) NOT NULL)*
 - **todo** *(VARCHAR(255) NOT NULL)*
 
-6. In RS Studio, Click Page Events (refer to #How To Use section
-## PHPRad Classic
-Coming Soon!
+6. In RS Studio, click **Page Events** in the toolbar.
+7. Expand the **Pages -> Todos -> Add** tree and click **AfterAdd**.
+8. Click **Edit Page Event**.
+9. Place your code inside the function.
+10. Use the code below for specific language you are using.
+11. Click **Okay** to save.
+12. In RS Studio, click **Publish** or **Re-publish Project**.
 
-## PHPRad Vue
+> So everytime you add a new Todo in the Todos module, it saves a log record on the Logs module.
+{.is-success}
+
+
+## PHPRad Classic (PHP Laravel + Boostrap Jquery)
+```
+    private function afterAdd($record){
+        //enter statement here
+        
+        $modeldata = ['action' => 'Add', 'todo' => $record['todo']];
+        DB::table('Logs')->insert($modeldata);
+    }
+```
+
+## PHPRad Vue (PHP Laravel + Quasar Vue)
 Coming Soon!
 
 ## NodeRad Vue
