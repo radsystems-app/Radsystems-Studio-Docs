@@ -2,7 +2,7 @@
 title: Page Events
 description: Handle Page Actions
 published: true
-date: 2022-05-18T01:13:30.797Z
+date: 2022-05-18T05:36:12.523Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T12:49:16.192Z
@@ -75,10 +75,29 @@ For our example we will be creating a Log System where we can track every new To
 ```
 
 ## PHPRad Vue (PHP Laravel + Quasar Vue)
-Coming Soon!
+```
+    private function afterAdd($record){
+        //enter statement here
+        
+        $modeldata = ['action' => 'Add', 'todo' => $record['todo']];
+        DB::table('Logs')->insert($modeldata);
+    }
+```
 
 ## NodeRad Vue
-Coming Soon!
+```
+async function afterAdd(record, req){
+    //enter statement here
+    
+    let tableModel = models.Logs;  //Logs is the name of the table
+    let modeldata = {
+        action: 'Add',
+        todo: record.todo
+    }
+    
+    await tableModel.create(modeldata);
+}
+```
 
 ## PyRad Vue
 Coming Soon!
