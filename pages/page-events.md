@@ -2,7 +2,7 @@
 title: Page Events
 description: Handle Page Actions
 published: true
-date: 2022-05-18T00:15:59.115Z
+date: 2022-05-18T00:42:02.789Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T12:49:16.192Z
@@ -33,6 +33,22 @@ dateCreated: 2022-05-13T12:49:16.192Z
 ![5.png](/page-events/5.png)
 
 # Example
+For our example we will be creating a Log System where we can track every changes in our Todo App data.
+
+1. Create Database, name it: **todo-db**
+2. Create the first table, name it: **Todos**
+3. Create 2 fields for Todos table
+- **id** *(INT AUTO_INCREMENT PRIMARY NOT NULL)*
+- **todo** *(VARCHAR(255) NOT NULL)*
+
+4. Create the second table, name it: **Logs**
+5. Create 4 fields for Logs table
+- **id** *(INT AUTO_INCREMENT PRIMARY NOT NULL)*
+- **dt** *(TIMESTAMP DEFAULT CURRENT_TIMESTAMP)*
+- **action** *(VARCHAR(15) NOT NULL)*
+- **todo** *(VARCHAR(255) NOT NULL)*
+
+6. In RS Studio, Click Page Events (refer to #How To Use section
 ## PHPRad Classic
 Coming Soon!
 
