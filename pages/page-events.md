@@ -2,7 +2,7 @@
 title: Page Events
 description: Handle Page Actions
 published: true
-date: 2022-05-19T19:52:47.114Z
+date: 2022-05-19T22:48:30.700Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T12:49:16.192Z
@@ -84,7 +84,7 @@ For our example we will be creating a Log System where we can track every new To
     }
 ```
 
-## NodeRad Vue
+## NodeRad Vue (NodeJS Express + Quasar Vue)
 ```
 async function afterAdd(record, req){
     //enter statement here
@@ -99,10 +99,10 @@ async function afterAdd(record, req){
 }
 ```
 
-## PyRad Vue
+## PyRad Vue (Python Flask + Quasar Vue)
 Coming Soon!
 
-## ASPRad Vue
+## ASPRad Vue (ASP .Net Core + Quasar Vue)
 ```
 private void afterAdd(Todos record){
    //enter statement here
