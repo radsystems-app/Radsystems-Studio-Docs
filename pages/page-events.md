@@ -2,7 +2,7 @@
 title: Page Events
 description: Handle Page Actions
 published: true
-date: 2022-05-18T05:36:12.523Z
+date: 2022-05-19T19:52:47.114Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T12:49:16.192Z
@@ -103,4 +103,15 @@ async function afterAdd(record, req){
 Coming Soon!
 
 ## ASPRad Vue
-Coming Soon!
+```
+private void afterAdd(Todos record){
+   //enter statement here
+            
+   var modeldata = new Logs(); //Logs is the tablename or modelname
+            
+	 modeldata.action = "Add";
+   modeldata.todo = record.todo;
+   DB.Logs.Add(modeldata);
+   DB.SaveChanges();
+}
+```
