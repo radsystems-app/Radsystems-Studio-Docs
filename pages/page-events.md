@@ -2,7 +2,7 @@
 title: Page Events
 description: Handle Page Actions
 published: true
-date: 2022-05-19T22:48:30.700Z
+date: 2022-05-20T06:56:40.315Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T12:49:16.192Z
@@ -100,7 +100,14 @@ async function afterAdd(record, req){
 ```
 
 ## PyRad Vue (Python Flask + Quasar Vue)
-Coming Soon!
+```
+def after_add(record):
+    # statement here
+    
+    new_record = Logs(action="Add", todo=record.todo)
+    db.session.add(new_record)
+    db.session.commit()
+```
 
 ## ASPRad Vue (ASP .Net Core + Quasar Vue)
 ```
