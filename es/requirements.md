@@ -2,7 +2,7 @@
 title: Requisitos del Sistema
 description: Documentación Oficial
 published: true
-date: 2022-05-24T12:47:52.625Z
+date: 2022-05-24T13:01:53.694Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T12:40:50.968Z
@@ -12,8 +12,24 @@ dateCreated: 2022-05-24T12:40:50.968Z
 {.is-info}
 # Sistema Operativo
 Actualmente, Radsystems Studio sólo es compatible con el sistema operativo Windows, Windows x86/x64 (7, 8, 10, 11). 
-Puede descargar el sistema operativo desde el sitio web de Microsoft  Para aquellos que utilicen otros sistemas operativos, tendrán que instalar una máquina virtual (VM) y luego instalar el sistema operativo Windows compatible en esa máquina virtual (VM) para poder instalar Radsystems Studio en ella.
+Puede descargar el sistema operativo desde el sitio web de  <a target="_blank" href="https://www.microsoft.com/en-us/software-download/" class="is-external-link">Sitio Web de Microsoft</a>
+ Para aquellos que utilicen otros sistemas operativos, tendrán que instalar una máquina virtual (VM) y luego instalar el sistema operativo Windows compatible en esa máquina virtual (VM) para poder instalar Radsystems Studio en ella.
 
+<a target="_blank" href="https://www.virtualbox.org/wiki/Downloads" class="is-external-link">VirtualBox (MacOS, Linux, Solaris)</a>
+
+<a target="_blank" href="https://wiki.winehq.org/Download" class="is-external-link">Wine (Linux, MacOS, Android)</a>
+
+<a target="_blank" href="https://www.parallels.com/" class="is-external-link">Parallels Desktop (MacOS)</a>
+
+<a target="_blank" href="https://www.vmware.com/products/fusion.html" class="is-external-link">VMWare (MacOS, Linux)</a>
+
+<a target="_blank" href="https://www.codeweavers.com/crossover/" class="is-external-link">CrossOver (ChromeOS, MacOS, Linux)</a>
+
+Estas son sólo algunas de las opciones que existen.
+
+# Servidores para Desarrollo
+
+El servidor de desarrollo recomendado para Radsystems Studio es <a target="_blank" href="https://laragon.org/download/" class="is-external-link">Laragon</a> ,Laragon le da la opción de instalar múltiples versiones de <a target="_blank" href="https://www.php.net/" class="is-external-link">PHP</a>, <a target="_blank" href="https://nodejs.org/en/" class="is-external-link">NodeJS</a>,<a target="_blank" href="https://www.python.org/downloads/" class="is-external-link">Python</a>, etc.
 
 
 
