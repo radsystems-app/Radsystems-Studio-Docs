@@ -2,25 +2,24 @@
 title: Pages
 description: Learn how to create and manage pages in RadSystems Studio
 published: true
-date: 2021-08-03T00:14:45.308Z
+date: 2022-05-30T10:15:38.035Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-29T17:08:12.536Z
 ---
 
-# Pages
 RadSystem Studio pages are the core of application development. The pages panel is divided into four sections:
 * Database Tables
 * Table Pages
 * Table Page Fields
 * Table Page Properties
-## Database Tables Section
+# Database Tables Section
 ![data-tables-section.png](/pages/data-tables-section.png){.align-center}
 1. According to the graph, on the left side of the panel you can find the direct access to the tree database tables, in addition to the views created. You can create your own views too.
 2. There is a three button menu. the first one allows you to change the details of the connection to the database.
 3. The next button allows you to manage the Database. Through the interface, you can add, duplicate or delete tables and, for each table, you can manage the fields as well as the field type, size and other properties.
 4. The last button synchronizes the database updating all the changes that have occurred through the Database manager.
-## Table Pages Section
+# Table Pages Section
 By default, RadSystem Studio creates interfaces (pages) for managing each table in the Database. What is generally known as CRUD (Create, Read, Update and Delete), can be seen in 5 pages: One to list the records, one to see the details of each record, one to Add Records, one to Edit Records and, finally, one to Delete a Record.
 ![table-pages-section.png](/pages/table-pages-section.png){.align-center}
 The Section also offers three buttons for managing the pages:
@@ -31,7 +30,7 @@ The Section also offers three buttons for managing the pages:
 At the bottom we have access to each of the properties that can be applied to a certain page.
 ### <span style="color:blue">For the *"List Page"*, we can configure the following properties:</span>
 
-### Subsection 01 - Page Design
+## Subsection 01 - Page Design
 * **AjaxPage**: Allows you to establish whether the page will use the asynchronous JavaScript technique, processing any request to the server in the background.
 > To enable ajax search in the list, it is important set to True this option.
 {.is-info}
@@ -39,20 +38,20 @@ At the bottom we have access to each of the properties that can be applied to a 
 * **PageTitle**: By default, RadSystems Studio uses the table name as the page name. This option allows you to customize the name of the Title that will appear in the List Page.
 * **DisplayType**: You can select how the data is presented. Choose between a tabular or a grid format.
 * **EmptyRecordMessage**: Allows you to customize the message when there is no data in the table.
-### Subsection 02 - Default Query Configuration
+## Subsection 02 - Default Query Configuration
 * **Join Tables**: Here you can specify your own SQL query or access a window that will help you with its construction.
 * **Where**: The option allows you to specify the SQL WHERE clause that allows you to retrieve a data set under a condition.
 * **Having**: The option allows you to specify the SQL HAVING clause that allows you to retrieve a data set under a SUM or MAX condition.
 * **Order By**: You can specify whether the query is sorted in ascending or descending order and the fields to which it applies.
 * **Record Limit**: It allows to specify the number of records to display per page block.
-### Subsection 04 - Inline Edit
+## Subsection 04 - Inline Edit
 * **InlineEdit**: Allows you to specify whether it is possible to edit the records on the same list.
 * **EditFieldControlType**: Allows you to choose whether the inline edition will be based on what is configured on the Edition page or through a specific data format.
 * **UsePopOverDisplay**: Allows you to enable or disable the pop - screen for inline editing.
 * **Placement**: The option allows you to specify the position of the popover display on a inline edition.
 * **ActivateMode**: You can specify the method by which inline editing is triggered.
 * **ShowButtons**: Allows you to specify the position of the buttons that allow inline editing.
-### Subsection 05 - Page Components
+## Subsection 05 - Page Components
 * **ActionButtonDisplayStile**: Allows you to specify whether to view, edit or delete a record, icons or a drop-down menu will be used.
 * **ActionButtonInFront**: You can select if the action buttons will be in front of each row of records or at the end of them.
 * **DeleteButton**: Select if the delete record button will be visible.
@@ -70,10 +69,10 @@ At the bottom we have access to each of the properties that can be applied to a 
 * **IncludeCheckBox**: Specify if a Check Box will be present for each record in list view.
 * **Pagination**: Specify if the page number selector will be present in the record list view.
 * **PaginationSettings**: Here you can set the pagination style, as well as set if the record counter, page counter and per page record selector will be visible.
-### Subsection 06 - Page Modal
+## Subsection 06 - Page Modal
 * **ModalEdit**: Allows you to set if the modal edition will be available.
 * **ModalView**: Allows you to set if the modal view will be available.
-### Subsection 07 - Table Design
+## Subsection 07 - Table Design
 * **TableBorderStyle**: Allows you to set the border Style of the List Page.
 * **TableStripped**: It allows to set if the list of records will be visually divided through separator lines.
 * **TableDark**: Allows to apply a dark theme to the records table.
@@ -85,17 +84,17 @@ At the bottom we have access to each of the properties that can be applied to a 
 * **TableCellAlignment**: Allows you to set the alignment of the data in the cells.
 
 ### <span style="color:blue">For the *"View Page"*, we can configure the following properties:</span>
-### Subsection 01 - Page Design
+## Subsection 01 - Page Design
 * **AjaxPage**: Allows you to set whether the page will use the asynchronous JavaScript technique, processing any request to the server in the background.
 * **PageTitle**: This option allows you to customize the name that will appear as Title in the View page.
 * **DisplayType**: Here you can set if the layout of each record and its titles will be horizontal or vertical.
-### Subsection 02 - Query Configuration
+## Subsection 02 - Query Configuration
 * **Join Tables**: Let you specify your own SQL query or access a window that will help you with its construction.
-### Subsection 02 - Record Events
+## Subsection 02 - Record Events
 * **Mail Action Settings**: Here you can set if an email will be sent every time the record is displayed as well as the title, subject and origin of the mail.
 > Make sure you have set the default mail configuration in the Project setting option.
 {.is-warning}
-### Subsection 03 - Page Components
+## Subsection 03 - Page Components
 * **EditButton**: Select if the Edit record button will be visible.
 * **DeleteButton**: Select if the Delete record button will be visible.
 * **EditButtonText**: Allows you to customize the caption of the Edit button.
@@ -106,7 +105,7 @@ At the bottom we have access to each of the properties that can be applied to a 
 * **ExportButtonText**: Allows you to customize the caption of the Export button.
 
 ### <span style="color:blue">For the *"Add Page"*, we can configure the following properties:</span>
-### Subsection 01 - Page Design
+## Subsection 01 - Page Design
 * **PageTitle**: This option allows you to customize the name that will appear as Title in the Add page.
 * **SubmitButtonText**: Allows you to customize the caption of the Add button.
 * **EnableCaptchaValidation**: Let you set if the Captcha Validation will be available before add a record.
@@ -114,39 +113,39 @@ At the bottom we have access to each of the properties that can be applied to a 
 * **EnableAutoCompleteField**: Select if the autocomplete feature will be available.
 * **SubForms**: This feature let you add subforms when adding a record. You can Specify the relation type, the name of the child form and the foreing key.
 * **FormLayoutType**: Let you select the form layout.
-### Subsection 02 - General
+## Subsection 02 - General
 * **MessageAfterAdd**: Allows you to customize the message that will be displayed once a record has been added.
-### Subsection 02 - Record Events
+## Subsection 02 - Record Events
 * **Redirect To After Add**: Let you set the page to which it will be redirected once the record has been added.
 * **Mail Action Settings**: Here you can set if an email will be sent every time the record is added as well as the title, subject and origin of the mail.
 > Make sure you have set the default mail configuration in the Project setting option.
 {.is-warning}
-### Subsection 03 - Page Components
+## Subsection 03 - Page Components
 * **Load Indicator Settings**: Here you can set the pagination style, as well as set if the record counter, page counter and per page record selector will be visible.
 
-### <span style="color:blue">For the *"Edit Page"*, we can configure the following properties:</span>
-### Subsection 01 - Page Design
+## <span style="color:blue">For the *"Edit Page"*, we can configure the following properties:</span>
+## Subsection 01 - Page Design
 * **PageTitle**: This option allows you to customize the name that will appear as Title in the Edit page.
 * **SubmitButtonText**: Allows you to customize the caption of the Edit button.
 * **EnableCaptchaValidation**: Let you set if the Captcha Validation will be available for a edited record.
 * **PageCustomValidation**: Let you place your own code for validate when a record is edited.
-### Subsection 02 - General
+## Subsection 02 - General
 * **FormLayoutType**: Let you select the form layout.
 * **MessageAfterAdd**: Allows you to customize the message that will be displayed once a record has been edited.
-### Subsection 02 - Record Events
+## Subsection 02 - Record Events
 * **Redirect To After Add**: Let you set the page to which it will be redirected once the record has been edited.
 * **Mail Action Settings**: Here you can set if an email will be sent every time the record is edited as well as the title, subject and origin of the mail.
 > Make sure you have set the default mail configuration in the Project setting option.
 {.is-warning}
-### Subsection 03 - Page Components
+## Subsection 03 - Page Components
 * **Load Indicator Settings**: Here you can set the pagination style, as well as set if the record counter, page counter and per page record selector will be visible.
 
 ### <span style="color:blue">For the *"Delete Page"*, we can configure the following properties:</span>
-### Subsection 01 - General
+## Subsection 01 - General
 * **PromptMessageBeforeDelete**: Here you can customize the message displayed before a record is deleted.
 * **PromptDisplayStyle**: Let you set de Style of the prompt message displayed.
 * **Redirect To After Delete**: Let you set the page to which it will be redirected once the record has been deleted.
-### Subsection 02 - General
+## Subsection 02 - General
 * **Mail Action Settings**: Here you can set if an email will be sent every time the record is deleted as well as the title, subject and origin of the mail.
 > Make sure you have set the default mail configuration in the Project setting option.
 {.is-warning}
@@ -154,8 +153,8 @@ At the bottom we have access to each of the properties that can be applied to a 
 > For an explanation on the "Edit Code" column, please follow this [link](/en/custom-code/pages)
 {.is-info}
 
-## Table Pages Fields Section
-### List-Page Fields
+# Table Pages Fields Section
+## List-Page Fields
 
 ![table-page-fields-section.png](/pages/table-page-fields-section.png)
 In this section, the first column is made up of 5 types of buttons:
@@ -171,16 +170,16 @@ The next columns in the section allow you to:
 6. The checkboxes in the SEARCH column define whether the fields will be searched in the final view of the page.
 
 In the section we can also define the logical operator SQL LIKE and the wildcards for the search.
-### View-Page Fields
+## View-Page Fields
 ![view-page-fields-section.png](/pages/view-page-fields-section.png)
 In this section, for the View-Page fields, you can find the same buttons for to reorder and output a field and for to add, edit and delete a custom field.
-### Add-Page Fields
+## Add-Page Fields
 ![add-page-fields-section.png](/pages/add-page-fields-section.png)
 In this case, for the Add-Page fields, you can reorder the fields and manage the output of the fields on the add-page or edit-page of the record. 
-### Edit-Page Fields
+## Edit-Page Fields
 ![edit-page-fields-section.png](/pages/edit-page-fields-section.png)
 In the case of the Edit-Page fields, you can find the same options as the Add-Page fields section.
-## Field Properties Section
+# Field Properties Section
 
 In this section, the properties of a field will depend on the type of field that is chosen. In RadStudio System there is 7 types of fields:
   * PlainText
@@ -195,7 +194,7 @@ In this section, the properties of a field will depend on the type of field that
 
 ![plaintext-field-properties.png](/pages/plaintext-field-properties.png)
 In the view, for example, the PlainText type field allows us to:
-### Subsection 01 - Display
+## Subsection 01 - Display
 * **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
 * **Field Link**: By default, the system sets a shortcut to the record view with the option --CurrentRecordDetail--. We can also choose between a direct access to the categories, the file, the search value, an email or a telephone as well as the pages to add or list the pages that we have created.
     - **--CurrentRecordDetails--**: Redirects a field's record to a detail page or view page.
@@ -223,7 +222,7 @@ In the view, for example, the PlainText type field allows us to:
 ![field-footer-expression-window.png](/pages/field-footer-expression-window.png)
 * **ColumnWidth**: Allows you to set the width of the field column.
 * **Display Label**: Allows you to set the Title of the Field column.
-### Subsection 02 - Master Detail Relation
+## Subsection 02 - Master Detail Relation
 * **Record Detail Page**: Set the characteristics of a relationship between master and detail tables.
 	* **Relation Type**: You can select between a one-to-one or one-to-many relationship.
 	* **Master Table**: Sets the master table and the defined field as primary key.
@@ -234,7 +233,7 @@ In the view, for example, the PlainText type field allows us to:
 	* **Record Display Field / Text**: Here you can set the text that will be displayed in each related record. You can set it to show the value of the record or a specific value of the table fields.
 	* **Display Icon**: According to the original settings, you can choose the icon to be displayed on each related record.
 	* **Button Color**: In the boostrap format, you can select the color of the button that gives access to the detail table view.
-### Subsection 04 - Inline Edit
+## Subsection 04 - Inline Edit
 If the online editing option is enabled in the assignment of page properties, here you can specify if this option will be available for each field individually.
 * **Inline Edit**: Set to TRUE to enable inline editing of the field.
 * **Inline Edit**: Allows you to choose whether the inline edition will be based on what is configured on the Edit page or through a specific data format.
@@ -244,7 +243,7 @@ If the online editing option is enabled in the assignment of page properties, he
 * **ShowButtons**: Allows you to specify the position of the buttons that allow inline editing.
 ### <span style="color:blue">Properties for the *Image* Type</span>
 ![image-field-properties.png](/pages/image-field-properties.png)
-### Subsection 01 - Display
+## Subsection 01 - Display
 * **Field Link**: Used to link a particular field record to a page.
     - **--CurrentRecordDetails--**: Redirects a field's record to a detail page or view page.
     - **--CurrentFieldCategory--**: Filters record based on the field.
@@ -271,41 +270,41 @@ If the online editing option is enabled in the assignment of page properties, he
 * **ColumnWidth**: Allows you to set the width of the field column.
 * **Display Label**: Allows you to set the Title of the Field column.
 * **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
-### Subsection 02 - Image Properties
+## Subsection 02 - Image Properties
 * **ImageSize**: You can set it to *small*, *medium* or *large* size of the image.
 * **Image Tag size**: Here you can specify the width and height of an image.
 * **MaxImages**: You can set the maximum number of images that the log will save.
 ### <span style="color:blue">Properties for the *StarRating* Type</span>
 ![starrating-field-properties.png](/pages/starrating-field-properties.png)
-### Subsection 01 - Display
+## Subsection 01 - Display
 * **FieldFooterExpressión**: Through this property, we can define an expression that is displayed at the end of each page and at the foot of the selected field. You can select a sample expression from the drop-down list or create your own.
 * **ColumnWidth**: Allows you to set the width of the field column.
 * **Display Label**: Allows you to set the Title of the Field column.
 * **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
-### Subsection 02 - Star Properties
+## Subsection 02 - Star Properties
 * **NumberOfStars**: You can set the number of stars that appear in the rate field.
 ### <span style="color:blue">Properties for the *ProgressBar* Type</span>
 ![progressbar-field-properties.png](/pages/progressbar-field-properties.png)
-### Subsection 01 - Display
+## Subsection 01 - Display
 * **FieldFooterExpressión**: Through this property, we can define an expression that is displayed at the end of each page and at the foot of the selected field. You can select a sample expression from the drop-down list or create your own.
 * **FieldHeaderIcon**: Allows you select the icon that will apper in the header of the column's field.
 * **Display Label**: Allows you to set the Title of the Field column.
 * **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
-### Subsection 02 - Progress Bar Properties
+## Subsection 02 - Progress Bar Properties
 * **MaxValue**: You can set the max value of the progress bar.
 * **ProgressBarClass**: You can set a custom class or a bootstrap class for styling the progress bar.
 ### <span style="color:blue">Properties for the *CheckButton* Type</span>
 ![checkbutton-field-properties.png](/pages/checkbutton-field-properties.png)
-### Subsection 01 - Display
+## Subsection 01 - Display
 * **FieldFooterExpressión**: Through this property, we can define an expression that is displayed at the end of each page and at the foot of the selected field. You can select a sample expression from the drop-down list or create your own.
 * **ColumnWidth**: Allows you to set the width of the field column.
 * **Display Label**: Allows you to set the Title of the Field column.
 * **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
-### Subsection 02 - Check Properties
+## Subsection 02 - Check Properties
 * **CheckValue**: If it is set to TRUE, the checkbox is marked.
 ### <span style="color:blue">Properties for the *RelativeDate* Type</span>
 ![relativedate-field-properties.png](/pages/relativedate-field-properties.png)
-### Subsection 01 - Display
+## Subsection 01 - Display
 * **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
 * **Field Link**: Used to link a particular field record to a page.
     - **--CurrentRecordDetails--**: Redirects a field's record to a detail page or view page.
@@ -332,9 +331,9 @@ If the online editing option is enabled in the assignment of page properties, he
 * **FieldFooterExpressión**: Through this property, we can define an expression that is displayed at the end of each page and at the foot of the selected field. You can select a sample expression from the drop-down list or create your own.
 * **ColumnWidth**: Allows you to set the width of the field column.
 * **Display Label**: Allows you to set the Title of the Field column.
-### Subsection 02 - Master Detail Relation
+## Subsection 02 - Master Detail Relation
 * Record Detail Page: Set the characteristics of a relationship between master and detail tables.
-### Subsection 04 - Inline Edit
+## Subsection 04 - Inline Edit
 * **InlineEdit**: Allows you to specify whether it is possible to edit the records on the same list.
 * **EditFieldControlType**: Allows you to choose whether the inline edition will be based on what is configured on the Edition page or through a specific data format.
 * **UsePopOverDisplay**: Allows you to enable or disable the pop - screen for inline editing.
@@ -343,7 +342,7 @@ If the online editing option is enabled in the assignment of page properties, he
 * **ShowButtons**: Allows you to specify the position of the buttons that allow inline editing.
 ### <span style="color:blue">Properties for the *Custom* Type</span>
 ![custom-field-properties.png](/pages/custom-field-properties.png)
-### Subsection 01 - Display
+## Subsection 01 - Display
 * **Sortable**: If it is set to TRUE, a control will be added to the page view that will allow the column to be sorted by this field.
 * **CustomCode**: You can insert your own custom code.
 * **FormatRecordField**: Allows you to format the field's record data. 
