@@ -2,7 +2,7 @@
 title: Requisitos del Sistema
 description: Documentación Oficial
 published: true
-date: 2022-06-10T14:10:44.088Z
+date: 2022-06-10T15:44:01.548Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T12:40:50.968Z
@@ -54,7 +54,28 @@ Si eliges instalar sólo php y composer, puedes descargarlos desde los siguiente
 El framework NodeJS - Express depende de la versión 10 de NodeJS y superiores, pero se recomienda utilizar la versión 14 de NodeJS o cualquiera de las versiones <a target="_blank" href="https://nodejs.org/en/" class="is-external-link">Long Term Support(LTS)</a>
 Una vez instalado, está listo para utilizar el framework de backend <strong>NodeJS - Express.</strong>
 
-Tenga en cuenta que, se recomienda que descargue cualquiera de las versiones dentro de: <a target="_blank" href="https://nodejs.org/en/" class="is-external-link">Long Term Support(LTS)</a>
+> Tenga en cuenta que, se recomienda que descargue cualquiera de las versiones dentro de: <a target="_blank" href="https://nodejs.org/en/" class="is-external-link">Long Term Support(LTS)</a>
+> 
+> {.is-info}
+> 
+
+> Tenga en cuenta que si utiliza la versión 16 de NodeJS y superiores, el servidor de nodos para su proyecto no se iniciará automáticamente. Se aconseja utilizar la última versión 14 de NodeJS.
+{.is-warning}
+
+### Python - Flask
+
+El framework Python - Flask depende de Python 3, pero se recomienda utilizar
+<a target="_blank" href="https://www.python.org/downloads/release/python-3810/" class="is-external-link">Python 3.8</a>
+
+Una vez instalado, estás listo para usar el framework de backend <Strong> Python - Flask.</Strong>
+
+### ASP .Net Core
+El marco ASP .Net Core depende de
+<a target="_blank" href="https://dotnet.microsoft.com/en-us/download/dotnet/3.1" class="is-external-link">.NET Core 3.1</a>
+Una vez instalado, está listo para utilizar el  de backend de ASP .Net Core.
+
+
+
 
 
 
