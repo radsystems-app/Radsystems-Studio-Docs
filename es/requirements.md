@@ -2,7 +2,7 @@
 title: Requisitos del Sistema
 description: Documentación Oficial
 published: true
-date: 2022-05-24T13:01:53.694Z
+date: 2022-06-10T14:10:44.088Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T12:40:50.968Z
@@ -30,6 +30,32 @@ Estas son sólo algunas de las opciones que existen.
 # Servidores para Desarrollo
 
 El servidor de desarrollo recomendado para Radsystems Studio es <a target="_blank" href="https://laragon.org/download/" class="is-external-link">Laragon</a> ,Laragon le da la opción de instalar múltiples versiones de <a target="_blank" href="https://www.php.net/" class="is-external-link">PHP</a>, <a target="_blank" href="https://nodejs.org/en/" class="is-external-link">NodeJS</a>,<a target="_blank" href="https://www.python.org/downloads/" class="is-external-link">Python</a>, etc.
+
+Actualmente RadSystems Studio soporta 4 tipos de Base de Datos <a target="_blank" href="https://mariadb.org/download/" class="is-external-link">MariaDB</a> ,<a target="_blank" href="https://dev.mysql.com/downloads/installer/" class="is-external-link">MySQL</a>,<a target="_blank" href="https://www.sqlite.org/download.html" class="is-external-link">SQLite</a>,<a target="_blank" href="https://www.postgresql.org/download/" class="is-external-link">PostgreSQL</a>,<a target="_blank" href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" class="is-external-link">MSSQL Server</a>.
+
+### Backend Framework (API)
+
+Los frameworks de Backend son los procesos que se ejecutan del lado del servidor
+
+### PHP - Laravel
+PHP - Laravel depende del framework Laravel 7.24, que requiere PHP 7.2.5 a 7.4.x y Composer para la gestión de paquetes. Pero si se descarga e instala el <a target="_blank" href="https://laragon.org/download/" class="is-external-link">Laragon</a>, 
+con la configuración completa, usted está listo para desarrollar un proyecto de Laravel, Boostrap & jquery(PHPRad Classic).
+
+Si eliges instalar sólo php y composer, puedes descargarlos desde los siguientes enlaces:
+
+<a target="_blank" href="https://laravel.com/docs/7.x" class="is-external-link">Laravel 7.24</a>
+
+<a target="_blank" href="https://www.php.net/downloads.php" class="is-external-link">PHP</a>
+
+<a target="_blank" href="https://getcomposer.org/download/" class="is-external-link">Composer</a>
+
+### NodeJS - Express
+
+El framework NodeJS - Express depende de la versión 10 de NodeJS y superiores, pero se recomienda utilizar la versión 14 de NodeJS o cualquiera de las versiones <a target="_blank" href="https://nodejs.org/en/" class="is-external-link">Long Term Support(LTS)</a>
+Una vez instalado, está listo para utilizar el framework de backend <strong>NodeJS - Express.</strong>
+
+Tenga en cuenta que, se recomienda que descargue cualquiera de las versiones dentro de: <a target="_blank" href="https://nodejs.org/en/" class="is-external-link">Long Term Support(LTS)</a>
+
 
 
 
