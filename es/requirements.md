@@ -2,7 +2,7 @@
 title: Requisitos del Sistema
 description: Documentación Oficial
 published: true
-date: 2022-06-18T17:16:42.004Z
+date: 2022-06-18T17:26:42.690Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T12:40:50.968Z
@@ -131,7 +131,20 @@ Algunas instalaciones necesitan codificar manualmente su carpeta padre en las va
 
 <img alt="environmental-variables.png" src="/getting-started/environmental-variables.png">
 
+Para añadir una aplicación a la **Ruta de la Variable**, haga clic en  **Ruta de la variable** de la secció**n Variables de usuario** o **Variables de sistema**, haga clic en **Editar**, luego haga clic en **Nuevo** y añada la ruta de la aplicación.
+*** Por ejemplo ** *<kbd>Ruta ></kbd><kbd>Editar ></kbd><kbd>Nuevo</kbd>
+<img alt="add-app-to-path.png" src="/getting-started/add-app-to-path.png">
+<br>
 
+A continuación se muestra la lista de rutas que debe introducir si no existen ya:
+
+Añade la ruta de **XAMPP PHP** C:\xampp\php o bien localiza la ruta de tu instalación de **PHP**  y añádela.
+Añade la ruta de **Python** <code> %localappdata%\Programs\Python\Python38 </code>(Esta es la ruta de mi python.exe).
+Añadir la ruta de **Python Script** <code> %localappdata%\Programs\Python38\Scripts</code> (Esta es la ruta de mi pip.exe).
+Añadir la ruta de **.NetCore** <code> %programfiles%\dotnet</code> (Esta es la ruta de mi dotnet.ext).
+
+> Cuando haya terminado, haga clic en el botón Okey para guardarlo, luego reinicie su computadora si es necesario.
+{.is-success}
 
 
 
