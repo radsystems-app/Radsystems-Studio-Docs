@@ -2,7 +2,7 @@
 title: Requisitos del Sistema
 description: Documentación Oficial
 published: true
-date: 2022-06-18T16:52:33.923Z
+date: 2022-06-18T17:04:08.673Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T12:40:50.968Z
@@ -93,7 +93,26 @@ El Framework Bootstrap JQuery no tiene ningún requisito que deba ser instalado.
 
 ### Plataforma de escritorio con Quasar 
 
-El requisito para desarrollar una aplicación de escritorio con Quasar, es <a target="_blank" href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/introduction" class="is-external-link">Electron</a> Al hacer clic en la plataforma de escritorio durante la publicación, Radsystems Studio ejecuta el <a target="_blank" href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/preparation" class="is-external-link"><code>quasar mode add electron</code></a> que descarga y añade los archivos necesarios a su proyecto. Puedes encontrar las configuraciones disponibles para que Quasar Desktop las utilice en el archivo quasar.config.js <a target="_blank" href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/configuring-electron" class="is-external-link">here</a>
+El requisito para desarrollar una aplicación de escritorio con Quasar, es <a target="_blank" href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/introduction" class="is-external-link">Electron</a> Al hacer clic en la plataforma de escritorio durante la publicación, Radsystems Studio ejecuta el <a target="_blank" href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/preparation" class="is-external-link"><code>quasar mode add electron</code></a> que descarga y añade los archivos necesarios a su proyecto. Puedes encontrar las configuraciones disponibles para que Quasar Desktop las utilice en el archivo quasar.config.js <a target="_blank" href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/configuring-electron" class="is-external-link">Aquí</a>
+
+ Plataforma móvil con Quasar📱
+ Para desarrollar una aplicación móvil con Radsystems Studio, existen múltiples <a target="_blank" href="https://quasar.dev/quasar-cli-vite/developing-cordova-apps/preparation#-start-developing" class="is-external-link">requerimientos</a>que debe cumplirse antes de poder hacerlo.
+
+- Es necesario descargar e instalar <a target="_blank" href="https://developer.android.com/studio" class="is-external-link">Android Studio</a>
+- Después de instalar <a target="_blank" href="https://developer.android.com/studio" class="is-external-link">Android Studio</a>, necesitas adicionar el camino del SDK a **ANDROID_HOME** y **ANDROID_SDK_ROOT**
+
+<br>
+
+<img alt="add-android-sdk-root.png" src="/getting-started/add-android-sdk-root.png">
+<br>
+
+- Descargar e instalar <a target="_blank" href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" class="is-external-link">JDK</a>
+
+- Añade la ruta de instalación del JDK a ***JAVA_HOME***, de forma similar a lo que se hizo para ***ANDROID_HOME*** y ***ANDROID_SDK_ROOT***, y luego añade JDK bin(C:\program Files\Java\jdk1.8.x\bin) y JRE(C:\gram Files\Java\jre1.8.x) a la variable path.
+
+> Por favor, utilice la ruta donde se instaló su JDK, las rutas anteriores son sólo ejemplos.
+{.is-warning}
+
 
 
 
