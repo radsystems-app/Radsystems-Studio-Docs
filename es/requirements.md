@@ -2,7 +2,7 @@
 title: Requisitos del Sistema
 description: Documentación Oficial
 published: true
-date: 2022-06-10T15:44:01.548Z
+date: 2022-06-18T16:10:03.159Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T12:40:50.968Z
@@ -75,6 +75,8 @@ El marco ASP .Net Core depende de
 Una vez instalado, está listo para utilizar el  de backend de ASP .Net Core.
 
 
+### Framework del Frontend (UI)
+Son los frameworks utilizados para generar el HTML, CSS y JavaScript de los proyectos.
 
 
 
