@@ -2,7 +2,7 @@
 title: Requisitos del Sistema
 description: Documentación Oficial
 published: true
-date: 2022-06-18T17:27:28.536Z
+date: 2022-06-18T18:19:22.180Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T12:40:50.968Z
