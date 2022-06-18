@@ -2,7 +2,7 @@
 title: Requisitos del Sistema
 description: Documentación Oficial
 published: true
-date: 2022-06-18T17:04:08.673Z
+date: 2022-06-18T17:16:42.004Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T12:40:50.968Z
@@ -113,6 +113,23 @@ El requisito para desarrollar una aplicación de escritorio con Quasar, es <a ta
 > Por favor, utilice la ruta donde se instaló su JDK, las rutas anteriores son sólo ejemplos.
 {.is-warning}
 
+Descargar, instalar y añadir <a target="_blank" href="https://downloads.gradle-dn.com/distributions/gradle-4.10.3-all.zip" class="is-external-link">Gradle</a> a la variable del Entorno (Environment).
+
+Puede leer más en <a target="_blank" href="https://quasar.dev/quasar-cli-vite/developing-cordova-apps/preparation#-start-developing" class="is-external-link">Documentos de Quasar acerca de requerimientos para el desarrollo móvil</a>
+
+### Configurar las variables del Entorno (Environment)
+
+
+Algunas instalaciones necesitan codificar manualmente su carpeta padre en las variables de entorno de Windows (por ejemplo, **PHP**,**Android**, **Java**,** Python** y **Pip**).
+
+>Para localizar el panel de Variables de Entorno, haga clic en el Menú Sart, haga clic en Panel de Control, haga clic en Sistemas, haga clic en Configuración avanzada del sistema, y luego haga clic en **Variables de Entorno**
+
+
+*** Por ejemplo ** *<kbd>Inicio ></kbd><kbd>Panel de Control ></kbd><kbd>Sistema ></kbd><kbd>Configuración Avanzada ></kbd><kbd>Variables del Entorno</kbd> 
+<br>
+
+
+<img alt="environmental-variables.png" src="/getting-started/environmental-variables.png">
 
 
 
