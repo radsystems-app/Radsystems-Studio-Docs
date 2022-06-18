@@ -2,7 +2,7 @@
 title: Requisitos del Sistema
 description: Documentación Oficial
 published: true
-date: 2022-06-18T16:17:37.264Z
+date: 2022-06-18T16:52:33.923Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T12:40:50.968Z
@@ -88,6 +88,13 @@ El Framework PrimeVue depende de VueJS, pero no es necesario instalar el CLI de 
 ### Bootstrap JQuery
 El Framework Bootstrap JQuery no tiene ningún requisito que deba ser instalado. Una vez que haya instalado
 <a target="_blank" href="https://laragon.org/download/" class="is-external-link">Laragon</a>,<a target="_blank" href="https://www.apachefriends.org/download.html" class="is-external-link">XAMPP</a>, o cualquier otro servidor de desarrollo, está listo para crear proyectos de Bootstrap y JQuery.
+
+### Plataformas de Publicación
+
+### Plataforma de escritorio con Quasar 
+
+El requisito para desarrollar una aplicación de escritorio con Quasar, es <a target="_blank" href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/introduction" class="is-external-link">Electron</a> Al hacer clic en la plataforma de escritorio durante la publicación, Radsystems Studio ejecuta el <a target="_blank" href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/preparation" class="is-external-link"><code>quasar mode add electron</code></a> que descarga y añade los archivos necesarios a su proyecto. Puedes encontrar las configuraciones disponibles para que Quasar Desktop las utilice en el archivo quasar.config.js <a target="_blank" href="https://quasar.dev/quasar-cli-webpack/developing-electron-apps/configuring-electron" class="is-external-link">here</a>
+
 
 
 
