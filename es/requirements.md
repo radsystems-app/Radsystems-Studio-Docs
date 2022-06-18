@@ -2,7 +2,7 @@
 title: Requisitos del Sistema
 description: Documentación Oficial
 published: true
-date: 2022-06-18T16:10:03.159Z
+date: 2022-06-18T16:17:37.264Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T12:40:50.968Z
@@ -78,7 +78,16 @@ Una vez instalado, está listo para utilizar el  de backend de ASP .Net Core.
 ### Framework del Frontend (UI)
 Son los frameworks utilizados para generar el HTML, CSS y JavaScript de los proyectos.
 
+### Vue Quasar
+El Framework Vue Quasar depende de NodeJS versión 10.18.1, Quasar CLI. Se recomienda utilizar la versión 14 de NodeJS. Después de instalar NodeJS, puedes instalar Vue Quasar CLI usando 
+**npm i -g @quasar/cli**, Si no lo haces e intentas crear un proyecto, Radsystems Studio te pedirá que lo instales.
+### PrimeVue
 
+El Framework PrimeVue depende de VueJS, pero no es necesario instalar el CLI de VueJS. Sin embargo, se recomienda tener NodeJS ya instalado.
+
+### Bootstrap JQuery
+El Framework Bootstrap JQuery no tiene ningún requisito que deba ser instalado. Una vez que haya instalado
+<a target="_blank" href="https://laragon.org/download/" class="is-external-link">Laragon</a>,<a target="_blank" href="https://www.apachefriends.org/download.html" class="is-external-link">XAMPP</a>, o cualquier otro servidor de desarrollo, está listo para crear proyectos de Bootstrap y JQuery.
 
 
 
