@@ -2,72 +2,72 @@
 title: Eventos de Páginas
 description: Maneje acciones en las Páginas
 published: true
-date: 2022-06-23T20:53:21.012Z
+date: 2022-06-23T21:05:15.686Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T20:53:21.012Z
 ---
 
-# Page Events
-**Page Events** where you can insert a code that will run before and after the main action function.
+# Eventos de página
+**Eventos de página** donde se puede insertar un código que se ejecutará antes y después de la función de acción principal.
 
 ![page-events.png](/page-events/page-events.png)
 
-# How to Use
-1. Click **Page Events** in the RS Toolbar - it will pop up the Page Events window.
+# Cómo utilizarlo
+1. Haga clic en **Eventos de página** en la barra de herramientas de RS: aparecerá la ventana de Eventos de página.
 
 ![1.png](/page-events/1.png)
 
-2. Click and expand the Pages Tree and click **"Before..."** or **"After..."**.
+2. Haga clic y expanda el árbol de páginas y haga clic en **"Antes... "** o **"Después... "**.
 
 ![2.png](/page-events/2.png)
 
-3. Click **Edit Page Event** button to enable the code window.
+3. Haga clic en el botón **Editar evento de página** para activar la ventana de código.
 
 ![3.png](/page-events/3.png)
 
-4. Put your code inside the function given.
-5. On the right side, there is a built-in code snippet that you can use just by double clicking it.
+4. Pon tu código dentro de la función dada.
+5. En la parte derecha, hay un fragmento de código incorporado que puedes utilizar con sólo hacer doble clic.
 
 ![4.png](/page-events/4.png)
 ![5.png](/page-events/5.png)
 
-> Note: If you want to remove your page event code, click **Clear Page Event**.
+> Nota: Si desea eliminar el código de su evento de página, haga clic en **Borrar evento de página**.
 {.is-info}
 
 
-# Example
-For our example we will be creating a Log System where we can track every new Todo added.
+# Ejemplo
+Para nuestro ejemplo vamos a crear un sistema de registro en el que podemos hacer un seguimiento de cada nuevo Todo añadido.
 
-1. Create Database, name it: **todo-db**
-2. Create the first table, name it: **Todos**
-3. Create 2 fields for Todos table
-- **id** *(INT AUTO_INCREMENT PRIMARY NOT NULL)*
+1. Cree una base de datos, nómbrela: **todo-db**
+2. Crear la primera tabla, nombrarla: **Todos**
+3. Crear 2 campos para la tabla Todos
+- **id** *(INT AUTO_INCREMENTO PRIMARIO NOT NULL)*
 - **todo** *(VARCHAR(255) NOT NULL)*
 
-4. Create the second table, name it: **Logs**
-5. Create 4 fields for Logs table
-- **id** *(INT AUTO_INCREMENT PRIMARY NOT NULL)*
+4. Crear la segunda tabla, nombrarla: **Logs**
+5. Crear 4 campos para la tabla Logs
+- **id** *(INT AUTO_INCREMENTO PRIMARIO NOT NULL)*
 - **dt** *(TIMESTAMP DEFAULT CURRENT_TIMESTAMP)*
-- **action** *(VARCHAR(15) NOT NULL)*
+- **acción** *(VARCHAR(15) NOT NULL)*
 - **todo** *(VARCHAR(255) NOT NULL)*
 
-6. In RS Studio, click **Page Events** in the toolbar.
-7. Expand the **Pages -> Todos -> Add** tree and click **AfterAdd**.
-8. Click **Edit Page Event**.
-9. Place your code inside the function.
-10. Use the code below for specific language you are using.
-11. Click **Okay** to save.
-12. In RS Studio, click **Publish** or **Re-publish Project**.
+6. En RS Studio, haga clic en **Eventos de página** en la barra de herramientas.
+7. Despliegue el árbol **Páginas -> Todos -> Añadir** y haga clic en **Después de añadir**.
+8. Haga clic en **Editar evento de página**.
+9. Coloca tu código dentro de la función.
+10. Utiliza el código de abajo para el lenguaje específico que estés utilizando.
+11. Haga clic en **Okay** para guardar.
+12. En RS Studio, haga clic en **Publicar** o **Republicar proyecto**.
 
-> So everytime you add a new Todo in the Todos module, it saves a log record on the Logs module.
+> Así, cada vez que se añade un nuevo Todo en el módulo Todos, se guarda un registro en el módulo Logs.
 {.is-success}
 
 
 ## PHPRad Classic (PHP Laravel + Boostrap Jquery)
 ```
     private function afterAdd($record){
-        //enter statement here
+        //introducir declaración aquí
         
         $modeldata = ['action' => 'Add', 'todo' => $record['todo']];
         DB::table('Logs')->insert($modeldata);
@@ -76,8 +76,8 @@ For our example we will be creating a Log System where we can track every new To
 
 ## PHPRad Vue (PHP Laravel + Quasar Vue)
 ```
-    private function afterAdd($record){
-        //enter statement here
+    private function afterAdd($registro){
+        //introducir declaración aquí
         
         $modeldata = ['action' => 'Add', 'todo' => $record['todo']];
         DB::table('Logs')->insert($modeldata);
@@ -87,11 +87,11 @@ For our example we will be creating a Log System where we can track every new To
 ## NodeRad Vue (NodeJS Express + Quasar Vue)
 ```
 async function afterAdd(record, req){
-    //enter statement here
+    //introducir declaración aquí
     
-    let tableModel = models.Logs;  //Logs is the name of the table
+    let tableModel = models.Logs; //Logs es el nombre de la tabla
     let modeldata = {
-        action: 'Add',
+        acción: 'Add',
         todo: record.todo
     }
     
@@ -102,7 +102,7 @@ async function afterAdd(record, req){
 ## PyRad Vue (Python Flask + Quasar Vue)
 ```
 def after_add(record):
-    # statement here
+    # declaración aquí
     
     new_record = Logs(action="Add", todo=record.todo)
     db.session.add(new_record)
@@ -112,9 +112,9 @@ def after_add(record):
 ## ASPRad Vue (ASP .Net Core + Quasar Vue)
 ```
 private void afterAdd(Todos record){
-   //enter statement here
+   //introducir declaración aquí
             
-   var modeldata = new Logs(); //Logs is the tablename or modelname
+   var modeldata = new Logs(); //Logs es el nombre de la pestaña o del modelo
             
 	 modeldata.action = "Add";
    modeldata.todo = record.todo;
