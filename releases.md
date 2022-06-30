@@ -2,11 +2,24 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2022-02-27T10:35:57.082Z
+date: 2022-06-30T15:26:32.721Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
+
+# Version - 7.x
+### Version - 7.1.0
+- :sparkles: Upgraded vue **quasar** project from **vue2** to **vue3**.
+- :fire: Added a new **frontend framework** called **PrimeVue**.
+- :hash: Redesigned the **Radsystems Studio project creation** page for easy and smooth project creation.
+- :fire: Added **Undo** and **Redo** for **Radsystems Studio editor**.
+- :fire: Added **code snippets** to **Radsystems Studio editor**, to show sample codes.
+- :bug: **Fixed** the bug where **routes** are not generated for **Endpoint on laravel project type**.
+- :bug: **Fixed** a bug that causes **Radsystems Studio** to throw an error during publish for **laravel project types** when **Request Type** is set to **ANY** in Endpoints.
+- :hash: Redesigned the **Join Tables** configuration window.
+- :bug: **Fixed** the bug where **Radsystems Studio classic** app throws an error if an image is not compulsory and also not uploaded during **user registration/add**.
+- :bug: **Fixed** a bug with **view** and **edit** in a **modal** not working on classic projects.
 
 # Version - 5.x
 ### Version - 5.1.4
