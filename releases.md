@@ -2,14 +2,16 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2022-06-30T15:26:32.721Z
+date: 2022-08-04T12:37:04.244Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
 
 # Version - 7.x
-### Version - 7.1.0
+## Version - 7.1.2
+- :bug: **Fixed** a few minor bugs.
+## Version - 7.1.0
 - :sparkles: Upgraded vue **quasar** project from **vue2** to **vue3**.
 - :fire: Added a new **frontend framework** called **PrimeVue**.
 - :hash: Redesigned the **Radsystems Studio project creation** page for easy and smooth project creation.
@@ -22,7 +24,7 @@ dateCreated: 2021-12-03T16:13:58.048Z
 - :bug: **Fixed** a bug with **view** and **edit** in a **modal** not working on classic projects.
 
 # Version - 5.x
-### Version - 5.1.4
+## Version - 5.1.4
 - :fire: Added **2FA(2Factor Authentication)** configuration.
 - :fire: Added Tag Attribute for components.
 - :hash: Redesigned the **Page Custom JS** in **Page Design** for projects using the vue **Quasar Framework**.
@@ -35,7 +37,7 @@ dateCreated: 2021-12-03T16:13:58.048Z
 - :hash: Replaced **Dragging and Dropping** of **SubPages** in **Form Wizard** with **Form Wizard FormPage** Component Properties.
 
 
-### Version - 5.0.0
+## Version - 5.0.0
 - :bug: **Fixed** logo update bug in **PHPrad Classic** project.
 - :fire: Addition of 4 new components. 
 - :hash: Redesign of master detail relationship. 
