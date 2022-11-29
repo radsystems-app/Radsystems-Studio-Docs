@@ -2,7 +2,7 @@
 title: Welcome to Radsystems Studio
 description: Official Documentation
 published: true
-date: 2022-05-06T09:52:06.147Z
+date: 2022-11-29T13:59:25.881Z
 tags: welcome, intro
 editor: markdown
 dateCreated: 2021-06-15T00:15:59.107Z
@@ -14,7 +14,7 @@ dateCreated: 2021-06-15T00:15:59.107Z
 
 # Framework Docs
 Here are the list of framework documentation used in Radsystems, to help you understand functions you can use in your project and how to use them.
-1. [Boostrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/): This is a frontend framework used in **Radsystems Studio (PHP Laravel)** as the **frontend(i.e code executed on the browser)** language.
+1. [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/): This is a frontend framework used in **Radsystems Studio (PHP Laravel)** as the **frontend(i.e code executed on the browser)** language.
 2. [PrimeVue](https://www.primefaces.org/primevue/#/): This is a frontend framework used in **Radsystems Studio Pyrad**, **NodeRad**, **ASPRad**, and **PHPRad Vue** as the **frontend(i.e code executed on the browser)** language. It was made with [Vue.js](https://vuejs.org/v2/guide/){:target="_blank"}.
 3. [Vue Quasar](https://quasar.dev/): This is a frontend framework used in **Radsystems Studio Pyrad**, **NodeRad**, **ASPRad**, and **PHPRad Vue** as the **frontend(i.e code executed on the browser)** language. It allows you to publish your project to Mobile, Desktop, SPA and PWA app. It allows It was made with [Vue.js](https://vuejs.org/v2/guide/){:target="_blank"}.
 4. [Laravel](https://laravel.com/docs/7.x/): This is a backend framework used in **Radsystems Studio** **PHPRad Classic** and **PHPRad Vue** as the server language. This documentation link will help you understand how the framework works.
