@@ -2,14 +2,14 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2022-12-09T01:01:56.036Z
+date: 2022-12-23T00:32:20.170Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
 
 # Verion 8.x
-## Verion 8.0.7
+## Verion 8.1.0
 - :sparkles: **Upgraded** Bootstrap from Bootstrap 4 to Bootstrap 5.
 - :fire: **Added** a new frontend framework called Prime React.
 - :fire: **Added** a new Backend framework called *Node TS - Express*, for users who prefer to use typescript in place of Javascript.
@@ -24,6 +24,7 @@ dateCreated: 2021-12-03T16:13:58.048Z
 - :bug: **Fixed** a bug where Inline edit in Laravel Classic projects does not work on View page.
 - :bug: **Fixed** a bug where setting DisplayTemplate to TabularList in Laravel Classic projects does not work on View page.
 - :hash: **Redesign** of generated view page for Laravel + Bootstraps projects.
+- :hash: **Redesign** of Roles are Permission for Laravel + Bootstraps projects.
 
 # Version - 7.x
 ## Version - 7.1.2
