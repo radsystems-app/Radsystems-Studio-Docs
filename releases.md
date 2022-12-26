@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2022-12-23T00:32:20.170Z
+date: 2022-12-26T10:01:36.109Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -11,6 +11,7 @@ dateCreated: 2021-12-03T16:13:58.048Z
 # Verion 8.x
 ## Verion 8.1.0
 - :sparkles: **Upgraded** Bootstrap from Bootstrap 4 to Bootstrap 5.
+- :fire: **Added** the option of publishing/pushing your project to GitHub.
 - :fire: **Added** a new frontend framework called Prime React.
 - :fire: **Added** a new Backend framework called *Node TS - Express*, for users who prefer to use typescript in place of Javascript.
 - :fire: **Added** AutoFillInput, for auto populating fields based on a selected record.
