@@ -2,13 +2,25 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2022-12-26T10:01:36.109Z
+date: 2023-01-13T09:10:15.240Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
 
 # Verion 8.x
+## Verion 8.1.6
+- :bug: **Fixed** a bug where role dashboard is not diplayed for a role when configured in **Laravel + Bootstrap**.
+- :bug: **Fixed** a bug in **Laravel + Bootstrap**, where the endpoint link displayed to the user is not correct.
+- :bug: **Fixed** a bug with the calendar component for **Laravel + Bootstrap** projects.
+- :bug: **Fixed** a bug in **Action Before Update** of **Page Events**, where the parameter parsed to the before edit function is incomplete.
+- :bug: **Fixed** a bug where an error icon code is generated when **Audit trail** is configured.
+- :bug: **Fixed** a bug with Quasar projects where the action buttons are not display properly when the table has enough space to contain them.
+- :bug: **Fixed** a bug with export not displaying in **Node.js + Quasar**.
+- :bug: **Fixed** a bug with value property being generated twice for a "Text" input, where TextboxType is set to Time.
+- :bug: **Fixed** a bug with calendar on **Python + Quasar**.
+- :bug: **Fixed** a bug with **Remember Me** checkbox not clickable on **Node + React** project type.
+- :scissors: **Removed** the "Having" configuration from the  List Page Properties.
 ## Verion 8.1.0
 - :sparkles: **Upgraded** Bootstrap from Bootstrap 4 to Bootstrap 5.
 - :fire: **Added** the option of publishing/pushing your project to GitHub.
