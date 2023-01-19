@@ -2,7 +2,7 @@
 title: Project Creation
 description: Creating a new Project is very easy with Radsystems ...
 published: true
-date: 2022-05-13T15:13:00.749Z
+date: 2023-01-19T13:41:59.350Z
 tags: new project, creating a new project
 editor: markdown
 dateCreated: 2021-06-30T04:48:13.567Z
@@ -101,6 +101,10 @@ dateCreated: 2021-06-30T04:48:13.567Z
 #### PrimeVue <i class="mdi mdi-vuejs"></i>
 ##### Icons
 - <a href="https://www.primefaces.org/primevue/icons" target="_blank">PrimeIcons</a>
+
+#### PrimeReact <i class="mdi mdi-react"></i>
+##### Icons
+- <a href="https://www.primefaces.org/primereact/icons" target="_blank">PrimeIcons</a>
 
 #### Bootstrap & JQuery <i class="mdi mdi-bootstrap"></i>
 ##### Icons
