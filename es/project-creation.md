@@ -2,7 +2,7 @@
 title: Creación de Proyectos
 description: Crear proyectos nuevos es muy fácil con Radsystems
 published: true
-date: 2023-01-19T13:37:57.736Z
+date: 2023-01-19T13:39:23.072Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T19:15:13.664Z
@@ -105,7 +105,7 @@ dateCreated: 2022-06-23T19:15:13.664Z
 ##### Íconos
 - <a href="https://www.primefaces.org/primevue/icons" target="_blank">PrimeIcons</a>
 
-#### PrimeReact <i class="mdi mdi-vuejs"></i>
+#### PrimeReact <i class="mdi mdi-react"></i>
 ##### Íconos
 - <a href="https://www.primefaces.org/primereact/icons" target="_blank">PrimeIcons</a>
 
