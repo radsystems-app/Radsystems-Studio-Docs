@@ -2,13 +2,15 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2023-01-13T09:10:15.240Z
+date: 2023-01-20T10:23:40.357Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
 
 # Verion 8.x
+## Version 8.1.8
+- :bug: **Fixed** a minor bug in postgre db connection when schema is selected.
 ## Verion 8.1.6
 - :bug: **Fixed** a bug where role dashboard is not diplayed for a role when configured in **Laravel + Bootstrap**.
 - :bug: **Fixed** a bug in **Laravel + Bootstrap**, where the endpoint link displayed to the user is not correct.
