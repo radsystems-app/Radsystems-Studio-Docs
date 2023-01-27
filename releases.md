@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2023-01-20T10:23:40.357Z
+date: 2023-01-27T18:08:13.474Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -15,6 +15,7 @@ dateCreated: 2021-12-03T16:13:58.048Z
 - :bug: **Fixed** a bug where role dashboard is not diplayed for a role when configured in **Laravel + Bootstrap**.
 - :bug: **Fixed** a bug in **Laravel + Bootstrap**, where the endpoint link displayed to the user is not correct.
 - :bug: **Fixed** a bug with the calendar component for **Laravel + Bootstrap** projects.
+- :bug: **Fixed** a bug with **Laravel** projects, when a search is done on the user table.
 - :bug: **Fixed** a bug in **Action Before Update** of **Page Events**, where the parameter parsed to the before edit function is incomplete.
 - :bug: **Fixed** a bug where an error icon code is generated when **Audit trail** is configured.
 - :bug: **Fixed** a bug with Quasar projects where the action buttons are not display properly when the table has enough space to contain them.
