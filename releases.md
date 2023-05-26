@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2023-05-24T16:44:03.482Z
+date: 2023-05-26T14:23:42.940Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -10,8 +10,10 @@ dateCreated: 2021-12-03T16:13:58.048Z
 
 # Verion 8.x
 ## Version 8.2.3
-- :bug: **Fixed** node + primevue, quasar, primereact. Error loading image.
+- :bug: **Fixed** Node + primevue, quasar, primereact. Error loading image.
 - :bug: **Fixed** Setup file installation - After installating the software. Splash screen was in static display when clicked. The image disppeares and Error saving messagebox is displayed.
+- :bug: **Fixed** Laravel Quasar:  GridOnMobile true error.
+- :bug: **Fixed** Python Flask Primevue, quasar, react error.
 ## Version 8.1.8
 - :bug: **Fixed** a minor bug in postgre db connection when schema is selected.
 ## Verion 8.1.6
