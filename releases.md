@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2023-05-26T14:23:42.940Z
+date: 2023-07-18T08:25:41.158Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -14,6 +14,11 @@ dateCreated: 2021-12-03T16:13:58.048Z
 - :bug: **Fixed** Setup file installation - After installating the software. Splash screen was in static display when clicked. The image disppeares and Error saving messagebox is displayed.
 - :bug: **Fixed** Laravel Quasar:  GridOnMobile true error.
 - :bug: **Fixed** Python Flask Primevue, quasar, react error.
+- :bug: **Fixed** Quasar Projects: Error when you set GridOnMobile to True.
+- :bug: **Fixed** TypeScript + PrimeVue + Quasar + React: Error adding the authentication module, roles and permissions.
+- :bug: **Fixed** Setup file installation - Splash screen in static display when clicked. Image disppeares and Error saving messagebox is displayed.
+- :bug: **Fixed** Flask + primevue: Error downloading as PDF
+- :bug: **Fixed** Node, typescript, python: don't generate the records counts in the components.
 ## Version 8.1.8
 - :bug: **Fixed** a minor bug in postgre db connection when schema is selected.
 ## Verion 8.1.6
