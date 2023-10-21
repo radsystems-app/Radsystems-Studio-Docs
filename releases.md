@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2023-10-21T11:26:20.830Z
+date: 2023-10-21T11:49:54.744Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -16,6 +16,7 @@ dateCreated: 2021-12-03T16:13:58.048Z
 - :fire: **Added** support for .NetCore version 6 LTS.
 - :bug: **Fixed** Noderad + primevue bug that occur, when timestamp is configured for a table.
 - :bug: **Fixed** Laravel + Bootstrap bug, where the captcha throws an error on the edit page. 
+- :x: **No** backward compatibility.
 ## Version 8.2.3
 - :bug: **Fixed** Node + primevue, quasar, primereact. Error loading image.
 - :bug: **Fixed** Setup file installation - After installating the software. Splash screen was in static display when clicked. The image disppeares and Error saving messagebox is displayed.
