@@ -2,13 +2,20 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2023-07-18T08:25:41.158Z
+date: 2023-10-21T11:26:20.830Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
 
 # Verion 8.x
+## Version 8.5.9 - (21-10-2023)
+- :sparkles: **Upgraded** the Laravel framework used for projects to version 10, which supports PHP 8.1 and above.
+- :sparkles: **Upgraded** Node.js project type to use ES6 and run on the latest Node.js version 18 LTS.
+- :fire: **Added** Support for MySQL version 8.
+- :fire: **Added** support for .NetCore version 6 LTS.
+- :bug: **Fixed** Noderad + primevue bug that occur, when timestamp is configured for a table.
+- :bug: **Fixed** Laravel + Bootstrap bug, where the captcha throws an error on the edit page. 
 ## Version 8.2.3
 - :bug: **Fixed** Node + primevue, quasar, primereact. Error loading image.
 - :bug: **Fixed** Setup file installation - After installating the software. Splash screen was in static display when clicked. The image disppeares and Error saving messagebox is displayed.
