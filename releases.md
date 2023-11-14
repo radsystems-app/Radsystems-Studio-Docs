@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2023-10-21T11:50:44.891Z
+date: 2023-11-14T15:12:21.836Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -13,6 +13,7 @@ dateCreated: 2021-12-03T16:13:58.048Z
 - :sparkles: **Upgraded** the Laravel framework used for projects to version 10, which supports PHP 8.1 and above.
 - :sparkles: **Upgraded** Node.js project type to use ES6 and run on the latest Node.js version 18 LTS.
 - :fire: **Added** Support for MySQL version 8.
+- :fire: **Added** Support for Postgres Private Schemas.
 - :fire: **Added** support for .NetCore version 6 LTS.
 - :bug: **Fixed** Noderad + primevue bug that occur, when timestamp is configured for a table.
 - :bug: **Fixed** Laravel + Bootstrap bug, where the captcha throws an error on the edit page. 
