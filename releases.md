@@ -2,13 +2,24 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2023-11-14T15:12:21.836Z
+date: 2024-04-22T11:12:50.120Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
 
 # Verion 8.x
+## Version 8.6.9 - (22-04-2024)
+- :bug: **Fixed** MSSQL bug where reading the database throws a schema error.
+- :bug: **Fixed** Laravel + Bootstrap bug where duplicating a list or view page containing a master details configuration, causes an error.
+- :bug: **Fixed** Laravel + Bootstrap bug where setting UseCustomSelect throws an error.
+- :bug: **Fixed** Node Express JS where PDFs are not generated when the app is hosted on a Linux server.
+- :bug: **Fixed** Node Express JS + PrimeVue bug where, when you set a View or List page field to use Html5Video an error is encountered.
+- :bug: **Fixed** Node Express JS + PrimeVue bug where AppendIcon when configured is not found.
+- :bug: **Fixed** Node Express JS + PrimeVue bug where page exclusion from auth does not work, and when a page is created from Page Designs and deleted, it remains in the frontend custom folder.
+- :bug: **Fixed** Vue Quasar bug where the error is encountered when tabs, accordion, or modal components are added to a page when the project is published.
+- :white_check_mark: Minor improvements.
+- :white_check_mark: **Backward** compatible with version 8.5.9.
 ## Version 8.5.9 - (21-10-2023)
 - :sparkles: **Upgraded** the Laravel framework used for projects to version 10, which supports PHP 8.1 and above.
 - :sparkles: **Upgraded** Node.js project type to use ES6 and run on the latest Node.js version 18 LTS.
