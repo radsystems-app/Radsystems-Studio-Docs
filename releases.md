@@ -2,13 +2,15 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2024-04-22T11:12:50.120Z
+date: 2024-04-24T01:55:29.852Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
 
 # Verion 8.x
+## version 8.7.0 - (24-04-2024)
+- :bug: **Fixed** a minor bug with PrimeVue frontend.
 ## Version 8.6.9 - (22-04-2024)
 - :bug: **Fixed** MSSQL bug where reading the database throws a schema error.
 - :bug: **Fixed** Laravel + Bootstrap bug where duplicating a list or view page containing a master details configuration, causes an error.
