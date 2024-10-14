@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2021-07-28T02:59:21.795Z
+date: 2024-10-14T06:48:29.158Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-27T03:30:25.188Z
@@ -15,7 +15,6 @@ For a full installation on a clean version of Windows 10, follow the steps below
 > Stack WAMP solutions you can use: [XAMPP](https://www.apachefriends.org/index.html), [AMPPS](https://ampps.com/) or [WAMPSERVER](https://www.wampserver.com/en/) among others.
 {.is-info}
 
->You can find a good tutorial on how to install AMPPS [here](https://youtu.be/LGaVWKB3FDk)
 2. If you have successfully installed the WAMP solution, you can continue installing NODEJS. Node.js is a cross-platform, open-source, single-threaded runtime environment for building fast and scalable server-side and red applications. It runs on the JavaScript V8 runtime and uses a non-blocking, event-based I / O architecture, making it efficient and suitable for real-time applications.
 > The Node.js installer for Windows, will install all the necessary tools to run a program written in Javascript including the Node.js package ecosystem (NPM). When installing Node.js, make sure the "add to path" feature is enabled.
 {.is-info}
