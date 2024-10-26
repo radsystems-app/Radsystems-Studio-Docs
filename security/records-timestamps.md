@@ -2,7 +2,7 @@
 title: Records TimeStamps
 description: Setup timestamp of your data
 published: true
-date: 2021-07-29T04:03:18.997Z
+date: 2024-10-26T02:46:52.045Z
 tags: record, timestamp
 editor: markdown
 dateCreated: 2021-07-29T00:49:59.114Z

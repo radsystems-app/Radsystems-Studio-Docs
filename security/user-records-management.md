@@ -2,7 +2,7 @@
 title: User Record Management
 description: Setup User Record Management
 published: true
-date: 2021-07-29T04:31:08.369Z
+date: 2024-10-26T02:46:58.401Z
 tags: security, record, management
 editor: markdown
 dateCreated: 2021-07-28T03:46:28.160Z

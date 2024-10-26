@@ -2,7 +2,7 @@
 title: Páginas
 description: Aprenda como crear y administrar páginas en RadSystem Studio
 published: true
-date: 2022-06-23T20:30:17.934Z
+date: 2024-10-26T02:47:37.170Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T20:30:17.934Z

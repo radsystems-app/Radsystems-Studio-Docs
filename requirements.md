@@ -2,12 +2,11 @@
 title: System Requirement
 description: 
 published: true
-date: 2022-08-04T13:03:00.934Z
+date: 2024-10-26T02:45:40.212Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
 ---
-
 
 > **System requirements** will vary on what application you want to create.
 {.is-info}
