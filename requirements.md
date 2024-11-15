@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2024-10-26T02:45:40.212Z
+date: 2024-11-15T11:18:18.504Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -24,36 +24,36 @@ These are just a few options out there.
 The recommended development server for Radsystems Studio is <a href="https://laragon.org/download/" target="_blank">Laragon</a>. <a href="https://laragon.org/download/" target="_blank">Laragon</a> gives the option to install multiple versions of <a href="https://www.php.net/" target="_blank">PHP</a>, <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>, <a href="https://www.python.org/downloads/" target="_blank">Python</a>, etc.
 
 ## Database
-**Radsystems Studio** currently supports 4 database types, (<a href="https://mariadb.org/download/" target="_blank">MariaDB</a> or <a href="https://dev.mysql.com/downloads/installer/" target="_blank">MySQL</a>), <a href="https://www.sqlite.org/download.html" target="_blank">SQLite</a>, <a href="https://www.postgresql.org/download/" target="_blank">PostgreSQL</a>, and <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" target="_blank">MSSQL Server</a>.
+**Radsystems Studio** currently supports 5 database types, (<a href="https://mariadb.org/download/" target="_blank">MariaDB</a> or <a href="https://dev.mysql.com/downloads/installer/" target="_blank">MySQL</a>), <a href="https://www.sqlite.org/download.html" target="_blank">SQLite</a>, <a href="https://www.postgresql.org/download/" target="_blank">PostgreSQL</a>, <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" target="_blank">MSSQL Server</a>, and <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" target="_blank">ORACLE (only supported with Node.TS project types)</a>.
 
 ## Backend Framework (API)
 Backend Frameworks are the aspect of the project that runs and is executed on the server.
 
 ### PHP - Laravel
-The **PHP -  Laravel** depends on **Laravel 7.24** framework, which requires **PHP 7.2.5** to **7.4.x** and Composer for package management. But if you download and install the <a href="https://laragon.org/download/" target="_blank">Laragon</a> full setup, you are ready to develop a **Laravel, Boostrap & jquery(PHPRad Classic)** project.
+The **PHP -  Laravel** depends on **Laravel 11.30** framework, which requires **PHP >= 8.2** and Composer for package management. But if you download and install the <a href="https://laragon.org/download/" target="_blank">Laragon</a> full setup, you are ready to develop a **Laravel, Boostrap & jquery(PHPRad Classic)** project.
 
 If you choose to install just php and composer, then you can download them from the links below:
-- <a href="https://laravel.com/docs/7.x" target="_blank">Laravel 7.24</a>
-- <a href="https://www.php.net/downloads.php" target="_blank">PHP</a>
+- <a href="https://laravel.com/docs/11.x" target="_blank">Laravel 11.30</a>
+- <a href="https://www.php.net/downloads.php" target="_blank">PHP >= 8.2</a>
 - <a href="https://getcomposer.org/download/" target="_blank">Composer</a>
 
 ### NodeJS - Express
-The **NodeJS - Express** framework depends on **NodeJS version 10** and above, but it is recomended you use **NodeJS version 14** or any of the **<a href="https://nodejs.org/en/" target="_blank">Long Term Support(LTS)</a>** versions. Once it is installed, you are ready to use the **NodeJS - Express** backend framework.
+The **NodeJS - Express** framework depends on **NodeJS version 20** and above, but it is recomended you use **NodeJS version 20** or any of the **<a href="https://nodejs.org/en/" target="_blank">Long Term Support(LTS)</a>** versions. Once it is installed, you are ready to use the **NodeJS - Express** and **NodeTS - Express** backend framework.
 
 > Please note that, It is recomended you download any of the **<a href="https://nodejs.org/en/" target="_blank">Long Term Support(LTS)</a>** versions.
 {.is-info}
 
 ### Python - Flask
-The **Python - Flask** framework depends on **Python 3**, but it is recomended you use **<a href="https://www.python.org/downloads/release/python-3810/" target="_blank">Python 3.8</a>** Once it is installed, you are ready to use the **Python - Flask** backend framework.
+The **Python - Flask** framework depends on e **<a href="https://www.python.org/downloads/" target="_blank">Python >= 3.9</a>** Once it is installed, you are ready to use the **Python - Flask** backend framework.
 
 ### ASP .Net Core
-The **ASP .Net Core** framework depends on **<a href="https://dotnet.microsoft.com/en-us/download/dotnet/3.1" target="_blank">.NET Core 3.1</a>** Once it is installed, you are ready to use the **ASP .Net Core** backend framework.
+The **ASP .Net Core** framework depends on **<a href="https://dotnet.microsoft.com/en-us/download/dotnet/3.1" target="_blank">.NET Core 3.1</a>** or any of the **LTS** versions. Once it is installed, you are ready to use the **ASP .Net Core** backend framework.
 
 ## Frontend Framework (UI)
 These are the frameworks used for generating the HTML, CSS and JavaScript for the projects.
 
 ### Vue Quasar
-The **Vue Quasar** framework depends on **NodeJS version 10.18.1**, **Quasar CLI**. It is recomended you use **NodeJS version 14** version. After installing **NodeJS**, you can install **Vue Quasar CLI** using `npm i -g @quasar/cli`, if you dont and you try to create a project, **Radsystems Studio** will prompt you to intsall it.
+The **Vue Quasar** framework depends on **NodeJS version 20**, **Quasar CLI**. It is recomended you use **NodeJS version 20**. After installing **NodeJS**, you can install **Vue Quasar CLI** using `npm i -g @quasar/cli`, if you don't and you try to create a project, **Radsystems Studio** will prompt you to intsall it.
 
 ### PrimeVue
 The **PrimeVue** framework depends on **VueJS**, but it is not required to install the **VueJS CLI**. But it is recomended you have **NodeJS** already installed.
@@ -94,8 +94,8 @@ E.g <kbd>Path</kbd> <kbd>></kbd> <kbd>Edit</kbd> <kbd>></kbd> <kbd>New</kbd>
 
 Below are the list of paths you need to enter if they dont already exist:
 - Add **XAMPP PHP** Path `C:\xampp\php` or else locate you **PHP** installation path and add it.
-- Add **Python** path `%localappdata%\Programs\Python\Python38` (*This is the path of my python.exe*).
-- Add **Python Script** path `%localappdata%\Programs\Python\Python38\Scripts` (*This is the path of my pip.exe*).
+- Add **Python** path `%localappdata%\Programs\Python\Python39` (*This is the path of my python.exe*).
+- Add **Python Script** path `%localappdata%\Programs\Python\Python39\Scripts` (*This is the path of my pip.exe*).
 - Add **.NetCore** path `%programfiles%\dotnet` (*This is the path of my dotnet.ext*).
 
 > When done, click on the **Okay** button to save it, then restart your computer if needed.
