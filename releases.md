@@ -2,13 +2,29 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2024-11-15T01:57:07.096Z
+date: 2024-11-15T10:31:23.244Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
 
 # Verion 8.x
+## Version 8.7.4 - (15-11-2024)
+- :bug: **Fixed** a bug with **Date String not recognized** when starting up **Radsystems Studio**.
+- ### :hash: Components v1.0.8 - (15-11-2024)
+	- :sparkles: **Upgraded Express TS** and it dependencies to the latest version (4.21.1).
+	- :sparkles: **Upgraded Express JS** and it dependencies to the latest version (4.21.1).
+	- :sparkles: **Upgraded Quasar** app dependencies.
+	- :sparkles: **Upgraded Python Flask** and its project dependencies, **Python >=3.9** is the new required version.
+	- :sparkles: **Upgraded Bootstrap** frontend and its themes to **version 5.3.3**.
+	- :sparkles: **Upgraded Laravel** to **v11.30** and all dependencies used.
+	- :sparkles: **Upgraded** Captcha plugin for **Laravel + Bootstrap**.
+	- :sparkles: **Upgraded VueCharts.vue** component: changed Chart import to 'chart.js/auto' for **PrimeVue** frontend.
+	- :sparkles: **Upgraded PrimeVue** dependencies to the latest, preparing it for a **major upgrade** in future releases.
+	- :bug: **Fixed** a bug with **Laravel** email verification, when verify email is configure for **Laravel** and any of the **Vue.JS frontend**.
+	- :bug: **Fixed** an issue with **Python Flask**, where *"AttributeError: 'tuple' object has no attribute"* is encountered when adding or editing records on some **Python** versions.
+	- :bug: **Fixed** a bug with **Firebase\JWT\ library** for **Laravel** backend.
+	- :bug: **Fixed** page redirect issue when **OTP** is configured and then the app is hosted in a sub-folder in production for **Vue projects**.
 ## Version 8.7.3 - (31-10-2024)
 - :white_check_mark: **Improved** Template system. **Radsystems Studio** subscribers will now receive fast updates for **Template** separately from application updates.
 - ### :hash: Components v1.0.7 - (31-10-2024)
