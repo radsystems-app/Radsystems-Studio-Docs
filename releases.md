@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2024-11-09T22:37:09.640Z
+date: 2024-11-15T01:57:07.096Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -12,8 +12,8 @@ dateCreated: 2021-12-03T16:13:58.048Z
 ## Version 8.7.3 - (31-10-2024)
 - :white_check_mark: **Improved** Template system. **Radsystems Studio** subscribers will now receive fast updates for **Template** separately from application updates.
 - ### :hash: Components v1.0.7 - (31-10-2024)
-	- :bug: **Fixed** a bug with **AutoFill** in **Node.js + PrimeVue** project type.
 	- :sparkles: **Upgraded** Pillow library to support **Python 3.13.0** for **Python Flask projects**.
+	- :bug: **Fixed** a bug with **AutoFill** in **Node.js + PrimeVue** project type.
 	- :bug: **Fixed** issue on **Laravel + Bootstrap** project **List Pages**, where the dropdown menu for **View**, **Edit**, and **Delete** is hidden behind the **List Page**.
 ## Version 8.7.0 - (24-04-2024)
 - :bug: **Fixed** a minor bug with PrimeVue frontend.
