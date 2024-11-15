@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2024-11-15T10:31:23.244Z
+date: 2024-11-15T10:34:58.787Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -12,8 +12,8 @@ dateCreated: 2021-12-03T16:13:58.048Z
 ## Version 8.7.4 - (15-11-2024)
 - :bug: **Fixed** a bug with **Date String not recognized** when starting up **Radsystems Studio**.
 - ### :hash: Components v1.0.8 - (15-11-2024)
-	- :sparkles: **Upgraded Express TS** and it dependencies to the latest version (4.21.1).
-	- :sparkles: **Upgraded Express JS** and it dependencies to the latest version (4.21.1).
+	- :sparkles: **Upgraded Express TS** and its dependencies to the latest version (4.21.1).
+	- :sparkles: **Upgraded Express JS** and its dependencies to the latest version (4.21.1).
 	- :sparkles: **Upgraded Quasar** app dependencies.
 	- :sparkles: **Upgraded Python Flask** and its project dependencies, **Python >=3.9** is the new required version.
 	- :sparkles: **Upgraded Bootstrap** frontend and its themes to **version 5.3.3**.
@@ -21,7 +21,7 @@ dateCreated: 2021-12-03T16:13:58.048Z
 	- :sparkles: **Upgraded** Captcha plugin for **Laravel + Bootstrap**.
 	- :sparkles: **Upgraded VueCharts.vue** component: changed Chart import to 'chart.js/auto' for **PrimeVue** frontend.
 	- :sparkles: **Upgraded PrimeVue** dependencies to the latest, preparing it for a **major upgrade** in future releases.
-	- :bug: **Fixed** a bug with **Laravel** email verification, when verify email is configure for **Laravel** and any of the **Vue.JS frontend**.
+	- :bug: **Fixed** a bug with **Laravel** email verification, when verifying email is configured for **Laravel** and any of the **Vue.JS frontend**.
 	- :bug: **Fixed** an issue with **Python Flask**, where *"AttributeError: 'tuple' object has no attribute"* is encountered when adding or editing records on some **Python** versions.
 	- :bug: **Fixed** a bug with **Firebase\JWT\ library** for **Laravel** backend.
 	- :bug: **Fixed** page redirect issue when **OTP** is configured and then the app is hosted in a sub-folder in production for **Vue projects**.
