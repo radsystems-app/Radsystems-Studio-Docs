@@ -2,7 +2,7 @@
 title: Welcome to Radsystems Studio
 description: Official Documentation
 published: true
-date: 2024-10-26T02:45:23.665Z
+date: 2024-11-17T23:54:33.251Z
 tags: welcome, intro
 editor: markdown
 dateCreated: 2021-06-15T00:15:59.107Z
@@ -14,13 +14,13 @@ dateCreated: 2021-06-15T00:15:59.107Z
 
 # Framework Docs
 Here are the list of framework documentation used in Radsystems, to help you understand functions you can use in your project and how to use them.
-1. [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/): This is a frontend framework used in **Radsystems Studio (PHP Laravel)** as the **frontend(i.e code executed on the browser)** language.
-2. [PrimeVue](https://www.primefaces.org/primevue/#/): This is a frontend framework used in **Radsystems Studio** as a **frontend(i.e code executed on the browser)** language. It was made with [Vue.js](https://vuejs.org/v2/guide/){:target="_blank"}.
-3. [PrimeReact](https://www.primefaces.org/primereact/setup/): This is a frontend framework used with **Radsystems Studio** as a **frontend(i.e code executed on the browser)** language. It was made with [ReactJS](https://reactjs.org/docs/getting-started.html){:target="_blank"}.
-4. [Vue Quasar](https://quasar.dev/): This is a frontend framework used in **Radsystems Studio** as a **frontend(i.e code executed on the browser)** language. It allows you to publish your project to Mobile, Desktop, SPA and PWA app. It allows It was made with [Vue.js](https://vuejs.org/v2/guide/){:target="_blank"}.
-5. [Laravel](https://laravel.com/docs/7.x/): This is a backend framework used in **Radsystems Studio** **PHPRad Classic** and **PHPRad Vue** as the server language. This documentation link will help you understand how the framework works.
+1. [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/): This is a frontend framework used in **Radsystems Studio (PHP Laravel)** as the **frontend(i.e code executed on the browser)** language.
+2. [PrimeVue](https://primevue.org/setup/): This is a frontend framework used in **Radsystems Studio** as a **frontend(i.e code executed on the browser)** language. It was made with [Vue.js](https://vuejs.org/){:target="_blank"}.
+3. [PrimeReact](https://primereact.org/installation/): This is a frontend framework used with **Radsystems Studio** as a **frontend(i.e code executed on the browser)** language. It was made with [ReactJS](https://react.dev/){:target="_blank"}.
+4. [Vue Quasar](https://quasar.dev/): This is a frontend framework used in **Radsystems Studio** as a **frontend(i.e code executed on the browser)** language. It allows you to publish your project to Mobile, Desktop, SPA and PWA app. It allows It was made with [Vue.js](https://vuejs.org/){:target="_blank"}.
+5. [Laravel](https://laravel.com/docs/11.x/): This is a backend framework used in **Radsystems Studio** **PHPRad Classic** and **PHPRad Vue** as the server language. This documentation link will help you understand how the framework works.
 6. [Node Express JS](https://expressjs.com/en/4x/api.html): This is a backend framework used in **Radsystems Studio** **NodeRad** as the server language. With support for [TypeScript](https://www.typescriptlang.org/), if you prefer **TS** over **JS**.
-7. [Python Flask](https://flask.palletsprojects.com/en/2.0.x/#api-reference): This is a backend framework used in **Radsystems Studio** **Pyrad** as the server language. This documentation link will help you understand how the framework works.
+7. [Python Flask](https://flask.palletsprojects.com/): This is a backend framework used in **Radsystems Studio** **Pyrad** as the server language. This documentation link will help you understand how the framework works.
 8. [ASP.Net](https://docs.microsoft.com/en-us/aspnet/overview): This is a backend framework used in **Radsystems Studio** **ASPRad** as the server language. This documentation link will help you understand how the framework works.
 
 
