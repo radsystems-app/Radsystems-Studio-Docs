@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2024-10-26T02:45:27.695Z
+date: 2024-11-18T00:02:15.031Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-27T03:30:25.188Z
@@ -12,7 +12,10 @@ dateCreated: 2021-07-27T03:30:25.188Z
 For a full installation on a clean version of Windows 10, follow the steps below:
 
 1. Install a WAMP solution (Windows, Apache, MySQL and PHP). WAMP is a set of services that allows you to display your website locally. If you are an expert developer, you can also install each application individually or, if you are a LARAVEL developer, you will feel more comfortable using LARAGON which fully automates the installation process including NODEJS and NPM (**Node Package Manager**).
-> Stack WAMP solutions you can use: [XAMPP](https://www.apachefriends.org/index.html), [AMPPS](https://ampps.com/) or [WAMPSERVER](https://www.wampserver.com/en/) among others.
+> **Recomended:** We recommend you use **[Laragon](https://laragon.org/download/)** as it contains most of the softwares required to run some of the **Radsystems Studio** projects types.
+{.is-success}
+
+> **Other WAMP Stack Solutions you can use are:** [XAMPP](https://www.apachefriends.org/index.html), [AMPPS](https://ampps.com/) or [WAMPSERVER](https://www.wampserver.com/en/) among others.
 {.is-info}
 
 2. If you have successfully installed the WAMP solution, you can continue installing NODEJS. Node.js is a cross-platform, open-source, single-threaded runtime environment for building fast and scalable server-side and red applications. It runs on the JavaScript V8 runtime and uses a non-blocking, event-based I / O architecture, making it efficient and suitable for real-time applications.
