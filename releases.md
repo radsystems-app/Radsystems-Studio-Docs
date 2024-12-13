@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2024-11-15T10:34:58.787Z
+date: 2024-12-13T19:36:47.350Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -11,6 +11,25 @@ dateCreated: 2021-12-03T16:13:58.048Z
 # Verion 8.x
 ## Version 8.7.4 - (15-11-2024)
 - :bug: **Fixed** a bug with **Date String not recognized** when starting up **Radsystems Studio**.
+- ### :hash: Components v1.0.9 - (13-12-2024)
+	- :fire: A new configuration file located at **app/config/settings.php** has been introduced to enable advanced customization of your **Laravel + Bootstrap & jQuery** application without modifying core application files.
+	- :fire: You can now configure customized brand information for reports **(Print and PDF)** directly in the settings.php file for **Laravel + Bootstrap & jQuery** projects.
+	- :fire: An option has been added to enable or disable the header section in the report blade templates **(Print and PDF)** via the **config/settings.php** file for **Laravel + Bootstrap & jQuery** projects.
+	- :fire: An option has been added to enable or disable the footer section in the report blade templates **(Print and PDF)** via the **config/settings.php** file for **Laravel + Bootstrap & jQuery** projects.
+	- :fire: The ability to change the font style and font size for reports **(Print and PDF)** is now available through the **config/settings.php** file for **Laravel + Bootstrap & jQuery** projects.
+	- :fire: You can now customize the footer copyright text for reports **(Print and PDF)** directly in the **config/settings.php** file for **Laravel + Bootstrap & jQuery** projects.
+	- :fire: A dynamic token, **{YEAR}** in **config/settings.php**, has been added for use in the footer copyright of reports **(Print and PDF)** for **Laravel + Bootstrap & jQuery** projects. This token will automatically update to the current year.
+ 	- :bug: **Fixed** a bug in **Python Flask** projects were no data is loaded for a select field, when it is configured.
+	- :bug: **Fixed** an issue where the requirement.txt file is replaced with another file and causes errors in **Python Flask** projects.
+	- :bug: **Fixed** a bug with file upload in **Python Flask** projects.
+	- :bug: **Fixed** vulnerability in **ASP.Net Core** Projects, by updating its dependencies.
+	- :bug: **Fixed** "Class not found" error during image upload for **Laravel + Bootstrap & jQuery** projects.
+	- :bug: **Addressed** an issue in the image library that caused errors when resizing images post-upload for **Laravel + Bootstrap & jQuery** projects.
+	- :bug: **Corrected** footer menu alignment by updating incorrect Bootstrap 5 classes for the footer element for **Laravel + Bootstrap & jQuery** projects.
+	- :bug: **Replaced** the hard-coded year value in the footer with a dynamic year value for **Laravel + Bootstrap & jQuery** projects.
+	- :bug: **Fixed** an issue where the uploaded image failed to process correctly for projects with **Laravel Backend**.
+	- :bug: **Resolved** a bug where the image path was not being saved to the database when resizing options were applied for projects with **Laravel Backend**.
+	- :white_check_mark: **Changed** the hard-coded date in the application's footer to a dynamic date that updates automatically for projects using **primeVue Frontend**.
 - ### :hash: Components v1.0.8 - (15-11-2024)
 	- :sparkles: **Upgraded Express TS** and its dependencies to the latest version (4.21.1).
 	- :sparkles: **Upgraded Express JS** and its dependencies to the latest version (4.21.1).
