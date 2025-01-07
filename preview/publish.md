@@ -2,7 +2,7 @@
 title: Publish
 description: Guide on publishing the application
 published: true
-date: 2024-10-26T02:46:37.662Z
+date: 2025-01-07T00:51:48.050Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-23T04:21:42.799Z

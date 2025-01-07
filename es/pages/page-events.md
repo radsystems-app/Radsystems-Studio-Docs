@@ -2,7 +2,7 @@
 title: Eventos de Páginas
 description: Maneje acciones en las Páginas
 published: true
-date: 2024-10-26T02:47:30.014Z
+date: 2025-01-07T00:52:35.652Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T20:53:21.012Z

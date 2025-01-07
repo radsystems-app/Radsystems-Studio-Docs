@@ -2,7 +2,7 @@
 title: Design
 description: Learn how to customize the output view
 published: true
-date: 2024-10-26T02:46:23.819Z
+date: 2025-01-07T00:51:19.150Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T00:07:05.388Z

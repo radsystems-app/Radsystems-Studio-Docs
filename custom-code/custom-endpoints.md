@@ -2,7 +2,7 @@
 title: Custom Endpoints
 description: 
 published: true
-date: 2024-10-26T02:45:47.605Z
+date: 2025-01-07T00:51:14.969Z
 tags: endpoint, routes, api
 editor: markdown
 dateCreated: 2021-08-02T05:07:16.716Z
