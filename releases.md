@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-02-02T23:54:40.666Z
+date: 2025-02-02T23:55:45.647Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -21,7 +21,7 @@ dateCreated: 2021-12-03T16:13:58.048Z
 	- :white_check_mark: **Improved** Bootstrap JQuery - The design for error and success message alerts.
 	- :white_check_mark: **Improved** PHP Laravel + Bootstrap JQuery - URL Sanitization added for dynamic link building. 
 	- :white_check_mark: **Improved** PHP Laravel + Bootstrap JQuery - The copyright line in the application footer can now be changed from the **config/settings.php**.
-	- :x: **Removed Qcalendar** app extention from **package.json** temporarily for **Quasar** projects.
+	- :x: **Removed Qcalendar** app extension from **package.json** temporarily for **Quasar** projects.
 - ### :hash: Components v1.0.9 - (13-12-2024)
 	- :fire: A new configuration file located at **app/config/settings.php** has been introduced to enable advanced customization of your **Laravel + Bootstrap & jQuery** application without modifying core application files.
 	- :fire: You can now configure customized brand information for reports **(Print and PDF)** directly in the settings.php file for **Laravel + Bootstrap & jQuery** projects.
