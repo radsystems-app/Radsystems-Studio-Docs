@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-01-07T00:51:52.544Z
+date: 2025-02-02T23:54:40.666Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -11,6 +11,17 @@ dateCreated: 2021-12-03T16:13:58.048Z
 # Verion 8.x
 ## Version 8.7.4 - (15-11-2024)
 - :bug: **Fixed** a bug with **Date String not recognized** when starting up **Radsystems Studio**.
+- ### :hash: Components v1.0.10 - (02-02-2025)
+	- :fire: **Added** to PHP Laravel + Bootstrap JQuery - The Footer menu items can now be easily changed from the **config/settings.php** file.
+	- :fire: **Added** to PHP Laravel + Bootstrap JQuery - Texts in other action messages now support translations. A separate section - "messages" - was added to the "validation" language file.
+	- :bug: **Fixed** PHP Laravel + Bootstrap JQuery - Page Custom Validation. The error was not showing up and the page always redirected to a blank form. 
+	- :bug: **Fixed** PHP Laravel + Bootstrap JQuery - Form values were not retained upon redirect after error. 
+	- :bug: **Fixed** PHP Laravel + Bootstrap JQuery - Issue of "**Custom action button's link not working**" resolved.
+	- :white_check_mark: **Improved** **BeforeAdd**, **BeforeUpdate**, **BeforeDelete** in PageEvent, it now supports "**cancel process**" with "**custom error message**".
+	- :white_check_mark: **Improved** Bootstrap JQuery - The design for error and success message alerts.
+	- :white_check_mark: **Improved** PHP Laravel + Bootstrap JQuery - URL Sanitization added for dynamic link building. 
+	- :white_check_mark: **Improved** PHP Laravel + Bootstrap JQuery - The copyright line in the application footer can now be changed from the **config/settings.php**.
+	- :x: **Removed Qcalendar** app extention from **package.json** temporarily for **Quasar** projects.
 - ### :hash: Components v1.0.9 - (13-12-2024)
 	- :fire: A new configuration file located at **app/config/settings.php** has been introduced to enable advanced customization of your **Laravel + Bootstrap & jQuery** application without modifying core application files.
 	- :fire: You can now configure customized brand information for reports **(Print and PDF)** directly in the settings.php file for **Laravel + Bootstrap & jQuery** projects.
