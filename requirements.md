@@ -2,7 +2,7 @@
 title: System Requirement
 description: 
 published: true
-date: 2025-01-07T00:51:23.318Z
+date: 2025-03-12T12:30:52.507Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-03T03:09:09.844Z
@@ -21,7 +21,7 @@ dateCreated: 2021-08-03T03:09:09.844Z
 
 These are just a few options out there.
 # Development Servers
-The recommended development server for Radsystems Studio is <a href="https://laragon.org/download/" target="_blank">Laragon</a>. <a href="https://laragon.org/download/" target="_blank">Laragon</a> gives the option to install multiple versions of <a href="https://www.php.net/" target="_blank">PHP</a>, <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>, <a href="https://www.python.org/downloads/" target="_blank">Python</a>, etc.
+The recommended development server for Radsystems Studio is <a href="https://github.com/leokhoa/laragon/releases/tag/6.0.0/" target="_blank">Laragon</a>. <a href="https://github.com/leokhoa/laragon/releases/tag/6.0.0/" target="_blank">Laragon</a> gives the option to install multiple versions of <a href="https://www.php.net/" target="_blank">PHP</a>, <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>, <a href="https://www.python.org/downloads/" target="_blank">Python</a>, etc.
 
 ## Database
 **Radsystems Studio** currently supports 5 database types, (<a href="https://mariadb.org/download/" target="_blank">MariaDB</a> or <a href="https://dev.mysql.com/downloads/installer/" target="_blank">MySQL</a>), <a href="https://www.sqlite.org/download.html" target="_blank">SQLite</a>, <a href="https://www.postgresql.org/download/" target="_blank">PostgreSQL</a>, <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" target="_blank">MSSQL Server</a>, and <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" target="_blank">ORACLE (only supported with Node.TS project types)</a>.
@@ -30,7 +30,7 @@ The recommended development server for Radsystems Studio is <a href="https://lar
 Backend Frameworks are the aspect of the project that runs and is executed on the server.
 
 ### PHP - Laravel
-The **PHP -  Laravel** depends on **Laravel 11.30** framework, which requires **PHP >= 8.2** and Composer for package management. But if you download and install the <a href="https://laragon.org/download/" target="_blank">Laragon</a> full setup, you are ready to develop a **Laravel, Boostrap & jquery(PHPRad Classic)** project.
+The **PHP -  Laravel** depends on **Laravel 11.30** framework, which requires **PHP >= 8.2** and Composer for package management. But if you download and install the <a href="https://github.com/leokhoa/laragon/releases/tag/6.0.0/" target="_blank">Laragon</a> full setup, you are ready to develop a **Laravel, Boostrap & jquery(PHPRad Classic)** project.
 
 If you choose to install just php and composer, then you can download them from the links below:
 - <a href="https://laravel.com/docs/11.x" target="_blank">Laravel 11.30</a>
@@ -59,7 +59,7 @@ The **Vue Quasar** framework depends on **NodeJS version 20**, **Quasar CLI**. I
 The **PrimeVue** framework depends on **VueJS**, but it is not required to install the **VueJS CLI**. But it is recomended you have **NodeJS** already installed.
 
 ### Bootstrap JQuery
-The **Bootstrap JQuery** frameworks does not have any requirements that needs to be installed. Once you have installed <a href="https://laragon.org/download/" target="_blank">Laragon</a>, <a href="https://www.apachefriends.org/download.html" target="_blank">XAMPP</a> or any orther dev server, you are ready to create Bootstrap and JQuery projects.
+The **Bootstrap JQuery** frameworks does not have any requirements that needs to be installed. Once you have installed <a href="https://github.com/leokhoa/laragon/releases/tag/6.0.0/" target="_blank">Laragon</a>, <a href="https://www.apachefriends.org/download.html" target="_blank">XAMPP</a> or any orther dev server, you are ready to create Bootstrap and JQuery projects.
 
 ## Publish Platforms
 ### Desktop Platform with Quasar💻
