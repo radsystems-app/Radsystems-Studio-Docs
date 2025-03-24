@@ -2,11 +2,49 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-02-02T23:55:45.647Z
+date: 2025-03-24T21:11:25.841Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
+
+# *Version 9.0.0* - (24-03-2025)
+### *New Features* 🚀
+- **Template Version Display**: Added the ability to display the template version for better clarity.
+- **Trial Activation**: Users can now activate the app when the trial ends instead of being forced to close it.
+- **Clickable License Notification**: Made the "**License has ended**" message clickable for easier activation.
+
+### *Improvements* ✨
+- **Component Naming**: Improved naming conventions for "Row" and "Column" components in the Radsystems IDE.
+- **Project Creation**: Simplified project creation by clearly displaying supported frameworks.
+- **Theming Configuration**: Redesigned the theming configuration for PrimeVue for a more intuitive experience.
+
+### *Removals/Deprecations* 🗑
+- **Backward Compatibility**: Projects created using previous versions like version 8, are not forward-compatible with version 9, and vise vasa.
+- **Top-Left Menu**: Deprecated the **Top-Left** menu across all frontend frameworks. There only two menu positions, top right and side menu.
+- **Global Settings**: Removed global settings to streamline the interface.
+- **Calendar Component**: Removed the calendar component from page design.
+
+### *New Page Events* 🛠
+- Introduced **BeforeListExport**, **BeforeViewExport**, **BeforeImport**, and **AfterImport** events in **PageEvents** for enhanced customization.
+
+### *Bug Fixes* 🐞
+- Resolved and issue with **Roles & Permissions** and **Audits Trail** configuration on **ASP.Net Core** project type.
+
+## :hash: *Components v2.0.0* - (24-03-2025)
+
+### *Upgrades* 🔄
+- **ASP.Net Core**: Upgraded the target framework to **net9.0**.
+- **Prime Vue**: Upgraded from version **3** to version **4**, and switched from **Webpack** to **Vite**.
+- **Quasar Vue**: Switched from **Webpack** to **Vite**.
+- **Prime React**: Switched from **Webpack** to **Vite**.
+
+### *New Additions* 🌟
+- **Tailwind CSS Support**: Added support for **Tailwind CSS** in **Prime Vue** and **Prime React**.
+
+### *Bug Fixes* 🐞
+- Resolved an issue where selecting a **non-PNG** app icon caused it to not appear in the generated app.
+
 
 # Verion 8.x
 ## Version 8.7.4 - (15-11-2024)
