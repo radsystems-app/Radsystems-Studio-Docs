@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-03-24T21:11:25.841Z
+date: 2025-03-25T20:00:04.855Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -24,6 +24,7 @@ dateCreated: 2021-12-03T16:13:58.048Z
 - **Top-Left Menu**: Deprecated the **Top-Left** menu across all frontend frameworks. There only two menu positions, top right and side menu.
 - **Global Settings**: Removed global settings to streamline the interface.
 - **Calendar Component**: Removed the calendar component from page design.
+- **Push to git**: Removed push to git from the window.
 
 ### *New Page Events* 🛠
 - Introduced **BeforeListExport**, **BeforeViewExport**, **BeforeImport**, and **AfterImport** events in **PageEvents** for enhanced customization.
