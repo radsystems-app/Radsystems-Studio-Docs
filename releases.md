@@ -2,27 +2,29 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-04-13T14:59:00.664Z
+date: 2025-04-13T15:12:41.325Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
 
-# *Version 9.0.1* - (14-04-2025)
+# *Version 9.0.1* - (13-04-2025)
 
-### *Bug Fixes* 🐞  
+### **Bug Fixes** 🐞  
 - Resolved an issue of license activation for users with a **valid license** reinstalling **Radsystems Studio** after the trial period had expired. 
 - Addressed a bug in configuring record timestamps for **ASP.Net Core** projects.  
 - Corrected the "**ButtonsInFront**" display issue for **Prime React**.  
 - Fixed an issue with frontend publish port mismatches, where **Radsystems Studio** would access the project on an incorrect port after publishing the project.  
 - Fixed a bug where **Custom JS** configurations on **Add**/**Edit** pages were not applied in the generated project for **Quasar Vue** projects.
 
-### *Improvements* ✨
+### **Improvements** ✨
 - Minor improvements.
+> If you encounter an error during configuration of **ASP.Net Core**, close the **Command Prompt**/**Terminal** for the **API**/**Backend** and click on **Publish** again. If you still encounter the error after doing this, contact the [Radsystems Support](https://radsystems.io/) with screenshots and description of the issue.
+{.is-info}
 
-## :hash: *Components v2.0.1* - (14-04-2025)
+## :hash: **Components v2.0.1** - (13-04-2025)
 
-### *Bug Fixes* 🐞
+### **Bug Fixes** 🐞
 - Fixed an error with **Roles and Permissions** for **ASP.Net Core**.  
 - Resolved an **Authentication** error occurring, when the language was set to **Spanish** in **ASP.Net Core** and **Python Flask** projects.  
 - Fixed a bug affecting the configuration of **master-details** in **ASP.Net Core**.
