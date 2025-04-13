@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-04-13T16:16:13.870Z
+date: 2025-04-13T17:16:23.017Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -12,7 +12,8 @@ dateCreated: 2021-12-03T16:13:58.048Z
 
 ### **Bug Fixes** 🐞  
 - Resolved an issue of license activation for users with a **valid license** reinstalling **Radsystems Studio** after the trial period had expired. 
-- Addressed a bug in configuring record timestamps for **ASP.Net Core** projects.  
+- Addressed a bug in configuring record timestamps for **ASP.Net Core** projects. 
+- Returned the **Global Settings**.
 - Corrected the "**ButtonsInFront**" display issue for **Prime React**.  
 - Fixed an issue with frontend publish port mismatches, where **Radsystems Studio** would access the project on an incorrect port after publishing the project.  
 - Fixed a bug where **Custom JS** configurations on **Add**/**Edit** pages were not applied in the generated project for **Quasar Vue** projects.
