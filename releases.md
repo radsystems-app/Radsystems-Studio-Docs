@@ -2,11 +2,23 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-04-13T17:16:23.017Z
+date: 2025-05-26T20:47:18.907Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
+
+# *Version 9.0.2* - (26-05-2025)
+
+### **Bug Fixes** 🐞  
+- **Fixed** the issue causing **Radsystems Studio** to automatically close for some users upon launch.
+
+## :hash: **Components v2.0.1** - (26-05-2025)
+
+### **Bug Fixes** 🐞
+-	**Fixed** the space generated when using the **IconButtons** on a **List Page** for **PrimeVue** projects.
+- Resolved the **PDF export** corruption error in **Node.js** and **Node.ts** project types.
+- Corrected the duplicate **Laravel** Route Name "**{tablename}.index**" for **Laravel & Bootstrap** project types.
 
 # *Version 9.0.1* - (13-04-2025)
 
