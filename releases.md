@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-05-26T20:47:18.907Z
+date: 2025-05-27T19:32:42.367Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -13,7 +13,7 @@ dateCreated: 2021-12-03T16:13:58.048Z
 ### **Bug Fixes** 🐞  
 - **Fixed** the issue causing **Radsystems Studio** to automatically close for some users upon launch.
 
-## :hash: **Components v2.0.1** - (26-05-2025)
+## :hash: **Components v2.0.2** - (26-05-2025)
 
 ### **Bug Fixes** 🐞
 -	**Fixed** the space generated when using the **IconButtons** on a **List Page** for **PrimeVue** projects.
