@@ -2,11 +2,28 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-05-27T19:37:52.947Z
+date: 2025-06-30T02:44:10.594Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
+
+# *Version 9.0.3* - (30-06-2025)
+
+### **Bug Fixes** 🐞  
+- **Fixed** the issue causing **Radsystems Studio** to automatically close for some users upon launch.
+- **Fixed** a bug with the code editor window being disabled even after double-clicking the event node in the **Page Events** or clicking the "**Edit page event**" button on top.
+- **Fixed** a bug for the **Record Count Component** in **Page Design**, where Background Class, Text color, etc, are not being applied.
+- **Fixed** a bug with editing a custom field added to a List or View page, when you have more than 10 fields on that table.
+- **Fixed** a bug with renaming roles in **Roles & permissions**.
+
+### *Improvements* ✨
+- **Added** Column Width in Custom Column DisplayType for a List or View page field.
+
+## :hash: **Components v2.0.2** - (30-06-2025)
+
+### *Improvements* ✨
+-	**Minor** changes to login pages to support Auth Page Event.
 
 # *Version 9.0.2* - (26-05-2025)
 
