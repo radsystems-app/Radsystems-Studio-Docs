@@ -2,11 +2,33 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-06-30T02:44:10.594Z
+date: 2025-09-12T13:09:48.118Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
+
+# *Version 9.0.4* - (12-09-2025)
+
+### *Bug Fixes* 🐞  
+- **Fixed** a UI glitch that occurs when the **Oracle database** is selected for **Node TS - Express** and the **Oracle database** is not highlighted.
+- **Fixed** an issue that occurs when limit is applied to a custom view’s SQL query.
+
+### *Improvements* ✨
+- **Added** a tool to check whether the system is properly configured for development with the required framework stack.
+- **Added** a tool to manage your PHP extensions easily.
+- **Added** a tool to directly open the environment variables editor for quick access.
+- **Added** The theme preview for **Bootstrap jQuery Project** has been improved for a smoother experience.
+
+## :hash: **Components v2.0.4** - (12-09-2025)
+
+### *Improvements* ✨
+-	**Added** support to include external **CSS** files via **config/settings.php** for **Laravel Bootstrap**.
+-	**Added** support to include external **JavaScript** files via **config/settings.php** for **Laravel Bootstrap**.
+- **Standardizes** error handling, improves SQL query result handling, and adds API endpoint flexibility for **Python Flask** projects.
+
+### *Bug Fixes* 🐞  
+-	**Fixed** an issue with list pages where field name and field value were not properly recognized. This allows filters to be applied when embedding a custom view’s list page as a sub-page component in **Laravel Bootstrap** projects.
 
 # *Version 9.0.3* - (30-06-2025)
 
@@ -20,7 +42,7 @@ dateCreated: 2021-12-03T16:13:58.048Z
 ### *Improvements* ✨
 - **Added** Column Width in Custom Column DisplayType for a List or View page field.
 
-## :hash: **Components v2.0.2** - (30-06-2025)
+## :hash: **Components v2.0.3** - (30-06-2025)
 
 ### *Improvements* ✨
 -	**Minor** changes to login pages to support Auth Page Event.
