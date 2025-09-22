@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2025-01-07T00:50:47.466Z
+date: 2025-09-22T14:58:04.530Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-27T03:30:25.188Z
@@ -12,7 +12,7 @@ dateCreated: 2021-07-27T03:30:25.188Z
 For a full installation on a clean version of Windows 10, follow the steps below:
 
 1. Install a WAMP solution (Windows, Apache, MySQL and PHP). WAMP is a set of services that allows you to display your website locally. If you are an expert developer, you can also install each application individually or, if you are a LARAVEL developer, you will feel more comfortable using LARAGON which fully automates the installation process including NODEJS and NPM (**Node Package Manager**).
-> **Recomended:** We recommend you use **[Laragon](https://laragon.org/download/)** as it contains most of the softwares required to run some of the **Radsystems Studio** projects types.
+> **Recomended:** We recommend you use **[Laragon](https://laragon.org/download/)** or **[Laragon 6.0.0(Free)](https://github.com/leokhoa/laragon/releases/tag/6.0.0)** as it contains most of the softwares required to run some of the **Radsystems Studio** projects types.
 {.is-success}
 
 > **Other WAMP Stack Solutions you can use are:** [XAMPP](https://www.apachefriends.org/index.html), [AMPPS](https://ampps.com/) or [WAMPSERVER](https://www.wampserver.com/en/) among others.
