@@ -2,11 +2,27 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-09-12T13:09:48.118Z
+date: 2025-11-10T19:44:33.254Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
+
+# *Version 9.1.0* - (10-11-2025)
+
+### *New Features* 🎉
+- **Introduced** ***RadAssist***: **Radsystems Studio** own AI Agent to create database schema based on simple prompts (currently available for **MySQL** and **MSSQL** databases, with support for other databases coming soon!).
+- **Extended** trial period from ***7*** to ***14*** days for new users.
+- **Added** automatic Framework Diagnostic tool that runs on the first launch after **Radsystems Studio** installation or update.
+- **Added** License Type display on the Radsystems Studio application title for easy identification.
+
+### *Bug Fixes* 🐞
+- **Fixed** the application title to correctly display "trial expired" status.
+- **Improved** error handling throughout **Radsystems Studio** for better stability.
+- **Fixed** the issue with multiple choice page filter component in **Page Design** for **Laravel + Boostrap & jQuery**.
+
+### *Improvements* ✨
+- **Enhanced** the PHP Extension Manager in the "Tools" menu to be more user-friendly and easier to understand.
 
 # *Version 9.0.4* - (12-09-2025)
 
