@@ -2,7 +2,7 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-12-27T11:06:24.359Z
+date: 2025-12-27T11:06:46.445Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
@@ -54,10 +54,6 @@ dateCreated: 2021-12-03T16:13:58.048Z
 
 ### *Updates* 🔄
 - **Updated** the **Laravel** framework from version **11.30** to **11.44**, bringing the latest security patches and performance improvements.
-
-
-
-
 
 # *Version 9.1.0* - (10-11-2025)
 
