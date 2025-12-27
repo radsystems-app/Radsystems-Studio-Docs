@@ -2,11 +2,62 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-11-10T19:44:33.254Z
+date: 2025-12-27T11:06:24.359Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
+
+# *Version 9.1.1* - (27-12-2025)
+
+### *New Features* 🎉
+- **Extended** ***RadAssist*** database support to include **PostgreSQL**, expanding AI-powered database schema creation beyond **MySQL** and **MSSQL**.
+- **Added** quick help label in **Roles and Permissions** to guide users on how to rename existing roles for improved usability.
+- **Enhanced** ***RadAssist*** **Table List** with **Edit** and **Delete** buttons, allowing users to refine AI-generated table names and descriptions or remove tables entirely, providing greater flexibility when designing databases tailored to specific business needs.
+- **Implemented** keyboard shortcuts for common operations: **Open** (Ctrl + O), **Save** (Ctrl + S), and **Save Project As** (Ctrl + Shift + S) for faster workflow.
+- **Added** JavaScript function calling support for **Action Buttons** in **PrimeVue**, **Bootstrap & jQuery**, and **QuasarVue**. Users can now define JavaScript functions at the page level or in global custom JS, then use `--YourCustomFunctionName--`, `--YourCustomFunctionName()--`, or `--YourCustomFunctionName(arg1, arg2, ...)--` as the PageLink to generate buttons that call specified functions.
+- **Introduced** support for **Bootstrap jQuery Action Buttons** without page links, useful for assigning custom IDs and handling actions entirely through custom JavaScript.
+- **Added** **Back Color** property for **Bootstrap jQuery Action Buttons**, allowing users to set custom background colors for any action button to match their design requirements.
+- **Introduced** **Flat** property for **Bootstrap jQuery Action Buttons**, enabling buttons to appear in the **Bootstrap "Flat"** style for a modern, minimalist interface design.
+
+### *Bug Fixes* 🐞
+- **Fixed** the condition for custom query selection in **FormAutoFill** where a JavaScript Expression is configured and saved, preventing the error message "Lookup Table and Lookup Fields are required" which should only appear when the Lookup Table option is selected.
+- **Resolved** errors in ***RadAssist*** when creating **MySQL** databases that include timestamp fields using **ON UPDATE**. These auto-update fields are now correctly recognized and handled during database creation.
+- **Fixed** role name editing behavior in **Roles and Permissions** where names became editable on a single click. Editing a role name now requires a double-click to prevent accidental modifications and confusion.
+- **Resolved** publish process failures when translations contain missing or empty phrases. These cases are now handled gracefully, allowing publication to proceed normally.
+- **Fixed** **MySQL Database Connection Object** memory leak and stacking issues, with improved error handling for better stability.
+- **Corrected** the **Help → Support** menu link functionality. Clicking the Support menu item now properly opens the **RadSystems Studio** website's homepage in the user's default browser.
+- **Fixed** **User Records Management** role update issue where the User Roles list retained old entries instead of updating correctly. When an existing admin role is renamed, users must revisit User Records Management to update access restrictions for relevant tables.
+- **Resolved** access control issue in **PHP Laravel API** where the Admin User could not access other users' records even when permissions were granted. Controller logic has been updated to reference the correct User Role name.
+- **Fixed** **NodeJS User Record Management** issue where the Admin user could not access records of other users when permission was granted under User Record Management settings.
+- **Corrected** **Quasar Vue Framework Action Buttons** to properly apply Page Button design properties. Users can now change background and font colors and enable supported styles such as **Flat**, **Push**, and **Glossy** by toggling the corresponding True/False properties. These settings can be configured individually for each action button, with the default style set to **Outline**. These properties apply only when the action button type is set to **IconButtons**.
+- **Resolved** "Object Reference error" that occurred when opening a project from the **Recent Projects** list after canceling **Create New Project**. Projects from the Recent Projects list now open correctly.
+- **Fixed** **Create New Project** platform confirmation message to correctly display the proper names of the selected platforms, eliminating confusion during project creation.
+
+### *Improvements* ✨
+- **Enhanced** overall error handling and stability throughout **Radsystems Studio**.
+
+## :hash: **Components v2.0.5** - (27-12-2025)
+
+### *New Features* 🎉
+- **Updated** **Quasar-Vue** default font size to **14px** for improved readability across all pages.
+- **Changed** **Quasar-Vue** default font to **NotoSans Regular**, improving the application's overall visual quality and consistency.
+
+### *Bug Fixes* 🐞
+- **Fixed** **Bootstrap jQuery Action Button** links to ensure they are correctly formed and functional.
+- **Implemented** **Quasar Vue Framework** Page Action Button style properties, ensuring colors now take effect as configured.
+- **Fixed** **PrimeVue** logo display to preserve original image dimensions when using the "**Image Only**" setting under **Project Settings**. The "**Image + Text**" setting continues to use a square image format.
+- **Corrected** **Quasar-Vue List Page** action and drop-down menu buttons to display only the actions the logged-in user has permission to access. If no actions are allowed, the button strip is now hidden automatically.
+- **Resolved** validation issue with fields set to **URL** type not being properly validated on **QuasarVue** and **PrimeVue** project types.
+- **Fixed** synchronization setting for **Express.TS** project type by setting synchronization to false.
+- **Corrected** star rating display issue on **QuasarVue** project type, where stars were not properly displayed to indicate the rating value.
+
+### *Updates* 🔄
+- **Updated** the **Laravel** framework from version **11.30** to **11.44**, bringing the latest security patches and performance improvements.
+
+
+
+
 
 # *Version 9.1.0* - (10-11-2025)
 
