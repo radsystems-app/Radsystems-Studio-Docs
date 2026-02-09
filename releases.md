@@ -2,11 +2,39 @@
 title: Release Notes
 description: Radsystems Studio release notes
 published: true
-date: 2025-12-27T11:06:46.445Z
+date: 2026-02-09T12:56:33.736Z
 tags: releases, change logs
 editor: markdown
 dateCreated: 2021-12-03T16:13:58.048Z
 ---
+
+# *Version 9.1.2* - (09-02-2026)
+
+### *New Features* 🎉
+- **Enhanced** automatic project backup functionality. **RadSystems Studio** now backs up project files more frequently to the **"-revisions-"** folder. Every time the project is saved, the system automatically creates a backup if changes are detected, providing better version control and recovery options.
+- **Extended** ***RadAssist*** database support to include **SQLite**, allowing users to select an existing database file or specify a name to create a new one, further expanding AI-powered database schema creation capabilities.
+- **Enhanced** **Recent Projects** list with platform indicators showing the backend platform used for each project. Full project paths are now displayed on mouse hover for better project identification.
+- **Added** **Finished Loading Text** setting for **List Page** pagination when **Page Style** is set to **Load More**, allowing users to configure the message displayed when all items have been loaded.
+
+### *Bug Fixes* 🐞
+- **Fixed** **PHP Laravel Bootstrap jQuery** projects to default the icon pack to **Material Icons** when the System Configuration icon pack is empty, resolving project load errors that could occur in projects created with older versions of **RadSystems Studio**.
+- **Resolved** project import issue where an empty **Site Address** field caused errors when loading project settings. The system now defaults to **localhost:8050** when the Site Address is left empty during import.
+- **Fixed** project publishing errors caused by empty or invalid content in custom page CSS or custom page JavaScript for View pages. The publish routine now safely bypasses these cases without interrupting the process.
+- **Corrected** **Recent Projects** list item sizing to allow long project names to be fully visible when the panel is expanded using the splitter bar.
+- **Fixed** **PrimeVue Master–Detail** tables to display correctly on List and View pages of master records. Visibility can be controlled per master table from the **Master Detail Settings** window. Components update is required for this functionality to work properly.
+- **Resolved** **Recent Projects** list refresh issue. Closed projects now appear in the list immediately without requiring an application restart, as the list is updated in real-time when projects are opened and closed.
+- **Fixed** **List Page** pagination (**Page Style = Load More**) to allow the Export button to function correctly without requiring all items to be loaded first.
+- **Fixed** multi-language support in **PHP Laravel** projects using the **Bootstrap** frontend. Language phrases are now properly replaced with their translations when switching languages after deployment to the server.
+
+### *Improvements* ✨
+- **Enhanced** project management workflow with improved backup automation and project list visibility.
+
+## :hash: **Components v2.0.6** - (09-02-2026)
+
+### *Bug Fixes* 🐞
+- **Fixed** pagination accuracy in **CustomViews** by updating totalRecords assignment to use records.count.
+- **Corrected** **Bootstrap jQuery** modern SELECT control with input search to prevent adding new option items at runtime. The control now preserves the preloaded options list and displays an empty result when no matching items are found.
+- **Fixed** action button alignment in **PrimeReact List Pages** using **Page Display Type = Listview**. Record cards now display action buttons properly inline with the title.
 
 # *Version 9.1.1* - (27-12-2025)
 
